@@ -29,5 +29,5 @@ function bootstrap_rayno_preprocess_maintenance_page(&$variables) {
 }
 
 function bootstrap_rayno_preprocess_maintenance_page(&$variables) {
-  $variables['#attached']['library'][] = 'bootstrap_rayno/cuddly-slider';
+  $variables['#attached']['library'][] = 'bootstrap_rayno/fontawesome';
 }
