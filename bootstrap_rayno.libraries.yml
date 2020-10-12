@@ -34,3 +34,13 @@ framework:
     bootstrap/assets/javascripts/bootstrap/scrollspy.js: {}
     bootstrap/assets/javascripts/bootstrap/tab.js: {}
     bootstrap/assets/javascripts/bootstrap/transition.js: {}
+
+fontawesome:
+  js:
+    //pro.fontawesome.com/releases/v5.15.1/js/all.js:
+      type: external
+      attributes:
+        defer: true
+        crossorigin: anonymous
+        integrity: "sha384-Vipr9QSlUeD/qnhkau6GBnZnUmVkbaRZ0PgB1KjvWa1UoNBKnuzg1TgbJJn2a12T"
+
