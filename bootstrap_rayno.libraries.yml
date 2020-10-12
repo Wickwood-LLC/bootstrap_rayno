@@ -37,7 +37,7 @@ framework:
 
 fontawesome:
   js:
-    //pro.fontawesome.com/releases/v5.15.1/js/all.js:
+    'https://pro.fontawesome.com/releases/v5.15.1/js/all.js':
       type: external
       attributes:
         defer: true
