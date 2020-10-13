@@ -19,6 +19,7 @@
 html,
 body {
   @include fluid-type(320px, 1200px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+  background-color: #d9d9d9;
 }
 
 h1,
@@ -795,6 +796,11 @@ nav.tabs {
 
 /********************* MAINTENANCE *********************/
 .maintenance-page {
+  min-height: 100vh;
+  @include breakpoint(768px) {
+    min-height: calc(100vh - 15px);
+  }
+  
   main {
     text-align: center;
     margin-top: 2em;

@@ -37,10 +37,8 @@ framework:
 
 fontawesome:
   js:
-    'https://pro.fontawesome.com/releases/v5.15.1/js/all.js':
+    'https://kit.fontawesome.com/e5b7f39059.js':
       type: external
       attributes:
-        defer: true
         crossorigin: anonymous
-        integrity: "sha384-Vipr9QSlUeD/qnhkau6GBnZnUmVkbaRZ0PgB1KjvWa1UoNBKnuzg1TgbJJn2a12T"
 
