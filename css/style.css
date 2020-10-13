@@ -8033,6 +8033,28 @@ ul:last-child {
   margin-top: 0;
 }
 
+.logo-line1 {
+  display: block;
+  font-family: Verdana;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.logo-upper-case {
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.logo-lower-case {
+  font-size: 2.6em;
+}
+
+.logo-line2 {
+  display: block;
+  font-family: 'ITC Machine';
+  text-transform: uppercase;
+}
+
 .footer {
   margin-top: 45px;
   padding-top: 35px;
@@ -8688,6 +8710,7 @@ nav.tabs {
 
 /********************* MAINTENANCE *********************/
 .maintenance-page {
+  background-color: #d9d9d9;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -8699,6 +8722,11 @@ nav.tabs {
   .maintenance-page {
     min-height: calc(100vh - 15px);
   }
+}
+
+.maintenance-page #navbar {
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .maintenance-page main {
