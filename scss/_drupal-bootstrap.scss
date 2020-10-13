@@ -129,6 +129,14 @@ ul {
   text-align: center;
 }
 
+.navbar-brand {
+  color: #031068;
+
+  &:hover {
+    color: inherit;
+  }
+}
+
 .page-title {
   text-align: center;
 }
@@ -143,15 +151,16 @@ ul {
   font-family: Verdana;
   font-style: italic;
   font-weight: bold;
+  text-align: center;
 }
 
 .logo-upper-case {
   text-transform: uppercase;
-  font-size: 2em;
+  font-size: 2.1em;
 }
 
 .logo-lower-case {
-  font-size: 2.6em;
+  font-size: 2.7em;
 }
 
 .logo-line2 {
