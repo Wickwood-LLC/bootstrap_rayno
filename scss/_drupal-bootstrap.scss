@@ -133,7 +133,7 @@ ul {
   color: #031068;
 
   &:hover {
-    color: inherit;
+    color: #031068;
   }
 }
 
@@ -146,6 +146,9 @@ ul {
   margin-top: 0;
 }
 
+#block-fakelogowithrealtext {
+  float: left;
+}
 .logo-line1 {
   display: block;
   font-family: Verdana;
