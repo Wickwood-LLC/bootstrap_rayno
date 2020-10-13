@@ -797,10 +797,15 @@ nav.tabs {
 /********************* MAINTENANCE *********************/
 .maintenance-page {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   @include breakpoint(768px) {
     min-height: calc(100vh - 15px);
   }
-  
+
   main {
     text-align: center;
     margin-top: 2em;
