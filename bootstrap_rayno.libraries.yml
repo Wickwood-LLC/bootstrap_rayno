@@ -37,8 +37,10 @@ framework:
 
 fontawesome:
   js:
-    'https://kit.fontawesome.com/e5b7f39059.js':
-      type: external
-      attributes:
+    https://kit.fontawesome.com/e5b7f39059.js: {
+      type: external,
+      attributes: {
         crossorigin: anonymous
+      }
+    }
 
