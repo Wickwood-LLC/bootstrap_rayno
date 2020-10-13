@@ -30,15 +30,8 @@
               <img src="{{ logo }}" alt="{{ 'Home'|t }}" />
             </a>
           {% endif %}
-
-          {% if site_name or site_slogan %}
-              {% if site_name %}
-                 <a class="name navbar-brand" href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">{{ site_name }}</a>
-              {% endif %}
-              {% if site_slogan %}
-                  <p class="navbar-text">{{ site_slogan }}</p>
-              {% endif %}
-          {% endif %}
+          <address class="header-address"><a href="https://www.google.com/maps/place/Rayno+Automotive+Inc./@42.6775761,-73.7835424,17z/data=!4m5!3m4!1s0x0:0x87848f2932c44288!8m2!3d42.6775761!4d-73.7835424"><i class="fad fa-map-marker-alt"></i>870 3rd St, Albany, NY 12206</a></address>
+          <a href="tel:518-599-0225" class="header-phone"><i class="fad fa-mobile-alt"></i>518-599-0225</a>
         </div>
       </section>
     </div>
@@ -50,15 +43,18 @@
 <main role="main" class="main-container {{ container }}">
   <div class="row">
     <section class="col-sm-12">
-      {% if title %}
-        <h1>{{ title }}</h1>
+      {% if site_name %}
+         <a class="name navbar-brand" href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">The {{ site_name }}</a>
       {% endif %}
+      <h1>Site Is Under Maintenance</h1>
 
       {# Content #}
       {% block content %}
         <a id="main-content"></a>
         {{ page.content }}
       {% endblock %}
+
+      <div class="promo"><img src="/images/10-October-Agent-Highlight-F1100-1.web.png"></div>
     </section>
   </div>
 </main>
