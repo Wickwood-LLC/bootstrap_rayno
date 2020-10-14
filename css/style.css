@@ -8063,6 +8063,7 @@ ul:last-child {
   width: 110px;
   border-top: 15px double #041068;
   border-right: 5px solid transparent;
+  left: -77px;
 }
 
 .logo-line1:after {
@@ -8074,6 +8075,7 @@ ul:last-child {
   width: 110px;
   border-bottom: 15px double #041068;
   border-left: 5px solid transparent;
+  right: -82px;
 }
 
 .logo-upper-case {
