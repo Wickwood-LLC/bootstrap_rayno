@@ -847,6 +847,34 @@ nav.tabs {
   #navbar {
     background-color: transparent;
     border-color: transparent;
+
+    .col-sm-12 {
+      float: none;
+      display: flex;
+      justify-content: center;
+    }
+
+    a {
+      color: #010C60;
+      white-space: nowrap;
+    }
+
+    .logo {
+      display: block;
+      margin-bottom: 1em;
+      
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+  .navbar-header {
+    float: none;
+  }
+  .header-address {
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
   }
 
   main {

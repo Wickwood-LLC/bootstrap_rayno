@@ -8041,6 +8041,10 @@ ul:last-child {
   margin-top: 0;
 }
 
+#block-fakelogowithrealtext {
+  float: left;
+}
+
 .logo-line1 {
   display: block;
   font-family: Verdana;
@@ -8737,6 +8741,36 @@ nav.tabs {
 .maintenance-page #navbar {
   background-color: transparent;
   border-color: transparent;
+}
+
+.maintenance-page #navbar .col-sm-12 {
+  float: none;
+  display: flex;
+  justify-content: center;
+}
+
+.maintenance-page #navbar a {
+  color: #010C60;
+  white-space: nowrap;
+}
+
+.maintenance-page #navbar .logo {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.maintenance-page #navbar .logo img {
+  max-width: 100%;
+}
+
+.maintenance-page .navbar-header {
+  float: none;
+}
+
+.maintenance-page .header-address {
+  display: inline-block;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 .maintenance-page main {
