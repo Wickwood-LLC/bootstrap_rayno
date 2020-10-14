@@ -26,7 +26,7 @@
       <section class="col-sm-12">
         <div class="navbar-header">
           {% if logo %}
-            <a class="logo navbar-btn pull-left" href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">
+            <a class="logo navbar-btn" href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">
               <img src="{{ logo }}" alt="{{ 'Home'|t }}" />
             </a>
           {% endif %}
@@ -54,7 +54,7 @@
         {{ page.content }}
       {% endblock %}
 
-      <div class="promo"><img src="/images/10-October-Agent-Highlight-F1100-1.web.png"></div>
+      <div class="promo"><img src="/{{ site_files }}/image-uploads/current-month-promo.png"></div>
     </section>
   </div>
 </main>

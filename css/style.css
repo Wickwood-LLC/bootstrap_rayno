@@ -8743,6 +8743,10 @@ nav.tabs {
   border-color: transparent;
 }
 
+.maintenance-page #navbar .container {
+  width: 100%;
+}
+
 .maintenance-page #navbar .col-sm-12 {
   float: none;
   display: flex;
@@ -8757,6 +8761,8 @@ nav.tabs {
 .maintenance-page #navbar .logo {
   display: block;
   margin-bottom: 1em;
+  padding: 0;
+  text-align: center;
 }
 
 .maintenance-page #navbar .logo img {
@@ -8765,6 +8771,7 @@ nav.tabs {
 
 .maintenance-page .navbar-header {
   float: none;
+  text-align: center;
 }
 
 .maintenance-page .header-address {

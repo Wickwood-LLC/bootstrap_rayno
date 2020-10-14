@@ -848,6 +848,10 @@ nav.tabs {
     background-color: transparent;
     border-color: transparent;
 
+    .container {
+      width: 100%;
+    }
+
     .col-sm-12 {
       float: none;
       display: flex;
@@ -862,6 +866,8 @@ nav.tabs {
     .logo {
       display: block;
       margin-bottom: 1em;
+      padding: 0;
+      text-align: center;
       
       img {
         max-width: 100%;
@@ -870,6 +876,7 @@ nav.tabs {
   }
   .navbar-header {
     float: none;
+    text-align: center;
   }
   .header-address {
     display: inline-block;
