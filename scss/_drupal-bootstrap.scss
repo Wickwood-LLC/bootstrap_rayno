@@ -129,14 +129,6 @@ ul {
   text-align: center;
 }
 
-.navbar-brand {
-  color: #031068;
-
-  &:hover {
-    color: #031068;
-  }
-}
-
 .page-title {
   text-align: center;
 }
@@ -245,6 +237,29 @@ p:last-child,
   &:first-child {
     margin-top: 0;
   }
+}
+
+#navbar {
+  background-color: transparent;
+  border: 0;
+
+  .navbar-brand {
+    color: #031068;
+
+    &:hover {
+      color: #031068;
+    }
+  }
+
+  .region-navigation {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 385px 1fr;
+  }
+}
+
+.navbar-header {
+  width: 100%;
 }
 
 #navbar-collapse .navbar-nav {

@@ -8025,14 +8025,6 @@ ul:last-child {
   text-align: center;
 }
 
-.navbar-brand {
-  color: #031068;
-}
-
-.navbar-brand:hover {
-  color: #031068;
-}
-
 .page-title {
   text-align: center;
 }
@@ -8138,6 +8130,29 @@ p:last-child,
 .help-block:first-child,
 .control-group .help-inline:first-child {
   margin-top: 0;
+}
+
+#navbar {
+  background-color: transparent;
+  border: 0;
+}
+
+#navbar .navbar-brand {
+  color: #031068;
+}
+
+#navbar .navbar-brand:hover {
+  color: #031068;
+}
+
+#navbar .region-navigation {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 385px 1fr;
+}
+
+.navbar-header {
+  width: 100%;
 }
 
 #navbar-collapse .navbar-nav li.dropdown:hover > ul.dropdown-menu {
