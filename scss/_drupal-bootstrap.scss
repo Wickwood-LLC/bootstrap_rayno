@@ -255,12 +255,12 @@ p:last-child,
     font-family: trajan-pro-3, serif;
 
     &:before {
-      content: url(images/wrench.png);
+      content: url(../images/wrench.png);
       display: inline-block;
       vertical-align: middle;
     }
     &:after {
-      content: url(images/wrench.png);
+      content: url(../images/wrench.png);
       display: inline-block;
       vertical-align: middle;
       transform: rotate(180deg);

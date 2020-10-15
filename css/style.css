@@ -9631,14 +9631,14 @@ p:last-child,
 
 /* line 257, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #navbar .navbar-text:before {
-  content: url(images/wrench.png);
+  content: url(../images/wrench.png);
   display: inline-block;
   vertical-align: middle;
 }
 
 /* line 262, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #navbar .navbar-text:after {
-  content: url(images/wrench.png);
+  content: url(../images/wrench.png);
   display: inline-block;
   vertical-align: middle;
   transform: rotate(180deg);
