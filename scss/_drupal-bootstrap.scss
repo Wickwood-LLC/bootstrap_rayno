@@ -972,8 +972,11 @@ nav.tabs {
 
   .promo {
     margin-top: 1em;
-    text-align: center;
     width: 100%;
+
+    img {
+      display: inline-block;
+    }
   }
 }
 

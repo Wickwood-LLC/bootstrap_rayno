@@ -8872,8 +8872,11 @@ nav.tabs {
 
 .maintenance-page .promo {
   margin-top: 1em;
-  text-align: center;
   width: 100%;
+}
+
+.maintenance-page .promo img {
+  display: inline-block;
 }
 
 /********************* FORMS *********************/
