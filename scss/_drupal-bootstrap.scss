@@ -566,6 +566,7 @@ nav.tabs {
   
   > li {
     display: inline-block;
+    float: none;
 
     a {
       color: #363636;
@@ -581,6 +582,16 @@ nav.tabs {
   font-weight: bold;
   text-transform: uppercase;
   float: none;
+
+  > li a {
+    border-bottom: 2px solid transparent;
+    
+    &:hover,
+    &:focus,
+    &.is-active {
+      border-bottom: 2px solid $brand-primary;
+    }
+  }
 }
 
 .field--label-inline {

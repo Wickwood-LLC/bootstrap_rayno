@@ -8463,6 +8463,7 @@ nav.tabs {
 .menu--contact-header-menu > li,
 .menu--main > li {
   display: inline-block;
+  float: none;
 }
 
 .menu--contact-header-menu > li a,
@@ -8480,6 +8481,14 @@ nav.tabs {
   font-weight: bold;
   text-transform: uppercase;
   float: none;
+}
+
+.menu--main > li a {
+  border-bottom: 2px solid transparent;
+}
+
+.menu--main > li a:hover, .menu--main > li a:focus, .menu--main > li a.is-active {
+  border-bottom: 2px solid #021062;
 }
 
 .field--label-inline .field--label,
