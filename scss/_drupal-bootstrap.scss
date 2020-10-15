@@ -253,6 +253,8 @@ p:last-child,
   .navbar-text {
     float: none;
     font-family: trajan-pro-3, serif;
+    display: flex;
+    align-items: center;
 
     &:before {
       content: url(../images/wrench.png);
