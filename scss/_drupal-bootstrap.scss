@@ -260,15 +260,27 @@ p:last-child,
     justify-content: center;
 
     &:before {
-      content: url(../images/wrench.png);
+      content: '';
+      background-image: url(../images/wrench.png);
       display: inline-block;
       height: 1em;
+      width: 4em;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-right: 0.5em;
     }
     &:after {
-      content: url(../images/wrench.png);
+      content: '';
+      background-image: url(../images/wrench.png);
       display: inline-block;
       height: 1em;
+      width: 4em;
       transform: rotate(180deg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-left: 0.5em;
     }
   }
 
@@ -956,6 +968,12 @@ nav.tabs {
   main {
     text-align: center;
     margin-top: 2em;
+  }
+
+  .promo {
+    margin-top: 1em;
+    text-align: center;
+    width: 100%;
   }
 }
 
