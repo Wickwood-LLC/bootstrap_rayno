@@ -8189,7 +8189,8 @@ p:last-child,
 }
 
 .navbar-header {
-  width: 100%;
+  flex: 0 1 255px;
+  float: none;
 }
 
 #navbar-collapse {
@@ -8454,21 +8455,30 @@ nav.tabs {
   color: #00728e;
 }
 
-.menu--contact-header-menu {
+.menu--contact-header-menu,
+.menu--main {
   text-align: right;
 }
 
-.menu--contact-header-menu > li {
+.menu--contact-header-menu > li,
+.menu--main > li {
   display: inline-block;
 }
 
-.menu--contact-header-menu > li a {
+.menu--contact-header-menu > li a,
+.menu--main > li a {
   color: #363636;
-  font-size: 0.8em .menu--contact-header-menu > li a;
+  font-size: 0.8em;
 }
 
-.menu--contact-header-menu > li a :hover {
+.menu--contact-header-menu > li a:hover,
+.menu--main > li a:hover {
   background-color: transparent;
+}
+
+.menu--main {
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .field--label-inline .field--label,

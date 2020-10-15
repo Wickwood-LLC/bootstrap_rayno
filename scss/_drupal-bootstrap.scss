@@ -293,7 +293,8 @@ p:last-child,
 }
 
 .navbar-header {
-  width: 100%;
+  flex: 0 1 255px;
+  float: none;
 }
 
 #navbar-collapse {
@@ -559,7 +560,8 @@ nav.tabs {
   }
 }
 
-.menu--contact-header-menu {
+.menu--contact-header-menu,
+.menu--main {
   text-align: right;
   
   > li {
@@ -567,13 +569,17 @@ nav.tabs {
 
     a {
       color: #363636;
-      font-size: 0.8em
+      font-size: 0.8em;
       
       &:hover {
         background-color: transparent;
       }
     }
   }
+}
+.menu--main {
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .field--label-inline {
