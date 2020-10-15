@@ -257,12 +257,14 @@ p:last-child,
     &:before {
       content: url(../images/wrench.png);
       display: inline-block;
-      vertical-align: middle;
+      height: 1em;
+      vertical-align: text-bottom;
     }
     &:after {
       content: url(../images/wrench.png);
       display: inline-block;
-      vertical-align: middle;
+      height: 1em;
+      vertical-align: text-bottom;
       transform: rotate(180deg);
     }
   }
