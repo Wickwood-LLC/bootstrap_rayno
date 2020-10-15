@@ -44,3 +44,8 @@ fontawesome:
       }
     }
 
+typekit:
+  css:
+    https://use.typekit.net/hdo0kjk.css : {
+      type: external
+    }
