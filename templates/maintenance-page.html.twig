@@ -57,7 +57,7 @@
         {{ page.content }}
       {% endblock %}
 
-      <div class="promo"><img src="/{{ site_files }}/image-uploads/current-month-promo.png"></div>
+      {{ drupal_image('public://image-uploads/current-month-promo.png') }} {# Requires Twig Tweak Module #}
     </section>
   </div>
 </main>
