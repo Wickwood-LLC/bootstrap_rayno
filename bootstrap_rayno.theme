@@ -18,12 +18,11 @@ function bootstrap_rayno_preprocess_html(&$variables) {
   if (!empty($variables['head_title']['name'])) {
     $variables['head_title']['name'] = html_entity_decode($variables['head_title']['name']);
   }
-
-  $variables['#attached']['library'][] = 'bootstrap_rayno/typekit';
 }
 
 function bootstrap_rayno_preprocess_page(&$variables) {
   $variables['site_name'] = Markup::create(strip_tags(html_entity_decode(\Drupal::config('system.site')->get('name'))));
+  $variables['#attached']['library'][] = 'bootstrap_rayno/typekit';
 }
 
 function bootstrap_rayno_preprocess_maintenance_page(&$variables) {
