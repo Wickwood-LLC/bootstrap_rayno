@@ -46,7 +46,6 @@ fontawesome:
 
 typekit:
   css:
-    theme:
-      https://use.typekit.net/hdo0kjk.css: {
-        type: external
-      }
+    https://use.typekit.net/hdo0kjk.css: {
+      type: external
+    }

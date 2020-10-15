@@ -250,6 +250,22 @@ p:last-child,
       color: #031068;
     }
   }
+  .navbar-text {
+    float: none;
+    font-family: trajan-pro-3, serif;
+
+    &:before {
+      content: url(/images/wrench.png);
+      display: inline-block;
+      vertical-align: middle;
+    }
+    &:after {
+      content: url(/images/wrench.png);
+      display: inline-block;
+      vertical-align: middle;
+      transform: rotate(180deg);
+    }
+  }
 
   .region-navigation {
     display: grid;
