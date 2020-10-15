@@ -8192,6 +8192,10 @@ p:last-child,
   width: 100%;
 }
 
+#navbar-collapse {
+  flex: 1;
+}
+
 #navbar-collapse .navbar-nav li.dropdown:hover > ul.dropdown-menu {
   display: block;
 }
@@ -8448,6 +8452,23 @@ nav.tabs {
 
 #block-superfish-1 #superfish-1-accordion li a {
   color: #00728e;
+}
+
+.menu--contact-header-menu {
+  text-align: right;
+}
+
+.menu--contact-header-menu > li {
+  display: inline-block;
+}
+
+.menu--contact-header-menu > li a {
+  color: #363636;
+  font-size: 0.8em .menu--contact-header-menu > li a;
+}
+
+.menu--contact-header-menu > li a :hover {
+  background-color: transparent;
 }
 
 .field--label-inline .field--label,
