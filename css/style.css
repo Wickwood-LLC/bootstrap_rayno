@@ -8488,7 +8488,8 @@ nav.tabs {
 }
 
 .menu--main > li a:hover, .menu--main > li a:focus, .menu--main > li a.is-active {
-  border-bottom: 2px solid #021062;
+  background-color: transparent;
+  border-bottom: 4px solid #021062;
 }
 
 .field--label-inline .field--label,

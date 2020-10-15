@@ -589,7 +589,8 @@ nav.tabs {
     &:hover,
     &:focus,
     &.is-active {
-      border-bottom: 2px solid $brand-primary;
+      background-color: transparent;
+      border-bottom: 4px solid $brand-primary;
     }
   }
 }
