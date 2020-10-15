@@ -179,6 +179,7 @@ ul {
 .logo-lower-case {
   font-size: 2.7em;
   align-self: baseline;
+  position: relative;
 
   &:after {
     content: '';
@@ -186,7 +187,7 @@ ul {
     height: 5.5px;
     background: #041068;
     position: absolute;
-    bottom: -4px;
+    bottom: -19px;
     margin-left: -23px;
   }
 }
@@ -246,6 +247,7 @@ p:last-child,
 
   .navbar-brand {
     color: #031068;
+    float: none;
 
     &:hover {
       color: #031068;
@@ -286,6 +288,7 @@ p:last-child,
   .region-navigation {
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
   }
 }
 
@@ -293,10 +296,14 @@ p:last-child,
   width: 100%;
 }
 
-#navbar-collapse .navbar-nav {
-  li.dropdown:hover {
-    >ul.dropdown-menu {
-      display: block;
+#navbar-collapse {
+  flex: 1;
+
+  .navbar-nav {
+    li.dropdown:hover {
+      >ul.dropdown-menu {
+        display: block;
+      }
     }
   }
 }
@@ -547,6 +554,23 @@ nav.tabs {
 
       a {
         color: #00728e;
+      }
+    }
+  }
+}
+
+.menu--contact-header-menu {
+  text-align: right;
+  
+  > li {
+    display: inline-block;
+
+    a {
+      color: #363636;
+      font-size: 0.8em
+      
+      &:hover {
+        background-color: transparent;
       }
     }
   }
