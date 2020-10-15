@@ -8052,10 +8052,9 @@ ul:last-child {
   bottom: 12px;
   font-size: 0px;
   line-height: 0%;
-  width: 110px;
+  width: 100px;
   border-top: 15px double #041068;
-  border-right: 5px solid transparent;
-  left: -77px;
+  border-right: 4px solid transparent;
 }
 
 .logo-line1:after {
@@ -8063,10 +8062,10 @@ ul:last-child {
   bottom: 12px;
   font-size: 0px;
   line-height: 0%;
-  width: 110px;
+  width: 100px;
   border-bottom: 15px double #041068;
-  border-left: 5px solid transparent;
-  right: -82px;
+  border-left: 4px solid transparent;
+  margin-left: 0.15rem;
 }
 
 .logo-upper-case {
@@ -8085,7 +8084,7 @@ ul:last-child {
   height: 5.5px;
   background: #041068;
   position: absolute;
-  bottom: -10px;
+  bottom: -4px;
   margin-left: -23px;
 }
 
