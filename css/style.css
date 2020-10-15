@@ -8479,6 +8479,7 @@ nav.tabs {
 .menu--main {
   font-weight: bold;
   text-transform: uppercase;
+  float: none;
 }
 
 .field--label-inline .field--label,
