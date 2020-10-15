@@ -139,19 +139,19 @@ ul {
 }
 
 #block-fakelogowithrealtext {
-  float: left;
+  float: none;
 }
 .logo-line1 {
-  display: block;
+  display: flex;
   font-family: Verdana;
   font-style: italic;
   font-weight: bold;
-  position: relative;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 
   &:before {
     content: '';
-    position: absolute;
     bottom: 12px;
     font-size: 0px;
     line-height: 0%;
@@ -162,7 +162,6 @@ ul {
   }
   &:after {
     content: '';
-    position: absolute;
     bottom: 12px;
     font-size: 0px;
     line-height: 0%;
@@ -180,6 +179,7 @@ ul {
 
 .logo-lower-case {
   font-size: 2.7em;
+  align-self: baseline;
 
   &:after {
     content: '';
@@ -187,7 +187,7 @@ ul {
     height: 5.5px;
     background: #041068;
     position: absolute;
-    bottom: -7px;
+    bottom: -10px;
     margin-left: -23px;
   }
 }
@@ -197,6 +197,7 @@ ul {
   font-family: 'ITC Machine';
   text-transform: uppercase;
   font-size: 2em;
+  text-align: center;
 }
 
 // Footer.
@@ -242,6 +243,7 @@ p:last-child,
 #navbar {
   background-color: transparent;
   border: 0;
+  display: flex;
 
   .navbar-brand {
     color: #031068;
@@ -255,26 +257,24 @@ p:last-child,
     font-family: trajan-pro-3, serif;
     display: flex;
     align-items: center;
+    justify-content: center;
 
     &:before {
       content: url(../images/wrench.png);
       display: inline-block;
       height: 1em;
-      vertical-align: text-bottom;
     }
     &:after {
       content: url(../images/wrench.png);
       display: inline-block;
       height: 1em;
-      vertical-align: text-bottom;
       transform: rotate(180deg);
     }
   }
 
   .region-navigation {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 385px 1fr;
+    display: flex;
+    flex-flow: row wrap;
   }
 }
 

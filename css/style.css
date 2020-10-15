@@ -9496,23 +9496,23 @@ ul:last-child {
 
 /* line 141, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-fakelogowithrealtext {
-  float: left;
+  float: none;
 }
 
 /* line 144, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .logo-line1 {
-  display: block;
+  display: flex;
   font-family: Verdana;
   font-style: italic;
   font-weight: bold;
-  position: relative;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
-/* line 152, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 153, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .logo-line1:before {
   content: '';
-  position: absolute;
   bottom: 12px;
   font-size: 0px;
   line-height: 0%;
@@ -9525,7 +9525,6 @@ ul:last-child {
 /* line 163, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .logo-line1:after {
   content: '';
-  position: absolute;
   bottom: 12px;
   font-size: 0px;
   line-height: 0%;
@@ -9535,15 +9534,16 @@ ul:last-child {
   right: -82px;
 }
 
-/* line 176, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 175, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .logo-upper-case {
   text-transform: uppercase;
   font-size: 2.1em;
 }
 
-/* line 181, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 180, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .logo-lower-case {
   font-size: 2.7em;
+  align-self: baseline;
 }
 
 /* line 184, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
@@ -9553,7 +9553,7 @@ ul:last-child {
   height: 5.5px;
   background: #041068;
   position: absolute;
-  bottom: -7px;
+  bottom: -10px;
   margin-left: -23px;
 }
 
@@ -9563,9 +9563,10 @@ ul:last-child {
   font-family: 'ITC Machine';
   text-transform: uppercase;
   font-size: 2em;
+  text-align: center;
 }
 
-/* line 203, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 204, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .footer {
   margin-top: 45px;
   padding-top: 35px;
@@ -9573,26 +9574,26 @@ ul:last-child {
   border-top: 1px solid #E5E5E5;
 }
 
-/* line 211, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 212, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 p:last-child,
 .form-group:last-child,
 .panel:last-child {
   margin-bottom: 0;
 }
 
-/* line 219, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 220, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .region-help > .glyphicon {
   font-size: 18px;
   float: left;
   margin: -0.05em 0.5em 0 0;
 }
 
-/* line 225, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 226, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .region-help .block {
   overflow: hidden;
 }
 
-/* line 230, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 231, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .help-block,
 .control-group .help-inline {
   color: #777777;
@@ -9601,58 +9602,57 @@ p:last-child,
   padding: 0;
 }
 
-/* line 237, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 238, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .help-block:first-child,
 .control-group .help-inline:first-child {
   margin-top: 0;
 }
 
-/* line 242, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 243, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #navbar {
   background-color: transparent;
   border: 0;
+  display: flex;
 }
 
-/* line 246, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 248, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #navbar .navbar-brand {
   color: #031068;
 }
 
-/* line 249, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 251, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #navbar .navbar-brand:hover {
   color: #031068;
 }
 
-/* line 253, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 255, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #navbar .navbar-text {
   float: none;
   font-family: trajan-pro-3, serif;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
-/* line 259, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 262, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #navbar .navbar-text:before {
   content: url(../images/wrench.png);
   display: inline-block;
   height: 1em;
-  vertical-align: text-bottom;
 }
 
-/* line 265, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 267, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #navbar .navbar-text:after {
   content: url(../images/wrench.png);
   display: inline-block;
   height: 1em;
-  vertical-align: text-bottom;
   transform: rotate(180deg);
 }
 
-/* line 274, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 275, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #navbar .region-navigation {
-  display: grid;
-  align-items: center;
-  grid-template-columns: 385px 1fr;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 /* line 281, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
