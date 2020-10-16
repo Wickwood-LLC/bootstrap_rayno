@@ -8,6 +8,7 @@ base theme: bootstrap
 logo: logo.png
 
 regions:
+  branding: 'Branding'
   navigation: 'Navigation'
   navigation_collapsible: 'Navigation (Collapsible)'
   header: 'Top Bar'

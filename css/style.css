@@ -8156,9 +8156,10 @@ p:last-child,
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
-#navbar .navbar-text:before {
+#navbar .navbar-text:before, #navbar .navbar-text:after {
   content: '';
   background-image: url(../images/wrench.png);
   display: inline-block;
@@ -8168,21 +8169,15 @@ p:last-child,
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+#navbar .navbar-text:before {
   margin-right: 0.5em;
 }
 
 #navbar .navbar-text:after {
-  content: '';
-  background-image: url(../images/wrench.png);
-  display: inline-block;
-  height: 1em;
-  width: 10%;
-  max-width: 4em;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
   margin-left: 0.5em;
 }
 
@@ -8193,7 +8188,6 @@ p:last-child,
 }
 
 .navbar-header {
-  flex: 0 1 255px;
   float: none;
 }
 

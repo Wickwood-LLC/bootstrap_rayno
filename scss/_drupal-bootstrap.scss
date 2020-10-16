@@ -261,19 +261,9 @@ p:last-child,
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 
-    &:before {
-      content: '';
-      background-image: url(../images/wrench.png);
-      display: inline-block;
-      height: 1em;
-      width: 10%;
-      max-width: 4em;
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center;
-      margin-right: 0.5em;
-    }
+    &:before,
     &:after {
       content: '';
       background-image: url(../images/wrench.png);
@@ -281,10 +271,15 @@ p:last-child,
       height: 1em;
       width: 10%;
       max-width: 4em;
-      transform: rotate(180deg);
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
+    }
+    &:before {
+      margin-right: 0.5em;
+    }
+    &:after {
+      transform: rotate(180deg);
       margin-left: 0.5em;
     }
   }
@@ -297,7 +292,6 @@ p:last-child,
 }
 
 .navbar-header {
-  flex: 0 1 255px;
   float: none;
 }
 
