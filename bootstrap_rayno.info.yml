@@ -24,5 +24,12 @@ libraries-extend:
   bootstrap/framework:
     - bootstrap_rayno/framework
 
+global-styling:
+  css:
+    component:
+      - bootstrap_rayno/typekit
+
+
+
 ckeditor_stylesheets:
   - css/ckeditor-styles.css
