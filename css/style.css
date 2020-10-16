@@ -8149,8 +8149,10 @@ p:last-child,
 }
 
 #navbar .navbar-text {
+  color: #021062;
   float: none;
   font-family: trajan-pro-3, serif;
+  font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8161,7 +8163,8 @@ p:last-child,
   background-image: url(../images/wrench.png);
   display: inline-block;
   height: 1em;
-  width: 4em;
+  width: 10%;
+  max-width: 4em;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -8173,7 +8176,8 @@ p:last-child,
   background-image: url(../images/wrench.png);
   display: inline-block;
   height: 1em;
-  width: 4em;
+  width: 10%;
+  max-width: 4em;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
   background-size: contain;
@@ -8870,6 +8874,7 @@ nav.tabs {
 .maintenance-page #navbar {
   background-color: transparent;
   border-color: transparent;
+  margin-bottom: 0;
 }
 
 .maintenance-page #navbar .container {
@@ -8883,7 +8888,7 @@ nav.tabs {
 }
 
 .maintenance-page #navbar a {
-  color: #010C60;
+  color: #021062;
   white-space: nowrap;
 }
 
@@ -8899,7 +8904,7 @@ nav.tabs {
 }
 
 .maintenance-page .navbar-header {
-  float: none;
+  flex: 1 100%;
   text-align: center;
 }
 
@@ -8911,7 +8916,11 @@ nav.tabs {
 
 .maintenance-page main {
   text-align: center;
-  margin-top: 2em;
+}
+
+.maintenance-page main .site-name,
+.maintenance-page main .page-title {
+  margin: 0;
 }
 
 .maintenance-page .promo {
