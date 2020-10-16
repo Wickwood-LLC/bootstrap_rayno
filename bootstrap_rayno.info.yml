@@ -24,10 +24,8 @@ libraries-extend:
   bootstrap/framework:
     - bootstrap_rayno/framework
 
-global-styling:
-  css:
-    component:
-      - bootstrap_rayno/typekit
+libraries:
+  - bootstrap_rayno/typekit
 
 
 
