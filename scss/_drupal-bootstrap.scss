@@ -295,6 +295,17 @@ p:last-child,
   float: none;
 }
 
+#block-addressandphone {
+  text-align: center;
+  
+  .header-adress,
+  .header-phone {
+    display: inline-block;
+    font-size: 0.8em;
+    margin: 0.25em;
+  }
+}
+
 #navbar-collapse {
   flex: 1;
 
@@ -558,7 +569,7 @@ nav.tabs {
   }
 }
 
-.menu--contact-header-menu,
+.menu--header-buttons,
 .menu--main {
   text-align: right;
   
@@ -581,14 +592,25 @@ nav.tabs {
   text-transform: uppercase;
   float: none;
 
-  > li a {
-    border-bottom: 2px solid transparent;
-    
-    &:hover,
-    &:focus,
-    &.is-active {
-      background-color: transparent;
-      border-bottom: 4px solid $brand-primary;
+  > li {
+    a {
+      border-bottom: 2px solid transparent;
+      color: #020202;
+      
+      &:hover,
+      &:focus,
+      &.is-active {
+        background-color: transparent;
+        border-bottom: 4px solid $brand-primary;
+      }
+    }
+
+    &.active {
+      > a.active,
+      > a:hover,
+      > a:focus {
+        background-color: transparent;
+      } 
     }
   }
 }

@@ -8191,6 +8191,17 @@ p:last-child,
   float: none;
 }
 
+#block-addressandphone {
+  text-align: center;
+}
+
+#block-addressandphone .header-adress,
+#block-addressandphone .header-phone {
+  display: inline-block;
+  font-size: 0.8em;
+  margin: 0.25em;
+}
+
 #navbar-collapse {
   flex: 1;
 }
@@ -8453,24 +8464,24 @@ nav.tabs {
   color: #00728e;
 }
 
-.menu--contact-header-menu,
+.menu--header-buttons,
 .menu--main {
   text-align: right;
 }
 
-.menu--contact-header-menu > li,
+.menu--header-buttons > li,
 .menu--main > li {
   display: inline-block;
   float: none;
 }
 
-.menu--contact-header-menu > li a,
+.menu--header-buttons > li a,
 .menu--main > li a {
   color: #363636;
   font-size: 0.8em;
 }
 
-.menu--contact-header-menu > li a:hover,
+.menu--header-buttons > li a:hover,
 .menu--main > li a:hover {
   background-color: transparent;
 }
@@ -8483,11 +8494,18 @@ nav.tabs {
 
 .menu--main > li a {
   border-bottom: 2px solid transparent;
+  color: #020202;
 }
 
 .menu--main > li a:hover, .menu--main > li a:focus, .menu--main > li a.is-active {
   background-color: transparent;
   border-bottom: 4px solid #021062;
+}
+
+.menu--main > li.active > a.active,
+.menu--main > li.active > a:hover,
+.menu--main > li.active > a:focus {
+  background-color: transparent;
 }
 
 .field--label-inline .field--label,
