@@ -8195,7 +8195,7 @@ p:last-child,
   text-align: center;
 }
 
-#block-addressandphone .header-adress,
+#block-addressandphone .header-address,
 #block-addressandphone .header-phone {
   display: inline-block;
   font-size: 0.8em;
@@ -8477,7 +8477,6 @@ nav.tabs {
 
 .menu--header-buttons > li a,
 .menu--main > li a {
-  color: #363636;
   font-size: 0.8em;
 }
 
@@ -8500,6 +8499,7 @@ nav.tabs {
 .menu--main > li a:hover, .menu--main > li a:focus, .menu--main > li a.is-active {
   background-color: transparent;
   border-bottom: 4px solid #021062;
+  color: #021062;
 }
 
 .menu--main > li.active > a.active,

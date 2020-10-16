@@ -298,7 +298,7 @@ p:last-child,
 #block-addressandphone {
   text-align: center;
   
-  .header-adress,
+  .header-address,
   .header-phone {
     display: inline-block;
     font-size: 0.8em;
@@ -578,7 +578,6 @@ nav.tabs {
     float: none;
 
     a {
-      color: #363636;
       font-size: 0.8em;
       
       &:hover {
@@ -602,6 +601,7 @@ nav.tabs {
       &.is-active {
         background-color: transparent;
         border-bottom: 4px solid $brand-primary;
+        color: $brand-primary;
       }
     }
 
