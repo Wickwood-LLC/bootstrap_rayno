@@ -71,6 +71,11 @@ ul {
   }
 }
 
+.ext-link {
+  vertical-align: super;
+  font-size: 0.8em;
+}
+
 .align-center {
   text-align: center;
 
@@ -570,7 +575,7 @@ nav.tabs {
 }
 
 .menu--header-buttons,
-.menu--main {
+#block-bootstrap-rayno-mainmenu-2 .menu--main {
   text-align: right;
   
   > li {
@@ -586,7 +591,7 @@ nav.tabs {
     }
   }
 }
-.menu--main {
+#block-bootstrap-rayno-mainmenu-2 .menu--main {
   font-weight: bold;
   text-transform: uppercase;
   float: none;
@@ -611,6 +616,20 @@ nav.tabs {
       > a:focus {
         background-color: transparent;
       } 
+    }
+  }
+}
+.menu--header-buttons {
+  > li {
+    a {
+      border-radius: 19.5px;      
+      line-height: 1;
+      
+      &:hover,
+      &:focus,
+      &.is-active {
+        background-color: darken($brand-primary, 10%);
+      }
     }
   }
 }
