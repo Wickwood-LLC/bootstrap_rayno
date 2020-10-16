@@ -71,7 +71,7 @@ ul {
   }
 }
 
-.ext-link {
+.extlink {
   vertical-align: super;
   font-size: 0.8em;
 }
@@ -292,7 +292,8 @@ p:last-child,
   .region-navigation {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: flex-end;
+    align-items: center;
   }
 }
 
@@ -307,7 +308,7 @@ p:last-child,
   .header-phone {
     display: inline-block;
     font-size: 0.8em;
-    margin: 0.25em;
+    margin: 0.25em 0.5em;
   }
 }
 
@@ -595,6 +596,7 @@ nav.tabs {
   font-weight: bold;
   text-transform: uppercase;
   float: none;
+  margin: 1em 0;
 
   > li {
     a {

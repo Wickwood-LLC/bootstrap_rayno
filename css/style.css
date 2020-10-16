@@ -7980,7 +7980,7 @@ ul:last-child {
   margin-bottom: 0;
 }
 
-.ext-link {
+.extlink {
   vertical-align: super;
   font-size: 0.8em;
 }
@@ -8189,7 +8189,8 @@ p:last-child,
 #navbar .region-navigation {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .navbar-header {
@@ -8204,7 +8205,7 @@ p:last-child,
 #block-addressandphone .header-phone {
   display: inline-block;
   font-size: 0.8em;
-  margin: 0.25em;
+  margin: 0.25em 0.5em;
 }
 
 #navbar-collapse {
@@ -8494,6 +8495,7 @@ nav.tabs {
   font-weight: bold;
   text-transform: uppercase;
   float: none;
+  margin: 1em 0;
 }
 
 #block-bootstrap-rayno-mainmenu-2 .menu--main > li a {
