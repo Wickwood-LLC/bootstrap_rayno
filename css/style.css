@@ -8170,6 +8170,7 @@ p:last-child,
   display: inline-block;
   height: 1em;
   width: 10%;
+  min-width: 60px;
   max-width: 4em;
   background-size: contain;
   background-repeat: no-repeat;
@@ -8178,12 +8179,28 @@ p:last-child,
 
 #navbar .navbar-text:before {
   margin-right: 0.5em;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+@media (min-width: 400px) {
+  #navbar .navbar-text:before {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
 }
 
 #navbar .navbar-text:after {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
   margin-left: 0.5em;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+@media (min-width: 400px) {
+  #navbar .navbar-text:after {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
 }
 
 #navbar .region-navigation {
@@ -8935,12 +8952,14 @@ nav.tabs {
 .maintenance-page .navbar-header {
   flex: 1 100%;
   text-align: center;
+  margin-bottom: 1em;
 }
 
 .maintenance-page .header-address {
   display: inline-block;
   margin-left: 1em;
   margin-right: 1em;
+  margin-bottom: 0;
 }
 
 .maintenance-page main {

@@ -275,6 +275,7 @@ p:last-child,
       display: inline-block;
       height: 1em;
       width: 10%;
+      min-width: 60px ;
       max-width: 4em;
       background-size: contain;
       background-repeat: no-repeat;
@@ -282,10 +283,19 @@ p:last-child,
     }
     &:before {
       margin-right: 0.5em;
+      transform: rotate(90deg);
+
+      @include breakpoint(400px) {
+        transform: rotate(0deg);
+      }
     }
     &:after {
-      transform: rotate(180deg);
       margin-left: 0.5em;
+      transform: rotate(90deg);
+
+      @include breakpoint(400px) {
+        transform: rotate(180deg);
+      }
     }
   }
 
@@ -1043,11 +1053,13 @@ nav.tabs {
   .navbar-header {
     flex: 1 100%;
     text-align: center;
+    margin-bottom: 1em;
   }
   .header-address {
     display: inline-block;
     margin-left: 1em;
     margin-right: 1em;
+    margin-bottom: 0;
   }
 
   main {
