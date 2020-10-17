@@ -252,12 +252,20 @@ p:last-child,
   width: 100%;
   max-width: 1400px;
 
+  .region-branding {
+    flex: 1 0 409px;
+  }
+
   .navbar-brand {
-    color: #031068;
+    color: $brand-primary;
     float: none;
+    padding: 0;
+    height: auto;
+    display: inline-block;
+    width: 100%;
 
     &:hover {
-      color: #031068;
+      color: $brand-primary;
     }
   }
   .navbar-text {
@@ -265,6 +273,7 @@ p:last-child,
     float: none;
     font-family: trajan-pro-3, serif;
     font-weight: bold;
+    margin-top: 0;
     display: flex;
     align-items: center;
     justify-content: center;

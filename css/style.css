@@ -8146,13 +8146,21 @@ p:last-child,
   max-width: 1400px;
 }
 
+#navbar .region-branding {
+  flex: 1 0 409px;
+}
+
 #navbar .navbar-brand {
-  color: #031068;
+  color: #021062;
   float: none;
+  padding: 0;
+  height: auto;
+  display: inline-block;
+  width: 100%;
 }
 
 #navbar .navbar-brand:hover {
-  color: #031068;
+  color: #021062;
 }
 
 #navbar .navbar-text {
@@ -8160,6 +8168,7 @@ p:last-child,
   float: none;
   font-family: trajan-pro-3, serif;
   font-weight: bold;
+  margin-top: 0;
   display: flex;
   align-items: center;
   justify-content: center;
