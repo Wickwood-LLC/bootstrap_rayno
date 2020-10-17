@@ -8175,12 +8175,15 @@ p:last-child,
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
 }
 
 #navbar .navbar-text:before {
   margin-right: 0.5em;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
 }
 
 @media (min-width: 400px) {
@@ -8192,8 +8195,8 @@ p:last-child,
 
 #navbar .navbar-text:after {
   margin-left: 0.5em;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
 }
 
 @media (min-width: 400px) {
