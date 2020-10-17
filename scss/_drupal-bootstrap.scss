@@ -249,6 +249,8 @@ p:last-child,
   background-color: transparent;
   border: 0;
   display: flex;
+  width: 100%;
+  max-width: 1400px;
 
   .navbar-brand {
     color: #031068;
@@ -677,6 +679,11 @@ nav.tabs {
 }
 
 /********************* LAYOUTS *********************/
+.main-container {
+  width: 100%;
+  max-width: 1400px;
+}
+
 .layout {
   margin-bottom: 1em;
   justify-content: space-evenly;
