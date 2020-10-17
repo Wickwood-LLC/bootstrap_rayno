@@ -8142,6 +8142,7 @@ p:last-child,
   background-color: transparent;
   border: 0;
   display: flex;
+  flex-flow: row wrap;
   width: 100%;
   max-width: 1400px;
 }
@@ -8226,6 +8227,7 @@ p:last-child,
 
 .navbar-header {
   float: none;
+  flex: 60%;
 }
 
 #block-addressandphone {
