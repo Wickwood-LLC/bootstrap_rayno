@@ -869,7 +869,7 @@ nav.tabs {
   margin-bottom: 1em;
 }
 
-.block-social-sharing-block {
+#block-bootstrap-rayno-socialsharingblock {
   position: fixed;
   top: 150px;
   left: -302px;
@@ -877,7 +877,7 @@ nav.tabs {
   border: 1px solid #ccc;
   border-radius: 0;
   background-color: white;
-  width: 282px;
+  width: auto;
   transition: 0.5s;
   z-index: 5;
 
@@ -899,8 +899,7 @@ nav.tabs {
 
   &:before {
     content: '\f1e0' !important;
-    font-family: 'Font Awesome 5 Duotone';
-    font-weight: 900;
+    font-family: 'Font Awesome 5 Pro';
   }
 
   > svg {

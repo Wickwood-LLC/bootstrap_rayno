@@ -8746,7 +8746,7 @@ nav.tabs {
   margin-bottom: 1em;
 }
 
-.block-social-sharing-block {
+#block-bootstrap-rayno-socialsharingblock {
   position: fixed;
   top: 150px;
   left: -302px;
@@ -8754,34 +8754,33 @@ nav.tabs {
   border: 1px solid #ccc;
   border-radius: 0;
   background-color: white;
-  width: 282px;
+  width: auto;
   transition: 0.5s;
   z-index: 5;
 }
 
 @media (min-width: 980px) {
-  .block-social-sharing-block {
+  #block-bootstrap-rayno-socialsharingblock {
     top: 200px;
   }
 }
 
-.block-social-sharing-block:hover, .block-social-sharing-block:focus, .block-social-sharing-block:active {
+#block-bootstrap-rayno-socialsharingblock:hover, #block-bootstrap-rayno-socialsharingblock:focus, #block-bootstrap-rayno-socialsharingblock:active {
   left: 0;
   box-shadow: 2px 3px 10px 0 #333;
 }
 
-.block-social-sharing-block:hover > svg, .block-social-sharing-block:focus > svg, .block-social-sharing-block:active > svg {
+#block-bootstrap-rayno-socialsharingblock:hover > svg, #block-bootstrap-rayno-socialsharingblock:focus > svg, #block-bootstrap-rayno-socialsharingblock:active > svg {
   opacity: 0;
   transition: 0.5s;
 }
 
-.block-social-sharing-block:before {
+#block-bootstrap-rayno-socialsharingblock:before {
   content: '\f1e0' !important;
-  font-family: 'Font Awesome 5 Duotone';
-  font-weight: 900;
+  font-family: 'Font Awesome 5 Pro';
 }
 
-.block-social-sharing-block > svg {
+#block-bootstrap-rayno-socialsharingblock > svg {
   display: block;
   font-size: 24px;
   position: absolute;
@@ -8799,34 +8798,34 @@ nav.tabs {
   padding: 5px;
 }
 
-.block-social-sharing-block .block-title {
+#block-bootstrap-rayno-socialsharingblock .block-title {
   background-color: unset;
   color: unset;
   margin-top: 0;
   text-align: center;
 }
 
-.block-social-sharing-block .block-title {
+#block-bootstrap-rayno-socialsharingblock .block-title {
   font-size: 18px;
 }
 
 @media screen and (min-width: 320px) {
-  .block-social-sharing-block .block-title {
+  #block-bootstrap-rayno-socialsharingblock .block-title {
     font-size: calc(18px + 12 * ((100vw - 320px) / 880));
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .block-social-sharing-block .block-title {
+  #block-bootstrap-rayno-socialsharingblock .block-title {
     font-size: 30px;
   }
 }
 
-.block-social-sharing-block ul {
+#block-bootstrap-rayno-socialsharingblock ul {
   margin-bottom: 0;
 }
 
-.block-social-sharing-block ul li:last-child {
+#block-bootstrap-rayno-socialsharingblock ul li:last-child {
   margin-right: 0;
 }
 
