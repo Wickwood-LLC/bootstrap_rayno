@@ -364,8 +364,7 @@ p:last-child,
     }
 
     @include breakpoint(1238px) {
-      grid-template-columns: auto 1fr auto
-      ;
+      grid-template-columns: auto 1fr auto;
     }
   }
 }
