@@ -8268,6 +8268,7 @@ p:last-child,
   }
   #navbar .region-navigation #block-bootstrap-rayno-mainmenu-2 {
     grid-column: 2 / span 2;
+    grid-row: 2 / 3;
     justify-self: end;
   }
 }
@@ -8580,7 +8581,7 @@ nav.tabs {
 }
 
 #block-bootstrap-rayno-mainmenu-2 .menu--main > li a {
-  border-bottom: 2px solid transparent;
+  border-bottom: 4px solid transparent;
   color: #020202;
   padding: 0.5em;
 }
