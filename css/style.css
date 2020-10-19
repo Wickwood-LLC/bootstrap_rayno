@@ -8138,6 +8138,11 @@ p:last-child,
   margin-top: 0;
 }
 
+.header-container {
+  border-bottom: 2em solid #021062;
+  margin-bottom: 1em;
+}
+
 #navbar {
   background-color: transparent;
   border: 0;
@@ -8168,6 +8173,7 @@ p:last-child,
   color: #021062;
   float: none;
   font-family: trajan-pro-3, serif;
+  font-size: 0.7em;
   font-weight: bold;
   margin-top: 0;
   display: flex;
@@ -8227,7 +8233,7 @@ p:last-child,
 
 .navbar-header {
   float: none;
-  flex: 60%;
+  flex: 1 1 571px;
 }
 
 #block-addressandphone {
@@ -8238,7 +8244,7 @@ p:last-child,
 #block-addressandphone .header-phone {
   display: inline-block;
   font-size: 0.8em;
-  margin: 0.25em 0.5em;
+  margin: 0.5em;
 }
 
 #navbar-collapse {
@@ -8528,7 +8534,7 @@ nav.tabs {
   font-weight: bold;
   text-transform: uppercase;
   float: none;
-  margin: 1em 0;
+  margin-top: 0.5em;
 }
 
 #block-bootstrap-rayno-mainmenu-2 .menu--main > li a {
