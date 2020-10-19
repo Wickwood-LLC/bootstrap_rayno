@@ -8789,7 +8789,7 @@ nav.tabs {
   padding: 1em;
   cursor: move;
   background-color: #fff;
-  border: 1px solid #5c9630;
+  border: 1px solid #021062;
   border-radius: 8px;
   margin-bottom: 1em;
 }
@@ -8879,14 +8879,15 @@ nav.tabs {
 }
 
 .boxed {
-  border: 1px solid #5c9630;
+  background-color: whitesmoke;
+  border: 1px solid #021062;
   border-radius: 8px;
   margin-bottom: 1em;
   padding: 0.5em;
 }
 
 .boxed > .block-title {
-  background-color: #5c9630;
+  background-color: #021062;
   border-radius: 5px 5px 0 0;
   padding: 16px 15px 13px;
   color: #fff;
@@ -8928,7 +8929,8 @@ nav.tabs {
 }
 
 .boxed-columns > .layout__region {
-  border: 1px solid #5c9630;
+  background-color: whitesmoke;
+  border: 1px solid #021062;
   border-radius: 8px;
   padding: 0.5em;
 }
