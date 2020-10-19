@@ -8778,6 +8778,7 @@ nav.tabs {
 #block-bootstrap-rayno-socialsharingblock:before {
   content: '\f1e0' !important;
   font-family: 'Font Awesome 5 Pro';
+  display: none;
 }
 
 #block-bootstrap-rayno-socialsharingblock > svg {
