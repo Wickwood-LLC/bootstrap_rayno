@@ -626,7 +626,7 @@ nav.tabs {
     a {
       border-bottom: 2px solid transparent;
       color: #020202;
-      padding: 0.5em;
+      padding: 0.5em  ;
       
       &:hover,
       &:focus,
@@ -872,7 +872,7 @@ nav.tabs {
 .block-social-sharing-block {
   position: fixed;
   top: 150px;
-  left: -282px;
+  left: -302px;
   padding: 1em;
   border: 1px solid #ccc;
   border-radius: 0;
@@ -891,16 +891,20 @@ nav.tabs {
     left: 0;
     box-shadow: 2px 3px 10px 0 #333;
 
-    &:before {
+    > svg {
       opacity: 0;
       transition: 0.5s;
     }
   }
 
   &:before {
-    display: table;
     content: '\f1e0' !important;
-    font-family: 'Font Awesome 5 Pro';
+    font-family: 'Font Awesome 5 Duotone';
+    font-weight: 900;
+  }
+
+  > svg {
+    display: block;
     font-size: 24px;
     position: absolute;
     right: -36px;
@@ -914,6 +918,7 @@ nav.tabs {
     box-shadow: 2px 2px 30px -3px #383838;
     opacity: 1;
     transition: all 1s ease 0.5s;
+    padding: 5px;
   }
 
   .block-title {
@@ -922,6 +927,14 @@ nav.tabs {
     margin-top: 0;
     text-align: center;
     @include fluid-type(320px, 1200px, 18px, 30px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+  }
+
+  ul {
+    margin-bottom: 0;
+    
+    li:last-child {
+      margin-right: 0;
+    }
   }
 }
 

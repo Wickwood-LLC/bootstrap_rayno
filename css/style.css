@@ -8749,7 +8749,7 @@ nav.tabs {
 .block-social-sharing-block {
   position: fixed;
   top: 150px;
-  left: -282px;
+  left: -302px;
   padding: 1em;
   border: 1px solid #ccc;
   border-radius: 0;
@@ -8770,15 +8770,19 @@ nav.tabs {
   box-shadow: 2px 3px 10px 0 #333;
 }
 
-.block-social-sharing-block:hover:before, .block-social-sharing-block:focus:before, .block-social-sharing-block:active:before {
+.block-social-sharing-block:hover > svg, .block-social-sharing-block:focus > svg, .block-social-sharing-block:active > svg {
   opacity: 0;
   transition: 0.5s;
 }
 
 .block-social-sharing-block:before {
-  display: table;
   content: '\f1e0' !important;
-  font-family: 'Font Awesome 5 Pro';
+  font-family: 'Font Awesome 5 Duotone';
+  font-weight: 900;
+}
+
+.block-social-sharing-block > svg {
+  display: block;
   font-size: 24px;
   position: absolute;
   right: -36px;
@@ -8792,6 +8796,7 @@ nav.tabs {
   box-shadow: 2px 2px 30px -3px #383838;
   opacity: 1;
   transition: all 1s ease 0.5s;
+  padding: 5px;
 }
 
 .block-social-sharing-block .block-title {
@@ -8815,6 +8820,14 @@ nav.tabs {
   .block-social-sharing-block .block-title {
     font-size: 30px;
   }
+}
+
+.block-social-sharing-block ul {
+  margin-bottom: 0;
+}
+
+.block-social-sharing-block ul li:last-child {
+  margin-right: 0;
 }
 
 .boxed {
