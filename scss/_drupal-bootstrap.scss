@@ -253,14 +253,8 @@ p:last-child,
 #navbar {
   background-color: transparent;
   border: 0;
-  display: flex;
-  flex-flow: row wrap;
   width: 100%;
   max-width: 1400px;
-
-  .region-branding {
-    flex: 1 0 409px;
-  }
 
   .navbar-brand {
     color: $brand-primary;
@@ -319,16 +313,65 @@ p:last-child,
   }
 
   .region-navigation {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
+    display: grid;
     align-items: center;
+    grid-template-columns: 1fr;
+    justify-content: center;
+
+    @include breakpoint(550px) {
+      grid-template-columns: auto 1fr;
+      grid-template-rows: auto;
+
+      #block-headerbuttons {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+      }
+      #block-addressandphone,
+      #block-headerbuttons-menu {
+        grid-column: 1 / span 2;
+      }
+      #block-bootstrap-rayno-mainmenu-2 {
+        grid-column: span 2;
+      }
+    }
+
+    @include breakpoint(830px) {
+      .text-logo-and-slogan {
+        grid-row: 1 / span 2;
+      }
+      #block-addressandphone {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+      }
+    }
+
+    @include breakpoint(1051px) {
+      grid-template-columns: auto 1fr 1fr;
+
+      #block-addressandphone {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        text-align: right;
+      }
+      #block-headerbuttons-menu {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+      }
+      #block-bootstrap-rayno-mainmenu-2 {
+        grid-column: 2 / span 2;
+        justify-self: end;
+      }
+    }
+
+    @include breakpoint(1238px) {
+      grid-template-columns: auto 1fr auto
+      ;
+    }
   }
 }
 
 .navbar-header {
   float: none;
-  flex: 1 1 571px;
 }
 
 #block-addressandphone {
@@ -343,8 +386,6 @@ p:last-child,
 }
 
 #navbar-collapse {
-  flex: 1;
-
   .navbar-nav {
     li.dropdown:hover {
       >ul.dropdown-menu {
@@ -607,7 +648,7 @@ nav.tabs {
 
 .menu--header-buttons,
 #block-bootstrap-rayno-mainmenu-2 .menu--main {
-  text-align: right;
+  text-align: center;
   
   > li {
     display: inline-block;
