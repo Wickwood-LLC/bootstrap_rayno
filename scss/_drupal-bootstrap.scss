@@ -938,20 +938,16 @@ nav.tabs {
     left: 0;
     box-shadow: 2px 3px 10px 0 #333;
 
-    > svg {
+    &:before {
       opacity: 0;
       transition: 0.5s;
     }
   }
 
   &:before {
+    display: table;
     content: '\f1e0' !important;
     font-family: 'Font Awesome 5 Pro';
-    display: none;
-  }
-
-  > svg {
-    display: block;
     font-size: 24px;
     position: absolute;
     right: -36px;
@@ -965,7 +961,6 @@ nav.tabs {
     box-shadow: 2px 2px 30px -3px #383838;
     opacity: 1;
     transition: all 1s ease 0.5s;
-    padding: 5px;
   }
 
   .block-title {
