@@ -256,6 +256,11 @@ p:last-child,
   width: 100%;
   max-width: 1400px;
 
+  .navbar-header {
+    float: none;
+    margin: 0;
+  }
+
   .navbar-brand {
     color: $brand-primary;
     float: none;
@@ -318,6 +323,10 @@ p:last-child,
     grid-template-columns: 1fr;
     justify-content: center;
 
+    #block-addressandphone {
+      font-size: 1.2em;
+    }
+
     @include breakpoint(550px) {
       grid-template-columns: auto 1fr;
       grid-template-rows: auto;
@@ -342,6 +351,7 @@ p:last-child,
       #block-addressandphone {
         grid-column: 2 / 3;
         grid-row: 2 / 3;
+        font-size: 1em;
       }
     }
 
@@ -368,10 +378,6 @@ p:last-child,
       grid-template-columns: auto 1fr auto;
     }
   }
-}
-
-.navbar-header {
-  float: none;
 }
 
 #block-addressandphone {
@@ -667,7 +673,6 @@ nav.tabs {
   font-weight: bold;
   text-transform: uppercase;
   float: none;
-  margin-top: 0.5em;
 
   > li {
     a {
@@ -698,6 +703,8 @@ nav.tabs {
     a {
       border-radius: 19.5px;      
       line-height: 1;
+      padding: 0.7em;
+      margin: 2px;
       
       &:hover,
       &:focus,
