@@ -8286,12 +8286,11 @@ p:last-child,
     grid-column: 2 / 3;
     grid-row: 1 / 2;
   }
-  #navbar .region-navigation #block-addressandphone,
-  #navbar .region-navigation #block-headerbuttons-menu {
+  #navbar .region-navigation #block-addressandphone {
     grid-column: 1 / span 2;
   }
   #navbar .region-navigation #block-bootstrap-rayno-mainmenu-2 {
-    grid-column: span 2;
+    grid-column: 1 / span 2;
   }
 }
 
@@ -8299,10 +8298,17 @@ p:last-child,
   #navbar .region-navigation .text-logo-and-slogan {
     grid-row: 1 / span 2;
   }
+  #navbar .region-navigation #block-headerbuttons {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
   #navbar .region-navigation #block-addressandphone {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     font-size: 1em;
+  }
+  #navbar .region-navigation #block-bootstrap-rayno-mainmenu-2 {
+    margin-top: 0.5em;
   }
 }
 
@@ -8315,7 +8321,7 @@ p:last-child,
     grid-row: 1 / 2;
     text-align: right;
   }
-  #navbar .region-navigation #block-headerbuttons-menu {
+  #navbar .region-navigation #block-headerbuttons {
     grid-column: 3 / 4;
     grid-row: 1 / 2;
   }
@@ -8625,6 +8631,7 @@ nav.tabs {
   font-weight: bold;
   text-transform: uppercase;
   float: none;
+  margin-top: 0;
 }
 
 #block-bootstrap-rayno-mainmenu-2 .menu--main > li a {

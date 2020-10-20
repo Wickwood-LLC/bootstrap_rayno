@@ -335,12 +335,11 @@ p:last-child,
         grid-column: 2 / 3;
         grid-row: 1 / 2;
       }
-      #block-addressandphone,
-      #block-headerbuttons-menu {
+      #block-addressandphone {
         grid-column: 1 / span 2;
       }
       #block-bootstrap-rayno-mainmenu-2 {
-        grid-column: span 2;
+        grid-column: 1 / span 2;
       }
     }
 
@@ -348,10 +347,17 @@ p:last-child,
       .text-logo-and-slogan {
         grid-row: 1 / span 2;
       }
+      #block-headerbuttons {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+      }
       #block-addressandphone {
         grid-column: 2 / 3;
         grid-row: 2 / 3;
         font-size: 1em;
+      }
+      #block-bootstrap-rayno-mainmenu-2 {
+        margin-top: 0.5em;
       }
     }
 
@@ -363,7 +369,7 @@ p:last-child,
         grid-row: 1 / 2;
         text-align: right;
       }
-      #block-headerbuttons-menu {
+      #block-headerbuttons {
         grid-column: 3 / 4;
         grid-row: 1 / 2;
       }
@@ -673,6 +679,7 @@ nav.tabs {
   font-weight: bold;
   text-transform: uppercase;
   float: none;
+  margin-top: 0;
 
   > li {
     a {
