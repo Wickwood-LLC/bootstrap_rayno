@@ -246,8 +246,6 @@ p:last-child,
 }
 
 .header-container {
-  border-bottom: 2em solid #021062;
-  margin-bottom: 1em;
 }
 
 #navbar {
@@ -255,6 +253,7 @@ p:last-child,
   border: 0;
   width: 100%;
   max-width: 1400px;
+  margin-bottom: 0;
 
   .navbar-header {
     float: none;
@@ -393,7 +392,7 @@ p:last-child,
   .header-phone {
     display: inline-block;
     font-size: 0.8em;
-    margin: 0.5em;
+    margin: 0.5em 0.5em 0;
   }
 }
 
