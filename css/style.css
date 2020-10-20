@@ -8350,6 +8350,11 @@ p:last-child,
   border-radius: 0 5px 5px 0;
 }
 
+.region-header {
+  background-color: #021062;
+  padding: 1em;
+}
+
 .breadcrumb > li + li:before {
   padding: 0 5px;
   color: #777777;

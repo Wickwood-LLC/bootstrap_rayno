@@ -450,6 +450,11 @@ p:last-child,
   }
 }
 
+.region-header {
+  background-color: $brand-primary;
+  padding: 1em;
+}
+
 .breadcrumb {
   >li+li:before {
     padding: 0 5px;
