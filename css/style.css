@@ -8246,7 +8246,7 @@ p:last-child,
   #navbar .region-navigation #block-addressandphone {
     grid-column: 1 / span 2;
   }
-  #navbar .region-navigation #block-bootstrap-rayno-mainmenu-2 {
+  #navbar .region-navigation #navbar-collapse {
     grid-column: 1 / span 2;
   }
 }
@@ -8264,7 +8264,7 @@ p:last-child,
     grid-row: 2 / 3;
     font-size: 1em;
   }
-  #navbar .region-navigation #block-bootstrap-rayno-mainmenu-2 {
+  #navbar .region-navigation #navbar-collapse {
     margin-top: 0.5em;
   }
 }
@@ -8282,7 +8282,7 @@ p:last-child,
     grid-column: 3 / 4;
     grid-row: 1 / 2;
   }
-  #navbar .region-navigation #block-bootstrap-rayno-mainmenu-2 {
+  #navbar .region-navigation #navbar-collapse {
     grid-column: 2 / 4;
     grid-row: 2 / 3;
     justify-self: end;
