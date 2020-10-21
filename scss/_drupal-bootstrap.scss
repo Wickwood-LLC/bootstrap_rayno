@@ -968,7 +968,9 @@ nav.tabs {
     display: table;
     content: '\f1e0' !important;
     font-family: 'Font Awesome 5 Pro';
+    color: $brand-primary;
     font-size: 24px;
+    font-weight: 400;
     position: absolute;
     right: -36px;
     width: 36px;
