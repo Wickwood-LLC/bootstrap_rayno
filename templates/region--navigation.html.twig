@@ -23,7 +23,7 @@
 {% if content %}
   <div{{ attributes.addClass(classes) }}>
     {{ content }}
-    {% if region.navigation_collapsible is not empty %}
+    {% if {{ drupal_region('navigation_collapsible') }} is not empty %}
       <div id="navbar-collapse" class="navbar-collapse collapse">
         {{ drupal_region('navigation_collapsible') }} {# Requires Twig Tweak #}
       </div>
