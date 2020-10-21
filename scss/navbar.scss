@@ -60,6 +60,7 @@
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
   @include clearfix;
   -webkit-overflow-scrolling: touch;
+  z-index: 5;
 
   &.in {
     overflow-y: auto;
