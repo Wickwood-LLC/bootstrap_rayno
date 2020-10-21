@@ -7112,7 +7112,7 @@ button.close {
   }
 }
 
-.navbar-collapse {
+#navbar-collapse {
   padding-right: 15px;
   padding-left: 15px;
   overflow: hidden;
@@ -7121,63 +7121,63 @@ button.close {
   -webkit-overflow-scrolling: touch;
 }
 
-.navbar-collapse:before, .navbar-collapse:after {
+#navbar-collapse:before, #navbar-collapse:after {
   display: table;
   content: " ";
 }
 
-.navbar-collapse:after {
+#navbar-collapse:after {
   clear: both;
 }
 
-.navbar-collapse.in {
+#navbar-collapse.in {
   overflow-y: auto;
 }
 
 @media (max-width: 546px) {
-  .navbar-collapse {
-    position: absolute;
+  #navbar-collapse {
+    position: absolute !important;
     background-color: white;
     right: 0;
     top: 76px;
   }
-  .navbar-collapse .menu--main {
+  #navbar-collapse #block-bootstrap-rayno-mainmenu-2 .menu--main {
     margin: 0;
   }
-  .navbar-collapse .menu--main > li {
+  #navbar-collapse #block-bootstrap-rayno-mainmenu-2 .menu--main > li {
     display: block;
   }
-  .navbar-collapse .menu--main > li a {
+  #navbar-collapse #block-bootstrap-rayno-mainmenu-2 .menu--main > li a {
     border-bottom: 0px;
   }
-  .navbar-collapse .menu--main > li a:hover, .navbar-collapse .menu--main > li a:focus {
+  #navbar-collapse #block-bootstrap-rayno-mainmenu-2 .menu--main > li a:hover, #navbar-collapse #block-bootstrap-rayno-mainmenu-2 .menu--main > li a:focus {
     background-color: #031894;
     color: #FFF;
   }
-  .navbar-collapse .menu--main > li.active a {
+  #navbar-collapse #block-bootstrap-rayno-mainmenu-2 .menu--main > li.active a.is-active {
     background-color: #021062;
     color: #FFF;
   }
 }
 
 @media (min-width: 547px) {
-  .navbar-collapse {
+  #navbar-collapse {
     width: auto;
     border-top: 0;
     box-shadow: none;
   }
-  .navbar-collapse.collapse {
+  #navbar-collapse.collapse {
     display: block !important;
     height: auto !important;
     padding-bottom: 0;
     overflow: visible !important;
   }
-  .navbar-collapse.in {
+  #navbar-collapse.in {
     overflow-y: visible;
   }
-  .navbar-fixed-top .navbar-collapse,
-  .navbar-static-top .navbar-collapse,
-  .navbar-fixed-bottom .navbar-collapse {
+  .navbar-fixed-top #navbar-collapse,
+  .navbar-static-top #navbar-collapse,
+  .navbar-fixed-bottom #navbar-collapse {
     padding-right: 0;
     padding-left: 0;
   }
