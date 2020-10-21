@@ -8350,7 +8350,7 @@ p:last-child,
   border-radius: 0 5px 5px 0;
 }
 
-.region-header {
+.region-topbar {
   background-color: #021062;
   color: white;
   margin-bottom: 1em;
@@ -8847,6 +8847,7 @@ nav.tabs {
   font-family: 'Font Awesome 5 Pro';
   color: #021062;
   font-size: 24px;
+  font-weight: 400;
   position: absolute;
   right: -36px;
   width: 36px;
