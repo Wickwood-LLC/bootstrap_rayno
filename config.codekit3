@@ -3149,6 +3149,13 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/templates/region--navigation.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/region--navigation.html.twig",
+		"oF": 0
 		}
 	},
 "hooks": [

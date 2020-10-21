@@ -259,11 +259,6 @@ p:last-child,
   max-width: 1400px;
   margin-bottom: 0;
 
-  .navbar-header {
-    float: none;
-    margin: 0;
-  }
-
   .navbar-brand {
     color: $brand-primary;
     float: none;
@@ -320,11 +315,13 @@ p:last-child,
     }
   }
 
-  .region-navigation {
+  .navbar-header {
     display: grid;
     align-items: center;
     grid-template-columns: 1fr;
     justify-content: center;
+    float: none;
+    margin: 0;
 
     #block-addressandphone {
       font-size: 1.2em;
