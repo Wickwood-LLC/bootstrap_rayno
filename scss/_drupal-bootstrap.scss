@@ -946,19 +946,15 @@ nav.tabs {
 
 #block-bootstrap-rayno-socialsharingblock {
   position: fixed;
-  top: 150px;
-  left: -302px;
+  top: 95px;
+  left: -294px;
   padding: 1em;
   border: 1px solid #ccc;
   border-radius: 0;
   background-color: white;
-  width: auto;
+  width: 294px;
   transition: 0.5s;
   z-index: 5;
-
-  @include breakpoint(980px) {
-    top: 200px;
-  }
 
   &:hover,
   &:focus,

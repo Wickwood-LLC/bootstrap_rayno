@@ -1796,7 +1796,7 @@ dd {
   clear: both;
 }
 
-@media (min-width: 530px) {
+@media (min-width: 547px) {
   .dl-horizontal dt {
     float: left;
     width: 160px;
@@ -4193,7 +4193,7 @@ tbody.collapse.in {
   margin-bottom: 2px;
 }
 
-@media (min-width: 530px) {
+@media (min-width: 547px) {
   .navbar-right .dropdown-menu {
     right: 0;
     left: auto;
@@ -7478,7 +7478,7 @@ body.navbar-is-fixed-bottom {
   padding-right: 15px;
 }
 
-@media screen and (min-width: 530px) {
+@media screen and (min-width: 547px) {
   .navbar .logo {
     margin-right: 0;
     padding-left: 0;
@@ -8824,21 +8824,15 @@ nav.tabs {
 
 #block-bootstrap-rayno-socialsharingblock {
   position: fixed;
-  top: 150px;
-  left: -302px;
+  top: 95px;
+  left: -294px;
   padding: 1em;
   border: 1px solid #ccc;
   border-radius: 0;
   background-color: white;
-  width: auto;
+  width: 294px;
   transition: 0.5s;
   z-index: 5;
-}
-
-@media (min-width: 980px) {
-  #block-bootstrap-rayno-socialsharingblock {
-    top: 200px;
-  }
 }
 
 #block-bootstrap-rayno-socialsharingblock:hover, #block-bootstrap-rayno-socialsharingblock:focus, #block-bootstrap-rayno-socialsharingblock:active {
