@@ -23,6 +23,6 @@
 {% if content %}
   <div{{ attributes.addClass(classes) }}>
     {{ content }}
-    {{ page.navigation_collapsible }}
+    {{ drupal_region('navigation_collapsible') }} {# Requires Twig Tweak #}
   </div>
 {% endif %}
