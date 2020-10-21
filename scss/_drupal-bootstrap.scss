@@ -401,6 +401,8 @@ p:last-child,
 }
 
 #navbar-collapse {
+  padding: 0;
+  
   .navbar-nav {
     li.dropdown:hover {
       >ul.dropdown-menu {
