@@ -1796,7 +1796,7 @@ dd {
   clear: both;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 530px) {
   .dl-horizontal dt {
     float: left;
     width: 160px;
@@ -4193,7 +4193,7 @@ tbody.collapse.in {
   margin-bottom: 2px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 530px) {
   .navbar-right .dropdown-menu {
     right: 0;
     left: auto;
@@ -7478,7 +7478,7 @@ body.navbar-is-fixed-bottom {
   padding-right: 15px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 530px) {
   .navbar .logo {
     margin-right: 0;
     padding-left: 0;
@@ -7832,6 +7832,10 @@ body {
   body {
     font-size: 20px;
   }
+}
+
+body {
+  margin-top: 15px;
 }
 
 h1, .h1 {
@@ -8353,7 +8357,9 @@ p:last-child,
 .region-topbar {
   background-color: #021062;
   color: white;
+  font-size: 0.85em;
   margin-bottom: 1em;
+  margin-top: 0.8em;
   padding: 1em;
 }
 
