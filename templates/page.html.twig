@@ -72,12 +72,7 @@
         {% endif %}
         <div class="navbar-header">
           {{ page.navigation }}
-          {# Navigation (collapsible) #}
-          {% if page.navigation_collapsible %}
-            <div id="navbar-collapse" class="navbar-collapse collapse">
-              {{ page.navigation_collapsible }}
-            </div>
-          {% endif %}
+          {# Navigation (collapsible) is rendered inside the Navigation region. @see region--navigation.html.twig  #}
           {# .btn-navbar is used as the toggle for collapsed navbar content #}
           {% if page.navigation_collapsible %}
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">

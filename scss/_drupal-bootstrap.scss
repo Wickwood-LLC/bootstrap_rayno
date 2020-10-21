@@ -259,6 +259,11 @@ p:last-child,
   max-width: 1400px;
   margin-bottom: 0;
 
+  .navbar-header {
+    float: none;
+    margin: 0;
+  }
+
   .navbar-brand {
     color: $brand-primary;
     float: none;
@@ -315,13 +320,11 @@ p:last-child,
     }
   }
 
-  .navbar-header {
+  .region-navigation {
     display: grid;
     align-items: center;
     grid-template-columns: 1fr;
     justify-content: center;
-    float: none;
-    margin: 0;
 
     #block-addressandphone {
       font-size: 1.2em;
@@ -338,7 +341,7 @@ p:last-child,
       #block-addressandphone {
         grid-column: 1 / span 2;
       }
-      #navbar-collapse {
+      #block-bootstrap-rayno-mainmenu-2 {
         grid-column: 1 / span 2;
       }
     }
@@ -356,7 +359,7 @@ p:last-child,
         grid-row: 2 / 3;
         font-size: 1em;
       }
-      #navbar-collapse {
+      #block-bootstrap-rayno-mainmenu-2 {
         margin-top: 0.5em;
       }
     }
@@ -373,7 +376,7 @@ p:last-child,
         grid-column: 3 / 4;
         grid-row: 1 / 2;
       }
-      #navbar-collapse {
+      #block-bootstrap-rayno-mainmenu-2 {
         grid-column: 2 / 4;
         grid-row: 2 / 3;
         justify-self: end;
