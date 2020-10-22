@@ -237,6 +237,9 @@
   right: -1px;
   top: 42px;
 
+  &.collapsed {
+    border-radius: 5px 0px 0px 5px;
+  }
   &:not(.collapsed) {
     border-radius: 5px 0px 0px 0px;
   }
