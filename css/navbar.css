@@ -7283,6 +7283,7 @@ button.close {
   background-color: white;
   background-image: none;
   border: 1px solid #ccc;
+  border-radius: 5px 0px 0px 5px;
   right: -1px;
   top: 42px;
 }
