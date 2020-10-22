@@ -233,14 +233,13 @@
   background-color: white;
   background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
   border: 1px solid #ccc;
-  border-radius: 5px 0px 0px 5px;
   right: -1px;
   top: 42px;
 
-  &.collapsed {
+  &[aria-expanded="false"] {
     border-radius: 5px 0px 0px 5px;
   }
-  &:not(.collapsed) {
+  &[aria-expanded="true"] {
     border-radius: 5px 0px 0px 0px;
   }
 

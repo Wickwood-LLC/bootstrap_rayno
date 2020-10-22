@@ -7283,16 +7283,15 @@ button.close {
   background-color: white;
   background-image: none;
   border: 1px solid #ccc;
-  border-radius: 5px 0px 0px 5px;
   right: -1px;
   top: 42px;
 }
 
-.navbar-toggle.collapsed {
+.navbar-toggle[aria-expanded="false"] {
   border-radius: 5px 0px 0px 5px;
 }
 
-.navbar-toggle:not(.collapsed) {
+.navbar-toggle[aria-expanded="true"] {
   border-radius: 5px 0px 0px 0px;
 }
 
