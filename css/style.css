@@ -8306,6 +8306,10 @@ p:last-child,
   margin: 0.5em 0.5em 0;
 }
 
+#block-addressandphone .header-phone {
+  margin: 0 0.5em 0.5em;
+}
+
 #navbar-collapse {
   padding: 0;
 }
