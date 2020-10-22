@@ -8839,6 +8839,10 @@ body.adminimal-admin-toolbar #block-bootstrap-rayno-socialsharingblock {
   top: 95px;
 }
 
+body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingblock {
+  top: 140px;
+}
+
 #block-bootstrap-rayno-socialsharingblock:hover, #block-bootstrap-rayno-socialsharingblock:focus, #block-bootstrap-rayno-socialsharingblock:active {
   left: 0;
   box-shadow: 2px 3px 10px 0 #333;

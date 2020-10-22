@@ -959,6 +959,9 @@ nav.tabs {
   body.adminimal-admin-toolbar & {
     top: 95px;
   }
+  body.toolbar-horizontal.toolbar-tray-open & {
+    top: 140px;
+  }
 
   &:hover,
   &:focus,
