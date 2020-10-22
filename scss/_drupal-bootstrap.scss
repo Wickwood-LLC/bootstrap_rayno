@@ -946,15 +946,19 @@ nav.tabs {
 
 #block-bootstrap-rayno-socialsharingblock {
   position: fixed;
-  top: 95px;
+  top: 56px;
   left: -294px;
   padding: 1em;
   border: 1px solid #ccc;
-  border-radius: 0;
+  border-radius: 0px 5px 5px 0px;
   background-color: white;
   width: 294px;
   transition: 0.5s;
-  z-index: 5;
+  z-index: 5;  
+
+  body.adminimal-admin-toolbar & {
+    top: 95px;
+  }
 
   &:hover,
   &:focus,
@@ -984,6 +988,7 @@ nav.tabs {
     box-sizing: border-box;
     text-align: center;
     border: 1px solid #ccc;
+    border-radius: 0px 5px 5px 0px;
     box-shadow: 2px 2px 30px -3px #383838;
     opacity: 1;
     transition: all 1s ease 0.5s;
