@@ -7131,7 +7131,7 @@ button.close {
   clear: both;
 }
 
-#navbar-collapse.in {
+#navbar-collapse.in, #navbar-collapse.collapsing {
   overflow-y: auto;
   box-shadow: -2px 3px 10px 0 #333;
   border-radius: 5px 0px 0px 5px;
