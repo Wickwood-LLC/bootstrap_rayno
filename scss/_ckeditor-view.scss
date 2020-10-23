@@ -194,16 +194,16 @@ a.wt-button {
   font-family: proxima-nova, sans-serif;
   user-select: none;
   color: #fff;
-  background-color: #5CB85B;
-  border-color: #4cae4c;
+  background-color: $brand-primary;
+  border-color: darken($brand-primary, 10%);
   padding: .3em .5em;
   line-height: 1.5;
-  border-radius: 3px;
+  border-radius: 20px;
 }
 a.wt-button:hover {
   color: #fff;
-  background-color: #449d44;
-  border-color: #398439;
+  background-color: lighten($brand-primary, 10%);
+  border-color: $brand-primary;
   text-decoration: none;
 }
 .fluid-columns-300 {

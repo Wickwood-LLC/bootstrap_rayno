@@ -9514,17 +9514,17 @@ a.wt-button {
       -ms-user-select: none;
           user-select: none;
   color: #fff;
-  background-color: #5CB85B;
-  border-color: #4cae4c;
+  background-color: #021062;
+  border-color: #010830;
   padding: .3em .5em;
   line-height: 1.5;
-  border-radius: 3px;
+  border-radius: 20px;
 }
 
 a.wt-button:hover {
   color: #fff;
-  background-color: #449d44;
-  border-color: #398439;
+  background-color: #031894;
+  border-color: #021062;
   text-decoration: none;
 }
 
