@@ -64,6 +64,8 @@
 
   &.in {
     overflow-y: auto;
+    box-shadow: -2px 3px 10px 0 #333;
+    border-radius: 5px 0px 0px 5px;
   }
 
   @media (max-width: $grid-float-breakpoint-max) {
