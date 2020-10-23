@@ -1119,6 +1119,20 @@ nav.tabs {
   }
 }
 
+.view-vehicle-manufacturers {
+  .view-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    .views-row {
+      flex: 1 1 16%;
+      margin: 1em;
+      max-width: 16%;
+    }
+  }
+}
+
 /********************* MAINTENANCE *********************/
 .maintenance-page {
   background-color: #d9d9d9;
