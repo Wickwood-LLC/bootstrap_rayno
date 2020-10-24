@@ -786,14 +786,21 @@ nav.tabs {
     margin: 0;
 
     .layout__region--first {
-      padding: 7% 7%;
+      padding: 0 7%;
       box-sizing: border-box;
       margin: 0;
       flex: 1 1 36%;
     }
     .layout__region--second {
+      align-self: stretch;
       flex: 1 1 50%;
       max-width: 50%;
+
+      * {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+      }
     }
   }
 }
