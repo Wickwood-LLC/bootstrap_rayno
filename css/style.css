@@ -7813,7 +7813,7 @@ body.toolbar-loading.toolbar {
 html,
 body {
   background-color: #d9d9d9;
-  font-family: 'Roboto';
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 html,
@@ -8757,6 +8757,10 @@ nav.tabs {
   z-index: 1;
 }
 
+.path-frontpage #makes-and-models .note {
+  font-size: 0.5em;
+}
+
 /********************* NODE *********************/
 .node.teaser .node-title {
   text-align: center;
@@ -9127,9 +9131,14 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
 }
 
 .view-vehicle-manufacturers .view-content .views-row {
-  flex: 1 1 16%;
+  flex: 1 1 calc((100% / 7) - 2em);
+  max-width: calc((100% / 7) - 2em);
   margin: 1em;
-  max-width: 16%;
+  text-align: center;
+}
+
+.view-vehicle-manufacturers .view-content .views-row img {
+  margin: auto;
 }
 
 /********************* MAINTENANCE *********************/
