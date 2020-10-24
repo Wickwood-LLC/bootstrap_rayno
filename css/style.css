@@ -7838,6 +7838,10 @@ body {
   margin-top: 15px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display';
+}
+
 h1, .h1 {
   font-weight: bold;
 }
@@ -8723,6 +8727,33 @@ nav.tabs {
     max-width: 50%;
     padding: 0;
   }
+}
+
+.path-frontpage #makes-and-models {
+  background-color: #e4e4e4;
+  padding: 3em 0;
+  position: relative;
+}
+
+.path-frontpage #makes-and-models .section-watermark {
+  text-align: center;
+  color: #dddddd;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  width: 100%;
+}
+
+.path-frontpage #makes-and-models .section-watermark h3 {
+  font-size: 6em;
+  font-weight: 800;
+  font-family: 'Playfair Display';
+  margin: 0;
+}
+
+.path-frontpage #makes-and-models .block-views-blockvehicle-manufacturers-block-1 {
+  position: relative;
+  z-index: 1;
 }
 
 /********************* NODE *********************/
