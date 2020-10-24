@@ -761,6 +761,43 @@ nav.tabs {
   }
 }
 
+/********************* FRONT PAGE *********************/
+.path-frontpage {
+  .main-container {
+    max-width: unset;
+    padding: 0;
+  }
+  .highlighted {
+    max-width: 1400px;
+    margin: auto;
+  }
+  nav.tabs {
+    max-width: 1400px;
+    margin: auto;
+    display: block;
+  }
+
+  #welcome-section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #d9d9d9;
+    margin: 0;
+
+    .layout__region--first {
+      padding: 7% 7%;
+      box-sizing: border-box;
+      margin: 0;
+      flex: 1 1 36%;
+    }
+    .layout__region--second {
+      flex: 1 1 50%;
+      max-width: 50%;
+    }
+  }
+}
+
 /********************* NODE *********************/
 .node.teaser {
   .node-title {
