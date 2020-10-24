@@ -8671,6 +8671,8 @@ nav.tabs {
   margin: auto;
   display: block;
   padding: 0 15px;
+  z-index: 1;
+  position: relative;
 }
 
 .path-frontpage #welcome-section {
@@ -8702,6 +8704,7 @@ nav.tabs {
   align-self: stretch;
   flex: 1 1 50%;
   max-width: 50%;
+  padding: 0 7%;
 }
 
 .path-frontpage #welcome-section .layout__region--second * {
@@ -8719,7 +8722,7 @@ nav.tabs {
 @media (min-width: 768px) {
   .path-frontpage #welcome-section .layout__region--second {
     max-width: 50%;
-    padding: 0 7%;
+    padding: 0;
   }
 }
 

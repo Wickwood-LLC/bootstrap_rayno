@@ -777,6 +777,8 @@ nav.tabs {
     margin: auto;
     display: block;
     padding: 0 15px;
+    z-index: 1;
+    position: relative;
   }
 
   #welcome-section {
@@ -806,6 +808,7 @@ nav.tabs {
       align-self: stretch;
       flex: 1 1 50%;
       max-width: 50%;
+      padding: 0 7%;
 
       * {
         object-fit: cover;
@@ -819,7 +822,7 @@ nav.tabs {
 
       @include breakpoint(768px) {
         max-width: 50%;
-        padding: 0 7%;
+        padding: 0;
       }
     }
   }
