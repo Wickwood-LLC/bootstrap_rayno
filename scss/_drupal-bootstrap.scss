@@ -770,11 +770,13 @@ nav.tabs {
   .highlighted {
     max-width: 1400px;
     margin: auto;
+    padding: 0 15px;
   }
   nav.tabs {
     max-width: 1400px;
     margin: auto;
     display: block;
+    padding: 0 15px;
   }
 
   #welcome-section {
@@ -785,11 +787,20 @@ nav.tabs {
     background-color: #d9d9d9;
     margin: 0;
 
+    .text-blue {
+      color: $brand-primary;
+    }
+
     .layout__region--first {
       padding: 0 7%;
       box-sizing: border-box;
       margin: 0;
       flex: 1 1 36%;
+      min-width: 376px;
+
+      img {
+        width: 100%;
+      }
     }
     .layout__region--second {
       align-self: stretch;
@@ -800,6 +811,15 @@ nav.tabs {
         object-fit: cover;
         height: 100%;
         width: 100%;
+      }
+      .contextual-links {
+        height: unset;
+        width: unset;
+      }
+
+      @include breakpoint(768px) {
+        max-width: 50%;
+        padding: 0 7%;
       }
     }
   }
