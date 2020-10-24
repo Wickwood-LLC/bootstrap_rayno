@@ -8669,7 +8669,6 @@ nav.tabs {
 .path-frontpage nav.tabs {
   max-width: 1400px;
   margin: auto;
-  display: block;
   padding: 0 15px;
   z-index: 1;
   position: relative;
