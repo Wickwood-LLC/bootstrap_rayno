@@ -813,9 +813,12 @@ nav.tabs {
       line-height: 0.65;
       
       &:after {
-        bottom: -43%;
-        margin-left: -70%;
-        width: 150%;
+        background: none;
+        border-left: 3px solid transparent;
+        border-bottom: 5px solid #041068;
+        bottom: -44%;
+        margin-left: -95%;
+        width: 165%;
         height: 5px;
       }
     }
