@@ -8682,11 +8682,16 @@ nav.tabs {
 }
 
 .path-frontpage nav.tabs {
+  display: block;
   max-width: 1400px;
   margin: auto;
   padding: 0 15px;
   z-index: 1;
   position: relative;
+}
+
+.path-frontpage article.page {
+  clear: both;
 }
 
 .path-frontpage #welcome-section {
@@ -8727,7 +8732,7 @@ nav.tabs {
 }
 
 .path-frontpage #welcome-section .layout__region--first {
-  padding: 0 7%;
+  padding: 1em 7%;
   box-sizing: border-box;
   margin: 0;
   flex: 1 1 36%;
