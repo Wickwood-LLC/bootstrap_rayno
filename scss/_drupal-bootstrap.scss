@@ -788,11 +788,16 @@ nav.tabs {
     padding: 0 15px;
   }
   nav.tabs {
+    display: block;
     max-width: 1400px;
     margin: auto;
     padding: 0 15px;
     z-index: 1;
     position: relative;
+  }
+
+  article.page {
+    clear: both;
   }
 
   #welcome-section {
