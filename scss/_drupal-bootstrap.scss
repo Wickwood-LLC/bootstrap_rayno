@@ -849,14 +849,8 @@ nav.tabs {
     .layout__region--second {
       align-self: stretch;
       flex: 1 1 50%;
-      max-width: 50%;
       padding: 0 7%;
 
-      * {
-        object-fit: cover;
-        height: 100%;
-        width: 100%;
-      }
       .contextual-links {
         height: unset;
         width: unset;
@@ -865,6 +859,12 @@ nav.tabs {
       @include breakpoint(768px) {
         max-width: 50%;
         padding: 0;
+
+        * {
+          object-fit: cover;
+          height: 100%;
+          width: 100%;
+        }
       }
     }
   }
