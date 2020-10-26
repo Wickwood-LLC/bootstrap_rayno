@@ -808,6 +808,12 @@ nav.tabs {
     }
     .logo-line1 {
       color: $brand-primary;
+
+      &:before,
+      &:after {
+        width: unset;
+        flex: 1;
+      }
     }
     .logo-lower-case {
       line-height: 0.65;

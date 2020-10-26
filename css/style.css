@@ -8706,6 +8706,11 @@ nav.tabs {
   color: #021062;
 }
 
+.path-frontpage #welcome-section .logo-line1:before, .path-frontpage #welcome-section .logo-line1:after {
+  width: unset;
+  flex: 1;
+}
+
 .path-frontpage #welcome-section .logo-lower-case {
   line-height: 0.65;
 }
