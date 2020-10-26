@@ -196,6 +196,7 @@ a.wt-button {
   margin-bottom: 0;
   font-weight: bold;
   text-align: center;
+  text-decoration: none;
   white-space: nowrap;
   vertical-align: middle;
   touch-action: manipulation;
@@ -204,9 +205,9 @@ a.wt-button {
   border: 1px solid transparent;
   font-family: proxima-nova, sans-serif;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   color: #fff;
   background-color: #021062;
   border-color: #021062;
@@ -224,8 +225,8 @@ a.wt-button {
 
 a.wt-button:hover {
   color: #fff;
-  background-color: #449d44;
-  border-color: #398439;
+  background-color: #031894;
+  border-color: #031894;
   text-decoration: none; }
 
 .fluid-columns,
