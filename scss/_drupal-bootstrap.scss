@@ -28,7 +28,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Nunito, sans-serif;
+  font-family: 'Playfair Display';
 }
 
 h1,
@@ -474,6 +474,7 @@ p:last-child,
 
   a {
     color: #CAB07B;
+    text-decoration: none;
     
     &:hover {
       color: #CAB07B;
@@ -802,8 +803,17 @@ nav.tabs {
     background-color: #d9d9d9;
     margin: 0;
 
-    .text-blue {
-      color: $brand-primary;
+    .field--name-title-html {
+      text-align: left;
+    }
+    .logo-lower-case {
+      line-height: 0.65;
+      
+      &:after {
+        bottom: -30px;
+        margin-left: -50px;
+        width: 105px;
+      }
     }
 
     .layout__region--first {
