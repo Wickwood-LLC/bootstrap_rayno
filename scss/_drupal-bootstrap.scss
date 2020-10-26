@@ -471,6 +471,15 @@ p:last-child,
   margin-bottom: 1em;
   margin-top: 0.8em;
   padding: 1em;
+
+  a {
+    color: #CAB07B;
+    
+    &:hover {
+      color: #CAB07B;
+      text-decoration: overline;
+    }
+  }
 }
 
 .breadcrumb {

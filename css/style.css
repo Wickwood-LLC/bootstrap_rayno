@@ -8376,6 +8376,15 @@ p:last-child,
   padding: 1em;
 }
 
+.region-topbar a {
+  color: #CAB07B;
+}
+
+.region-topbar a:hover {
+  color: #CAB07B;
+  text-decoration: overline;
+}
+
 .breadcrumb > li + li:before {
   padding: 0 5px;
   color: #777777;
