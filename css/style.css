@@ -7813,7 +7813,7 @@ body.toolbar-loading.toolbar {
 html,
 body {
   background-color: #d9d9d9;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto';
 }
 
 html,
@@ -7840,7 +7840,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Playfair Display';
+  font-family: Nunito, sans-serif;
 }
 
 h1, .h1 {

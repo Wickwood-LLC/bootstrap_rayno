@@ -20,7 +20,7 @@ html,
 body {
   @include fluid-type(320px, 1200px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
   background-color: #d9d9d9;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto';
 }
 body {
   @include breakpoint(0px 767px)
@@ -28,7 +28,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Playfair Display';
+  font-family: Nunito, sans-serif;
 }
 
 h1,
