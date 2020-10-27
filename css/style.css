@@ -10520,7 +10520,7 @@ nav.tabs {
   width: unset;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 885px) {
   /* line 853, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .path-frontpage #welcome-section .layout__region--second {
     max-width: 50%;
