@@ -8383,7 +8383,7 @@ p:last-child,
 
 .region-topbar a:hover {
   color: #CAB07B;
-  text-decoration: overline;
+  text-decoration: underline;
 }
 
 .breadcrumb > li + li:before {
