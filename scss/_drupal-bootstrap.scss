@@ -852,7 +852,7 @@ nav.tabs {
     }
     .layout__region--second {
       align-self: stretch;
-      flex: 1 1 50%;
+      flex: 1 1 100%;
       padding: 0 7%;
 
       .contextual-links {
@@ -861,6 +861,7 @@ nav.tabs {
       }
 
       @include breakpoint(885px) {
+        flex: 1 1 50%;
         max-width: 50%;
         padding: 0;
 
