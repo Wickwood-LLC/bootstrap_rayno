@@ -1,3 +1,4 @@
+# WWM Content Image Slideshow Breakpoints
 bootstrap_wwm_base.content_image_slidehow.phone_portrait:
   label: Phone Portrait
   mediaQuery: '(max-width: 320px)'
@@ -37,4 +38,21 @@ bootstrap_wwm_base.content_image_slidehow.desktop:
   multipliers: 
     - 1x
   group: bootstrap_wwm_base.content_image_slidehow
+
+# Bootstrap Breakpoints
+bootstrap_rayno.small_screen:
+  label: Small Screen
+  mediaQuery: '(max-width: 884px)'
+  weight: 0
+  multipliers: 
+    - 1x
+  group: bootstrap_rayno.breakpoints
+
+bootstrap_rayno.large_screen:
+    label: Large Screen
+    mediaQuery: '(min-width: 885px)'
+    weight: 1
+    multipliers: 
+      - 1x
+    group: bootstrap_rayno.breakpoints
   
