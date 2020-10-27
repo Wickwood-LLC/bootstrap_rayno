@@ -1281,6 +1281,13 @@ nav.tabs {
   }
 }
 
+/********************* FLEXSLIDER *********************/
+#flexslider-1 {
+  .slides > li {
+    margin: 15px;
+  }
+}
+
 /********************* MAINTENANCE *********************/
 .maintenance-page {
   background-color: #d9d9d9;
