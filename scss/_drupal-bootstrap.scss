@@ -809,7 +809,6 @@ nav.tabs {
     margin: 0;
 
     .field--name-title-html {
-      font-family: 'Nunito', sans-serif;
       text-align: left;
     }
     .logo-line1 {
@@ -819,9 +818,14 @@ nav.tabs {
       &:after {
         width: unset;
         flex: 1;
+        max-width: 150px;
       }
     }
+    .logo-upper-case {
+      font-size: 1.8em;
+    }
     .logo-lower-case {
+      font-size: 2.3em;
       line-height: 0.65;
       
       &:after {
@@ -836,7 +840,7 @@ nav.tabs {
     }
 
     .layout__region--first {
-      padding: 1em 7%;
+      padding: 1em 4%;
       box-sizing: border-box;
       margin: 0;
       flex: 1 1 36%;

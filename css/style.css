@@ -8704,7 +8704,6 @@ nav.tabs {
 }
 
 .path-frontpage #welcome-section .field--name-title-html {
-  font-family: 'Nunito', sans-serif;
   text-align: left;
 }
 
@@ -8715,9 +8714,15 @@ nav.tabs {
 .path-frontpage #welcome-section .logo-line1:before, .path-frontpage #welcome-section .logo-line1:after {
   width: unset;
   flex: 1;
+  max-width: 150px;
+}
+
+.path-frontpage #welcome-section .logo-upper-case {
+  font-size: 1.8em;
 }
 
 .path-frontpage #welcome-section .logo-lower-case {
+  font-size: 2.3em;
   line-height: 0.65;
 }
 
@@ -8732,7 +8737,7 @@ nav.tabs {
 }
 
 .path-frontpage #welcome-section .layout__region--first {
-  padding: 1em 7%;
+  padding: 1em 4%;
   box-sizing: border-box;
   margin: 0;
   flex: 1 1 36%;
