@@ -8831,6 +8831,7 @@ nav.tabs {
   align-self: stretch;
   flex: 1 1 100%;
   padding: 0 7%;
+  margin: 0;
 }
 
 .path-frontpage #join-rayno-club .layout__region--first .contextual-links {
@@ -8855,7 +8856,6 @@ nav.tabs {
 .path-frontpage #join-rayno-club .layout__region--second {
   padding: 1em 4%;
   box-sizing: border-box;
-  margin: 0;
   flex: 1 1 36%;
   min-width: 376px;
 }
