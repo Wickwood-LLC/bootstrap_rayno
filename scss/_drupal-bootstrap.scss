@@ -935,6 +935,10 @@ nav.tabs {
         width: unset;
       }
 
+      img {
+        width: 100%;
+      }
+
       @include breakpoint(885px) {
         flex: 1 1 50%;
         max-width: 50%;
@@ -945,10 +949,6 @@ nav.tabs {
           height: 100%;
           width: 100%;
         }
-      }
-
-      img {
-        width: 100%;
       }
     }
     .layout__region--second {

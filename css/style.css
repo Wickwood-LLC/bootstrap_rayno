@@ -8839,6 +8839,10 @@ nav.tabs {
   width: unset;
 }
 
+.path-frontpage #join-rayno-club .layout__region--first img {
+  width: 100%;
+}
+
 @media (min-width: 885px) {
   .path-frontpage #join-rayno-club .layout__region--first {
     flex: 1 1 50%;
@@ -8851,10 +8855,6 @@ nav.tabs {
     height: 100%;
     width: 100%;
   }
-}
-
-.path-frontpage #join-rayno-club .layout__region--first img {
-  width: 100%;
 }
 
 .path-frontpage #join-rayno-club .layout__region--second {
