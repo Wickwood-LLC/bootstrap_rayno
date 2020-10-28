@@ -9355,7 +9355,7 @@ body {
 
 /* line 30, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', serif;
 }
 
 /* line 34, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
@@ -10559,7 +10559,7 @@ nav.tabs {
 .path-frontpage #makes-and-models .section-watermark h3 {
   font-size: 6em;
   font-weight: 800;
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', serif;
   margin: 0;
 }
 
