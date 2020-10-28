@@ -818,7 +818,7 @@ nav.tabs {
 
     .field--name-title-html {
       text-align: center;
-
+  
       @include breakpoint(885px) {
         text-align: left;
       }
@@ -913,6 +913,49 @@ nav.tabs {
 
     .note {
       font-size: 0.5em;
+    }
+  }
+
+  #join-rayno-club {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #d9d9d9;
+    margin: 0;
+
+    .layout__region--first {
+      align-self: stretch;
+      flex: 1 1 100%;
+      padding: 0 7%;
+
+      .contextual-links {
+        height: unset;
+        width: unset;
+      }
+
+      @include breakpoint(885px) {
+        flex: 1 1 50%;
+        max-width: 50%;
+        padding: 0;
+
+        * {
+          object-fit: cover;
+          height: 100%;
+          width: 100%;
+        }
+      }
+    }
+    .layout__region--second {
+      padding: 1em 4%;
+      box-sizing: border-box;
+      margin: 0;
+      flex: 1 1 36%;
+      min-width: 376px;
+
+      img {
+        width: 100%;
+      }
     }
   }
 }
