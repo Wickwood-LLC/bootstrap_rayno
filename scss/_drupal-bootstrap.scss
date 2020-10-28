@@ -817,7 +817,11 @@ nav.tabs {
     margin: 0;
 
     .field--name-title-html {
-      text-align: left;
+      text-align: center;
+
+      @include breakpoint(885px) {
+        text-align: left;
+      }
     }
     .logo-line1 {
       color: $brand-primary;
