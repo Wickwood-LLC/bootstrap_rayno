@@ -946,16 +946,16 @@ nav.tabs {
           width: 100%;
         }
       }
+
+      img {
+        width: 100%;
+      }
     }
     .layout__region--second {
       padding: 1em 4%;
       box-sizing: border-box;
       flex: 1 1 36%;
-      min-width: 376px;
-
-      img {
-        width: 100%;
-      }
+      min-width: 376px;      
     }
   }
 }

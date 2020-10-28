@@ -8853,15 +8853,15 @@ nav.tabs {
   }
 }
 
+.path-frontpage #join-rayno-club .layout__region--first img {
+  width: 100%;
+}
+
 .path-frontpage #join-rayno-club .layout__region--second {
   padding: 1em 4%;
   box-sizing: border-box;
   flex: 1 1 36%;
   min-width: 376px;
-}
-
-.path-frontpage #join-rayno-club .layout__region--second img {
-  width: 100%;
 }
 
 /********************* NODE *********************/
