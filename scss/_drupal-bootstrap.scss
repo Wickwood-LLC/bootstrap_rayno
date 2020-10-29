@@ -812,6 +812,31 @@ nav.tabs {
     background-color: #e4e4e4;
     padding: 3em 0;
     position: relative;
+
+    .what-could-it-be-content {
+      position: relative;
+      max-width: 1400px;
+      margin: 0 7%;
+
+      @include breakpoint(1400px) {
+        max-width: 1400px;
+        margin: auto;
+      }
+
+      .block-title {
+        font-size: 2em;
+      }
+
+      .wt-four-col {
+        .wt-col {
+          justify-content: flex-start;
+
+          .wt-col p:nth-of-type(2) {
+              flex: 1;
+          }
+        }
+      }
+    }
   }
 
   #welcome-section {
@@ -897,9 +922,13 @@ nav.tabs {
     padding: 3em 0;
     position: relative;
 
-    .block-views-blockvehicle-manufacturers-block-1 {
+    .block-views-blockvehicle-manufacturers-block-3 {
       position: relative;
       z-index: 1;
+
+      .block-title {
+        font-size: 2em;
+      }
     }
 
     .note {
