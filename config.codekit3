@@ -2321,57 +2321,6 @@
 		"oAP": "/config/schema/bootstrap_rayno.schema.yml",
 		"oF": 0
 		},
-	"/css/ckeditor-styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/ckeditor-styles-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/css/ckeditor-styles.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/css/ckeditor-styles.css.map",
-		"oF": 0
-		},
-	"/css/navbar.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/navbar-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/css/navbar.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/css/navbar.css.map",
-		"oF": 0
-		},
-	"/css/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/style-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/css/style.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/css/style.css.map",
-		"oF": 0
-		},
 	"/drupal_8.sublime-workspace": {
 		"cB": 0,
 		"ft": 8192,

@@ -827,7 +827,18 @@ nav.tabs {
         font-size: 2em;
       }
 
+      .topics-container {
+        overflow-x: auto;
+      }
       .wt-four-col {
+        flex-flow: row nowrap;
+        min-width: 768px;
+
+        @include breakpoint(481px) {
+          flex-flow: row wrap;
+          min-width: unset;
+        }
+        
         .wt-col {
           justify-content: flex-start;
           background-color: #e9e9e9;
@@ -839,6 +850,13 @@ nav.tabs {
 
           p:nth-of-type(2) {
             flex: 1;
+          }
+
+          @include breakpoint(481px) {
+            flex: 1 0 calc(50% - 1em);
+          }
+          @include breakpoint(931px) {
+            flex: 1 0 calc(25% - 1em);
           }
         }
       }
