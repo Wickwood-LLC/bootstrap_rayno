@@ -843,8 +843,16 @@ nav.tabs {
           margin: 0.5em;
           flex: 1 1 100%;
 
+          p:nth-of-type(1) img {
+            width: 60%;
+            position: relative;
+            top: -1em;
+            right: -1em;
+            margin-bottom: -2em;
+          }
           p:nth-of-type(2) {
             flex: 1;
+            font-size: .85em;
           }
 
           @include breakpoint(481px) {
@@ -996,22 +1004,6 @@ nav.tabs {
       box-sizing: border-box;
       flex: 1 1 36%;
       min-width: 376px;      
-    }
-  }
-
-  .section-watermark {
-    text-align: center;
-    color: #dddddd;      
-    position: absolute;
-    z-index: 0;
-    top: 0;
-    width: 100%;
-
-    h3 {
-      font-size: 6em;
-      font-weight: 800;
-      font-family: 'Playfair Display', serif;
-      margin: 0;
     }
   }
 }
@@ -1269,6 +1261,22 @@ nav.tabs {
     li:last-child {
       margin-right: 0;
     }
+  }
+}
+
+.section-watermark {
+  text-align: center;
+  color: #dddddd;      
+  position: absolute;
+  z-index: 0;
+  top: 2em;
+  width: 100%;
+
+  h3 {
+    font-size: 4.5em;
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
   }
 }
 

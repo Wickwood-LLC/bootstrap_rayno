@@ -8744,8 +8744,17 @@ nav.tabs {
   flex: 1 1 100%;
 }
 
+.path-frontpage #what-could-it-be .what-could-it-be-content .wt-four-col .wt-col p:nth-of-type(1) img {
+  width: 60%;
+  position: relative;
+  top: -1em;
+  right: -1em;
+  margin-bottom: -2em;
+}
+
 .path-frontpage #what-could-it-be .what-could-it-be-content .wt-four-col .wt-col p:nth-of-type(2) {
   flex: 1;
+  font-size: .85em;
 }
 
 @media (min-width: 481px) {
@@ -8910,22 +8919,6 @@ nav.tabs {
   box-sizing: border-box;
   flex: 1 1 36%;
   min-width: 376px;
-}
-
-.path-frontpage .section-watermark {
-  text-align: center;
-  color: #dddddd;
-  position: absolute;
-  z-index: 0;
-  top: 0;
-  width: 100%;
-}
-
-.path-frontpage .section-watermark h3 {
-  font-size: 6em;
-  font-weight: 800;
-  font-family: 'Playfair Display', serif;
-  margin: 0;
 }
 
 /********************* NODE *********************/
@@ -9182,6 +9175,22 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
 
 #block-bootstrap-rayno-socialsharingblock ul li:last-child {
   margin-right: 0;
+}
+
+.section-watermark {
+  text-align: center;
+  color: #dddddd;
+  position: absolute;
+  z-index: 0;
+  top: 2em;
+  width: 100%;
+}
+
+.section-watermark h3 {
+  font-size: 4.5em;
+  font-weight: 800;
+  font-family: 'Playfair Display', serif;
+  margin: 0;
 }
 
 .boxed {
