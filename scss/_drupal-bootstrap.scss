@@ -40,13 +40,13 @@ h1,
 h2,
 .h2 {
   font-weight: bold;
-  @include fluid-type(320px, 1200px, 22px, 36px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+  @include fluid-type(320px, 1200px, 20px, 30px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
 h3,
 .h3 {
   font-weight: bold;
-  @include fluid-type(320px, 1200px, 20px, 30px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+  @include fluid-type(320px, 1200px, 17px, 22px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
 h4,
@@ -941,6 +941,7 @@ nav.tabs {
     padding: 3em 0;
     position: relative;
 
+    .block-views-blockvehicle-manufacturers-block-1,
     .block-views-blockvehicle-manufacturers-block-3 {
       position: relative;
       z-index: 1;
