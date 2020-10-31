@@ -808,6 +808,33 @@ nav.tabs {
     clear: both;
   }
 
+  #promo-slider {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #d9d9d9;
+    margin: 0;
+
+    .layout__region--first {
+      margin: 0;
+    }
+    .layout__region--second {
+      padding: 1em 7%;
+      box-sizing: border-box;
+      margin: 0;
+      flex: 1 1 36%;
+      min-width: 376px;
+      max-width: 500px;
+      text-align: center;
+
+      @include breakpoint(769px) {
+        margin-right: auto;
+        text-align: left;
+      }
+    }
+  }
+
   #what-could-it-be {
     background-color: #e4e4e4;
     padding: 1em 0;
