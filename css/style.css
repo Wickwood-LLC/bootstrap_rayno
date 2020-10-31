@@ -9805,7 +9805,7 @@ form#user-register-form .captcha {
 a.wt-button {
   display: inline-block;
   margin-bottom: 0;
-  font-weight: bold;
+  font-size: 0.8em;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
