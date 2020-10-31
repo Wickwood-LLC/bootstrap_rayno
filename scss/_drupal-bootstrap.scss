@@ -828,6 +828,10 @@ nav.tabs {
       max-width: 500px;
       text-align: center;
 
+      h1 {
+        font-size: 3em;
+      }
+
       @include breakpoint(769px) {
         margin-right: auto;
         text-align: left;

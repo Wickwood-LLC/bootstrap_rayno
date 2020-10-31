@@ -8725,6 +8725,10 @@ nav.tabs {
   text-align: center;
 }
 
+.path-frontpage #promo-slider .layout__region--second h1 {
+  font-size: 3em;
+}
+
 @media (min-width: 769px) {
   .path-frontpage #promo-slider .layout__region--second {
     margin-right: auto;
