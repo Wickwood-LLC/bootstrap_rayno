@@ -8894,14 +8894,12 @@ nav.tabs {
   position: relative;
 }
 
-.path-frontpage #makes-and-models .block-views-blockvehicle-manufacturers-block-1,
-.path-frontpage #makes-and-models .block-views-blockvehicle-manufacturers-block-3 {
+.path-frontpage #makes-and-models [class*="block-views-blockvehicle-manufacturers"] {
   position: relative;
   z-index: 1;
 }
 
-.path-frontpage #makes-and-models .block-views-blockvehicle-manufacturers-block-1 .block-title,
-.path-frontpage #makes-and-models .block-views-blockvehicle-manufacturers-block-3 .block-title {
+.path-frontpage #makes-and-models [class*="block-views-blockvehicle-manufacturers"] .block-title {
   font-size: 2em;
 }
 
@@ -9355,9 +9353,17 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   margin: auto;
 }
 
-/********************* FLEXSLIDER *********************/
+/********************* SLIDERS *********************/
 #flexslider-1 .slides > li {
   margin: 15px;
+}
+
+.slick-arrow:before {
+  color: #333;
+}
+
+.slick-arrow:hover::before {
+  color: rgba(2, 16, 98, 0.71);
 }
 
 /********************* MAINTENANCE *********************/

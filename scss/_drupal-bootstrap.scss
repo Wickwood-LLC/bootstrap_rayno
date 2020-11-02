@@ -980,8 +980,7 @@ nav.tabs {
     padding: 1em 0;
     position: relative;
 
-    .block-views-blockvehicle-manufacturers-block-1,
-    .block-views-blockvehicle-manufacturers-block-3 {
+    [class*="block-views-blockvehicle-manufacturers"] {
       position: relative;
       z-index: 1;
 
@@ -1436,10 +1435,19 @@ nav.tabs {
   }
 }
 
-/********************* FLEXSLIDER *********************/
+/********************* SLIDERS *********************/
 #flexslider-1 {
   .slides > li {
     margin: 15px;
+  }
+}
+
+.slick-arrow {
+  &:before {
+    color: #333;
+  }
+  &:hover::before {
+    color: transparentize($brand-primary, 0.29);
   }
 }
 
