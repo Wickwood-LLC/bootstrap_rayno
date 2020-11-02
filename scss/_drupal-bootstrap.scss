@@ -1039,6 +1039,33 @@ nav.tabs {
 
   #contact-section {
     align-items: center;
+    max-width: 1400px;
+    margin: auto;
+    padding: 0 1em;
+
+    .layout__region--first {
+      flex: 1 1 100%;
+      text-align: center;
+
+      @include breakpoint(885px) {
+        flex: 1 1 calc(50% - 0.5em);
+        max-width: calc(50% - 0.5em);
+        padding: 0;
+      }
+    }
+
+    .layout__region--second {
+      position: relative;
+      
+      .block-webform {
+        position: relative;
+        
+        .block-title {
+          text-align: center;
+          font-size: 2em;
+        }
+      }
+    }
   }
 }
 

@@ -8955,6 +8955,35 @@ nav.tabs {
 
 .path-frontpage #contact-section {
   align-items: center;
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 1em;
+}
+
+.path-frontpage #contact-section .layout__region--first {
+  flex: 1 1 100%;
+  text-align: center;
+}
+
+@media (min-width: 885px) {
+  .path-frontpage #contact-section .layout__region--first {
+    flex: 1 1 calc(50% - 0.5em);
+    max-width: calc(50% - 0.5em);
+    padding: 0;
+  }
+}
+
+.path-frontpage #contact-section .layout__region--second {
+  position: relative;
+}
+
+.path-frontpage #contact-section .layout__region--second .block-webform {
+  position: relative;
+}
+
+.path-frontpage #contact-section .layout__region--second .block-webform .block-title {
+  text-align: center;
+  font-size: 2em;
 }
 
 /********************* NODE *********************/
