@@ -8975,6 +8975,12 @@ nav.tabs {
 
 .path-frontpage #contact-section .layout__region--second {
   position: relative;
+  padding-top: 1em;
+}
+
+.path-frontpage #contact-section .layout__region--second .section-watermark {
+  color: #cecece;
+  top: -1em;
 }
 
 .path-frontpage #contact-section .layout__region--second .block-webform {
