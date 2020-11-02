@@ -8967,6 +8967,22 @@ nav.tabs {
   text-align: center;
 }
 
+.path-frontpage #contact-section .layout__region--first .contact-info .location, .path-frontpage #contact-section .layout__region--first .contact-info .phone, .path-frontpage #contact-section .layout__region--first .contact-info .mail {
+  margin-bottom: 1em;
+}
+
+.path-frontpage #contact-section .layout__region--first .contact-info .location p, .path-frontpage #contact-section .layout__region--first .contact-info .location h3, .path-frontpage #contact-section .layout__region--first .contact-info .phone p, .path-frontpage #contact-section .layout__region--first .contact-info .phone h3, .path-frontpage #contact-section .layout__region--first .contact-info .mail p, .path-frontpage #contact-section .layout__region--first .contact-info .mail h3 {
+  margin: 0;
+}
+
+.path-frontpage #contact-section .layout__region--first .contact-info .location a, .path-frontpage #contact-section .layout__region--first .contact-info .phone a, .path-frontpage #contact-section .layout__region--first .contact-info .mail a {
+  color: inherit;
+}
+
+.path-frontpage #contact-section .layout__region--first .contact-info .location a:hover, .path-frontpage #contact-section .layout__region--first .contact-info .phone a:hover, .path-frontpage #contact-section .layout__region--first .contact-info .mail a:hover {
+  text-decoration: none;
+}
+
 @media (min-width: 885px) {
   .path-frontpage #contact-section .layout__region--first {
     flex: 1 1 calc(50% - 0.5em);

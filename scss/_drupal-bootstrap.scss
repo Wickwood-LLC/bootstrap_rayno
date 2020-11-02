@@ -1049,6 +1049,24 @@ nav.tabs {
       order: 1;
       text-align: center;
 
+      .contact-info {
+        .location, .phone, .mail {
+          margin-bottom: 1em;
+          
+          p, h3 {
+            margin: 0;
+          }
+
+          a {
+            color: inherit;
+            
+            &:hover {
+              text-decoration: none;
+            }
+          }
+        }
+      }
+
       @include breakpoint(885px) {
         flex: 1 1 calc(50% - 0.5em);
         max-width: calc(50% - 0.5em);
