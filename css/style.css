@@ -8963,6 +8963,7 @@ nav.tabs {
 .path-frontpage #contact-section .layout__region--first {
   flex: 1 1 100%;
   margin: 0;
+  order: 1;
   text-align: center;
 }
 
@@ -8971,6 +8972,7 @@ nav.tabs {
     flex: 1 1 calc(50% - 0.5em);
     max-width: calc(50% - 0.5em);
     margin-right: 0.5em;
+    order: 0;
     padding: 0;
     text-align: left;
   }
