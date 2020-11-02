@@ -9227,6 +9227,10 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   margin: 0;
 }
 
+form.layout-builder-form .section-watermark {
+  position: static;
+}
+
 .boxed {
   background-color: whitesmoke;
   border: 1px solid #021062;

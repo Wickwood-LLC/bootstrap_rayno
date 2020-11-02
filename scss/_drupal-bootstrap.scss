@@ -1309,6 +1309,10 @@ nav.tabs {
     font-family: 'Playfair Display', serif;
     margin: 0;
   }
+
+  form.layout-builder-form & {
+    position: static;
+  }
 }
 
 .boxed {
