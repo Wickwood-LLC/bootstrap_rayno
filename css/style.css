@@ -9227,7 +9227,7 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   margin: 0;
 }
 
-form.layout-builder-form .section-watermark {
+#layout-builder .section-watermark {
   position: static;
 }
 
