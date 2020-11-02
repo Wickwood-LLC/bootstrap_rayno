@@ -9345,8 +9345,8 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
 }
 
 .view-vehicle-manufacturers .view-content .views-row {
-  flex: 1 1 calc((100% / 7) - 2em);
-  max-width: calc((100% / 7) - 2em);
+  flex: 1 1 calc((100% / 8) - 2em);
+  max-width: calc((100% / 8) - 2em);
   margin: 1em;
   text-align: center;
 }
