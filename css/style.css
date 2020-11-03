@@ -9012,8 +9012,15 @@ nav.tabs {
   text-align: center;
 }
 
+.path-frontpage #contact-section .layout__region--first .contact-info .field--name-body {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
 .path-frontpage #contact-section .layout__region--first .contact-info .location, .path-frontpage #contact-section .layout__region--first .contact-info .phone, .path-frontpage #contact-section .layout__region--first .contact-info .mail {
-  margin-bottom: 1em;
+  margin: 1em;
 }
 
 .path-frontpage #contact-section .layout__region--first .contact-info .location p, .path-frontpage #contact-section .layout__region--first .contact-info .location h3, .path-frontpage #contact-section .layout__region--first .contact-info .phone p, .path-frontpage #contact-section .layout__region--first .contact-info .phone h3, .path-frontpage #contact-section .layout__region--first .contact-info .mail p, .path-frontpage #contact-section .layout__region--first .contact-info .mail h3 {
@@ -9038,6 +9045,12 @@ nav.tabs {
     padding: 0 10%;
     text-align: left;
   }
+  .path-frontpage #contact-section .layout__region--first .contact-info .field--name-body {
+    display: block;
+  }
+  .path-frontpage #contact-section .layout__region--first .contact-info .location, .path-frontpage #contact-section .layout__region--first .contact-info .phone, .path-frontpage #contact-section .layout__region--first .contact-info .mail {
+    margin: 0 0 1em 0;
+  }
 }
 
 .path-frontpage #contact-section .layout__region--second {
@@ -9048,7 +9061,7 @@ nav.tabs {
 
 .path-frontpage #contact-section .layout__region--second .section-watermark {
   color: #cecece;
-  top: -1.5em;
+  top: -0.5em;
 }
 
 .path-frontpage #contact-section .layout__region--second .section-watermark h3 {

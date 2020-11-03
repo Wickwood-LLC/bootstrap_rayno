@@ -849,7 +849,7 @@ nav.tabs {
 
     .slide__media img {
       margin: auto;
-      
+
       @include breakpoint(769px) {
         margin: unset;
       }
@@ -1089,8 +1089,14 @@ nav.tabs {
       text-align: center;
 
       .contact-info {
+        .field--name-body {
+          display: flex;
+          align-items: center;
+          flex-flow: row wrap;
+          justify-content: center;
+        }
         .location, .phone, .mail {
-          margin-bottom: 1em;
+          margin: 1em;
           
           p, h3 {
             margin: 0;
@@ -1114,6 +1120,15 @@ nav.tabs {
         order: 0;
         padding: 0 10%;
         text-align: left;
+
+        .contact-info {
+          .field--name-body {
+            display: block;
+          }
+          .location, .phone, .mail {
+            margin: 0 0 1em 0;
+          }
+        }
       }
     }
 
@@ -1124,7 +1139,7 @@ nav.tabs {
 
       .section-watermark {
         color: #cecece;
-        top: -1.5em;
+        top: -0.5em;
 
         h3 {
           font-size: 6.5em;
