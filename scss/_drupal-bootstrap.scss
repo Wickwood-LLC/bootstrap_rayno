@@ -818,6 +818,11 @@ nav.tabs {
 
     .layout__region--first {
       margin: 0;
+      max-width: 50%;
+
+      @include breakpoint(769px) {
+        max-width: 50%;
+      }
     }
     .layout__region--second {
       padding: 1em 7%;
@@ -835,6 +840,18 @@ nav.tabs {
       @include breakpoint(769px) {
         margin-right: auto;
         text-align: left;
+      }
+    }
+
+    .slick__arrow {
+      bottom: 0px;
+      top: unset;
+
+      .slick-prev {
+        left: 1em;
+      }
+      .slick-next {
+        right: 1em;
       }
     }
   }

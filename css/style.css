@@ -8713,6 +8713,13 @@ nav.tabs {
 
 .path-frontpage #promo-slider .layout__region--first {
   margin: 0;
+  max-width: 50%;
+}
+
+@media (min-width: 769px) {
+  .path-frontpage #promo-slider .layout__region--first {
+    max-width: 50%;
+  }
 }
 
 .path-frontpage #promo-slider .layout__region--second {
@@ -8734,6 +8741,19 @@ nav.tabs {
     margin-right: auto;
     text-align: left;
   }
+}
+
+.path-frontpage #promo-slider .slick__arrow {
+  bottom: 0px;
+  top: unset;
+}
+
+.path-frontpage #promo-slider .slick__arrow .slick-prev {
+  left: 1em;
+}
+
+.path-frontpage #promo-slider .slick__arrow .slick-next {
+  right: 1em;
 }
 
 .path-frontpage #what-could-it-be {
