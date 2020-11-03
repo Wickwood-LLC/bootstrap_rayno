@@ -8747,6 +8747,16 @@ nav.tabs {
   align-items: center;
 }
 
+.path-frontpage #promo-slider .slide__media img {
+  margin: auto;
+}
+
+@media (min-width: 769px) {
+  .path-frontpage #promo-slider .slide__media img {
+    margin: unset;
+  }
+}
+
 .path-frontpage #promo-slider .slide__caption {
   position: absolute;
   height: auto;

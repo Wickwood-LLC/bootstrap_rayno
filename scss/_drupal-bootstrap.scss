@@ -847,6 +847,13 @@ nav.tabs {
       align-items: center;
     }
 
+    .slide__media img {
+      margin: auto;
+      
+      @include breakpoint(769px) {
+        margin: unset;
+      }
+    }
     .slide__caption {
       position: absolute;
       height: auto;
