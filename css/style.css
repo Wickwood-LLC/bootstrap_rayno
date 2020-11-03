@@ -8742,6 +8742,11 @@ nav.tabs {
   }
 }
 
+.path-frontpage #promo-slider .slick-track {
+  display: flex;
+  align-items: center;
+}
+
 .path-frontpage #promo-slider .slide__caption {
   position: absolute;
   height: auto;

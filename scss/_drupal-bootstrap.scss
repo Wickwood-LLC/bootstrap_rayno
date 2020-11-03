@@ -842,6 +842,11 @@ nav.tabs {
       }
     }
 
+    .slick-track {
+      display: flex;
+      align-items: center;
+    }
+
     .slide__caption {
       position: absolute;
       height: auto;
