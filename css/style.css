@@ -8742,6 +8742,16 @@ nav.tabs {
   }
 }
 
+.path-frontpage #promo-slider .slide__caption {
+  position: absolute;
+  height: auto;
+  bottom: 0;
+  top: unset;
+  min-height: unset;
+  background: transparent;
+  width: auto;
+}
+
 .path-frontpage #promo-slider .slick__arrow {
   bottom: 0px;
   top: unset;
