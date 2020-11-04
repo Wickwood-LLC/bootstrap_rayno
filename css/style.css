@@ -9024,7 +9024,7 @@ nav.tabs {
 }
 
 .path-frontpage #contact-section .layout__region--first .contact-info .location h3, .path-frontpage #contact-section .layout__region--first .contact-info .phone h3, .path-frontpage #contact-section .layout__region--first .contact-info .mail h3 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
 }
 
@@ -9033,7 +9033,7 @@ nav.tabs {
 }
 
 .path-frontpage #contact-section .layout__region--first .contact-info .location p, .path-frontpage #contact-section .layout__region--first .contact-info .phone p, .path-frontpage #contact-section .layout__region--first .contact-info .mail p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Playfair Display', serif;
   margin: 0;
 }
 
