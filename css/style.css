@@ -9981,7 +9981,7 @@ form#user-register-form .captcha {
           user-select: none;
   color: #fff;
   background-color: #021062;
-  border-color: #010830;
+  border-color: #021062;
   padding: .3em .5em;
   line-height: 1.5;
   border-radius: 20px;
@@ -9990,7 +9990,7 @@ form#user-register-form .captcha {
 .wt-button:hover {
   color: #fff;
   background-color: #031894;
-  border-color: #021062;
+  border-color: #031894;
   text-decoration: none;
 }
 

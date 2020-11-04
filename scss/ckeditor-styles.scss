@@ -212,7 +212,7 @@ li {
   margin-left: 0;
   margin-right: 0;
 }
-a.wt-button {
+.wt-button {
   display: inline-block;
   margin-bottom: 0;
   font-weight: bold;
@@ -234,7 +234,7 @@ a.wt-button {
   border-radius: 20px;
   @include fluid-type(320px, 1250px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
-a.wt-button:hover {
+.wt-button:hover {
   color: #fff;
   background-color: lighten($brand-primary, 10%);
   border-color: lighten($brand-primary, 10%);
