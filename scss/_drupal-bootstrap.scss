@@ -1561,9 +1561,9 @@ nav.tabs {
     justify-content: center;
 
     .views-row {
-      flex: 1 1 calc((100% / 8) - 2em);
-      max-width: calc((100% / 8) - 2em);
-      margin: 1em;
+      flex: 1 1 calc(100% / 8);
+      max-width: calc(100% / 8);
+      margin: 1em 0;
       text-align: center;
 
       img {
