@@ -849,10 +849,6 @@ nav.tabs {
 
     .slide__media img {
       margin: auto;
-
-      @include breakpoint(769px) {
-        margin: unset;
-      }
     }
     .slide__caption {
       position: absolute;
@@ -866,14 +862,38 @@ nav.tabs {
     }
 
     .slick__arrow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: unset;
       bottom: 0px;
       top: unset;
 
-      .slick-prev {
-        left: 1em;
+      .slick-arrow {
+        border: 0;
+        border-radius: 50%;
+        font-size: 1em;
+        height: 42px;
+        pointer-events: auto;
+        position: relative;
+        top: unset;
+        transform: unset;
+        width: 42px;
+        display: flex;
       }
-      .slick-next {
-        right: 1em;
+      .slick-dots {
+        position: relative;
+        bottom: unset;
+        display: flex;
+        width: unset;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+
+        li {
+          margin-bottom: 0;
+        }
       }
     }
   }
