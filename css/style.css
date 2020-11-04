@@ -9023,9 +9023,18 @@ nav.tabs {
   margin: 1em;
 }
 
-.path-frontpage #contact-section .layout__region--first .contact-info .location p, .path-frontpage #contact-section .layout__region--first .contact-info .location h3, .path-frontpage #contact-section .layout__region--first .contact-info .phone p, .path-frontpage #contact-section .layout__region--first .contact-info .phone h3, .path-frontpage #contact-section .layout__region--first .contact-info .mail p, .path-frontpage #contact-section .layout__region--first .contact-info .mail h3 {
+.path-frontpage #contact-section .layout__region--first .contact-info .location h3, .path-frontpage #contact-section .layout__region--first .contact-info .phone h3, .path-frontpage #contact-section .layout__region--first .contact-info .mail h3 {
+  font-family: 'Playfair Display', serif;
   margin: 0;
+}
+
+.path-frontpage #contact-section .layout__region--first .contact-info .location h3 .fontawesome-icon-inline, .path-frontpage #contact-section .layout__region--first .contact-info .phone h3 .fontawesome-icon-inline, .path-frontpage #contact-section .layout__region--first .contact-info .mail h3 .fontawesome-icon-inline {
+  color: #021062;
+}
+
+.path-frontpage #contact-section .layout__region--first .contact-info .location p, .path-frontpage #contact-section .layout__region--first .contact-info .phone p, .path-frontpage #contact-section .layout__region--first .contact-info .mail p {
   font-family: 'Roboto', sans-serif;
+  margin: 0;
 }
 
 .path-frontpage #contact-section .layout__region--first .contact-info .location a, .path-frontpage #contact-section .layout__region--first .contact-info .phone a, .path-frontpage #contact-section .layout__region--first .contact-info .mail a {

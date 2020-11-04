@@ -1098,11 +1098,18 @@ nav.tabs {
         .location, .phone, .mail {
           margin: 1em;
           
-          p, h3 {
+          h3 {
+            font-family: 'Playfair Display', serif;
             margin: 0;
-            font-family: 'Roboto', sans-serif;
-          }
 
+            .fontawesome-icon-inline {
+              color: $brand-primary;
+            }
+          }
+          p {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+          }
           a {
             color: inherit;
             
