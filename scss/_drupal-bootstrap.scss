@@ -857,12 +857,17 @@ nav.tabs {
     .slide__caption {
       position: absolute;
       height: auto;
+      left: 4rem;
       bottom: 0;
       top: unset;
       min-height: unset;
       background: transparent;
       width: auto;
       padding: 0;
+
+      @include breakpoint(769px) {
+        left: 2rem;
+      }
     }
 
     .slick__arrow {

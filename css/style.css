@@ -8758,12 +8758,19 @@ nav.tabs {
 .path-frontpage #promo-slider .slide__caption {
   position: absolute;
   height: auto;
+  left: 4rem;
   bottom: 0;
   top: unset;
   min-height: unset;
   background: transparent;
   width: auto;
   padding: 0;
+}
+
+@media (min-width: 769px) {
+  .path-frontpage #promo-slider .slide__caption {
+    left: 2rem;
+  }
 }
 
 .path-frontpage #promo-slider .slick__arrow {
