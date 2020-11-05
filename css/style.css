@@ -9452,14 +9452,6 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   text-align: center;
 }
 
-.no-top-margin-title .block-title {
-  margin-top: 0;
-}
-
-.no-bottom-margin-title .block-title {
-  margin-bottom: 0;
-}
-
 #edit-actions {
   text-align: center;
 }
@@ -9509,6 +9501,10 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
 
 .view-vehicle-manufacturers .view-content .views-row img {
   margin: auto;
+}
+
+.view-vehicles-serviced .view-header {
+  margin-bottom: 1em;
 }
 
 /********************* SLIDERS *********************/
