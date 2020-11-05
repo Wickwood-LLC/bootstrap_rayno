@@ -8230,7 +8230,9 @@ p:last-child,
 }
 
 #navbar .region-navigation {
-  display: grid;
+  display: flex;
+  flex-flow: column;
+  max-width: 100%;
   align-items: center;
   grid-template-columns: 1fr;
   justify-content: center;
@@ -8242,6 +8244,7 @@ p:last-child,
 
 @media (min-width: 550px) {
   #navbar .region-navigation {
+    display: grid;
     grid-template-columns: auto 1fr;
     grid-template-rows: auto;
   }

@@ -327,7 +327,9 @@ p:last-child,
   }
 
   .region-navigation {
-    display: grid;
+    display: flex;
+    flex-flow: column;
+    max-width: 100%;
     align-items: center;
     grid-template-columns: 1fr;
     justify-content: center;
@@ -337,6 +339,7 @@ p:last-child,
     }
 
     @include breakpoint(550px) {
+      display: grid;
       grid-template-columns: auto 1fr;
       grid-template-rows: auto;
 
