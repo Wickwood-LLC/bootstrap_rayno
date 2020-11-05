@@ -890,6 +890,8 @@ nav.tabs {
         transform: unset;
         width: 42px;
         display: flex;
+        justify-content: center;
+        align-items: center;
       }
       .slick-dots {
         position: relative;
