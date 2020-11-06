@@ -1024,6 +1024,11 @@ nav.tabs {
   }
 
   #services-section {
+    .block-views-blockrayno-services-block-1 {
+      .block-title {
+        font-size: 2em;
+      }
+    }
     .layout__region--content {
       max-width: 1400px;
       padding: 1em;
@@ -1605,7 +1610,7 @@ nav.tabs {
       position: absolute;
       bottom: 0;
       width: 100%;
-      width: 80px;
+      padding-left: 80px;
       background-color: $brand-primary;
       color: white;
     }

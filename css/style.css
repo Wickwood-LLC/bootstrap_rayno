@@ -8942,6 +8942,10 @@ nav.tabs {
   }
 }
 
+.path-frontpage #services-section .block-views-blockrayno-services-block-1 .block-title {
+  font-size: 2em;
+}
+
 .path-frontpage #services-section .layout__region--content {
   max-width: 1400px;
   padding: 1em;
@@ -9532,7 +9536,7 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   position: absolute;
   bottom: 0;
   width: 100%;
-  width: 80px;
+  padding-left: 80px;
   background-color: #021062;
   color: white;
 }
