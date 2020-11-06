@@ -8942,14 +8942,23 @@ nav.tabs {
   }
 }
 
-.path-frontpage #services-section .block-views-blockrayno-services-block-1 .block-title {
-  font-size: 2em;
+.path-frontpage #services-section {
+  background-color: #e4e4e4;
+  position: relative;
 }
 
 .path-frontpage #services-section .layout__region--content {
   max-width: 1400px;
   padding: 1em;
   margin: auto;
+}
+
+.path-frontpage #services-section .block-views-blockrayno-services-block-1 {
+  position: relative;
+}
+
+.path-frontpage #services-section .block-views-blockrayno-services-block-1 .block-title {
+  font-size: 2em;
 }
 
 .path-frontpage #makes-and-models {

@@ -1024,15 +1024,21 @@ nav.tabs {
   }
 
   #services-section {
-    .block-views-blockrayno-services-block-1 {
-      .block-title {
-        font-size: 2em;
-      }
-    }
+    background-color: #e4e4e4;
+    position: relative;
+    
     .layout__region--content {
       max-width: 1400px;
       padding: 1em;
       margin: auto;
+    }
+
+    .block-views-blockrayno-services-block-1 {
+      position: relative;
+
+      .block-title {
+        font-size: 2em;
+      }
     }
   }
 
