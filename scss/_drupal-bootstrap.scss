@@ -846,14 +846,6 @@ nav.tabs {
       }
     }
 
-    .slick-track {
-      display: flex;
-      align-items: center;
-    }
-
-    .slide__media img {
-      margin: auto;
-    }
     .slide__caption {
       position: absolute;
       height: auto;
@@ -873,44 +865,26 @@ nav.tabs {
       }
     }
 
-    .slick__arrow {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: unset;
-      bottom: 0px;
-      position: relative;
-      top: unset;
+    .view-promotions-and-testimonials {
+      .views-field-field-background-image {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          z-index: -1;
 
-      .slick-arrow {
-        border: 0;
-        border-radius: 50%;
-        font-size: 1em;
-        height: 42px;
-        pointer-events: auto;
-        position: relative;
-        top: unset;
-        transform: unset;
-        width: 42px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      .slick-dots {
-        position: relative;
-        bottom: unset;
-        display: flex;
-        width: unset;
-        padding: 0;
-        margin: 0;
-        list-style: none;
-        text-align: center;
-
-        li {
-          margin-bottom: 0;
+          .field-content {
+            height: 100%;
+            width: 100%;
+            
+            img {
+              display: block;
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+          }
         }
       }
-    }
   }
 
   #what-could-it-be {
@@ -1606,6 +1580,56 @@ nav.tabs {
   }
   &:hover::before {
     color: transparentize($brand-primary, 0.29);
+  }
+}
+
+.slick {
+  .slick-track {
+    display: flex;
+    align-items: center;
+  }
+
+  .slide__media img {
+    margin: auto;
+  }
+
+  .slick__arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: unset;
+    bottom: 0px;
+    position: relative;
+    top: unset;
+
+    .slick-arrow {
+      border: 0;
+      border-radius: 50%;
+      font-size: 1em;
+      height: 42px;
+      pointer-events: auto;
+      position: relative;
+      top: unset;
+      transform: unset;
+      width: 42px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .slick-dots {
+      position: relative;
+      bottom: unset;
+      display: flex;
+      width: unset;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      text-align: center;
+
+      li {
+        margin-bottom: 0;
+      }
+    }
   }
 }
 
