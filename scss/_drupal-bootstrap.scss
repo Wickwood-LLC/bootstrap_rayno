@@ -1023,6 +1023,14 @@ nav.tabs {
     }
   }
 
+  #services-section {
+    .layout__region--content {
+      max-width: 1400px;
+      padding: 1em;
+      margin: auto;
+    }
+  }
+
   #makes-and-models {
     background-color: #e4e4e4;
     padding: 1em 0;
@@ -1564,6 +1572,43 @@ nav.tabs {
 .view-vehicles-serviced {
   .view-header {
     margin-bottom: 1em;
+  }
+}
+
+.view-rayno-services {
+  .view-content {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .views-row {
+    margin: 0.5em;
+    flex: 1 1 clamp(250px, 30%, 30%);
+    position: relative;
+    
+    .views-field-field-feature-media img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+    .views-field-field-service-icon {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 80px;
+      z-index: 1;
+      background-color: $brand-primary;
+      border-radius: 50%;
+    }
+    .views-field-title-html {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      width: 80px;
+      background-color: $brand-primary;
+      color: white;
+    }
   }
 }
 
