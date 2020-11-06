@@ -857,7 +857,7 @@ nav.tabs {
     .slide__caption {
       position: absolute;
       height: auto;
-      left: 4rem;
+      left: 2rem;
       bottom: 0;
       top: unset;
       min-height: unset;
@@ -865,6 +865,9 @@ nav.tabs {
       width: auto;
       padding: 0;
 
+      @include breakpoint(500px) {
+        left: 4rem;
+      }
       @include breakpoint(769px) {
         left: 2rem;
       }
