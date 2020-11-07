@@ -8809,6 +8809,7 @@ nav.tabs {
   .path-frontpage #what-could-it-be > .layout__region--content {
     max-width: 1400px;
     margin: auto;
+    padding: 0 1em;
   }
 }
 

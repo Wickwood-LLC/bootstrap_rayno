@@ -902,6 +902,7 @@ nav.tabs {
       @include breakpoint(1400px) {
         max-width: 1400px;
         margin: auto;
+        padding: 0 1em;
       }
 
       .block-title {
