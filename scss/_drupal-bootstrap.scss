@@ -897,7 +897,7 @@ nav.tabs {
     > .layout__region--content {
       position: relative;
       max-width: 1400px;
-      margin: 0 7%;
+      padding: 0 7%;
 
       @include breakpoint(1400px) {
         max-width: 1400px;

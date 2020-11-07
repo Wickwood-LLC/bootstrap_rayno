@@ -8801,7 +8801,7 @@ nav.tabs {
 .path-frontpage #what-could-it-be > .layout__region--content {
   position: relative;
   max-width: 1400px;
-  margin: 0 7%;
+  padding: 0 7%;
 }
 
 @media (min-width: 1400px) {
