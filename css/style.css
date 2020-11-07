@@ -9368,6 +9368,7 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   color: #dddddd;
   position: absolute;
   z-index: 0;
+  left: 0;
   top: 0.6em;
   width: 100%;
 }
@@ -9531,16 +9532,6 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   height: 100%;
 }
 
-.view-rayno-services .views-row .views-field-field-service-icon {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 80px;
-  z-index: 1;
-  background-color: #021062;
-  border-radius: 50%;
-}
-
 .view-rayno-services .views-row .views-field-title-html {
   position: absolute;
   bottom: 0;
@@ -9548,6 +9539,16 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   padding-left: 80px;
   background-color: #021062;
   color: white;
+}
+
+.view-rayno-services .views-row .views-field-title-html img {
+  position: absolute;
+  top: -1.8em;
+  left: 0;
+  width: 80px;
+  z-index: 1;
+  background-color: #021062;
+  border-radius: 50%;
 }
 
 /********************* SLIDERS *********************/

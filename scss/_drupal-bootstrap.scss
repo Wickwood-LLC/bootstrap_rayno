@@ -1444,6 +1444,7 @@ nav.tabs {
   color: #dddddd;      
   position: absolute;
   z-index: 0;
+  left: 0;
   top: 0.6em;
   width: 100%;
 
@@ -1603,15 +1604,6 @@ nav.tabs {
       width: 100%;
       height: 100%;
     }
-    .views-field-field-service-icon {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 80px;
-      z-index: 1;
-      background-color: $brand-primary;
-      border-radius: 50%;
-    }
     .views-field-title-html {
       position: absolute;
       bottom: 0;
@@ -1619,6 +1611,16 @@ nav.tabs {
       padding-left: 80px;
       background-color: $brand-primary;
       color: white;
+
+      img {
+        position: absolute;
+        top: -1.8em;
+        left: 0;
+        width: 80px;
+        z-index: 1;
+        background-color: $brand-primary;
+        border-radius: 50%;
+      }
     }
   }
 }
