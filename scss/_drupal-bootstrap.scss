@@ -1642,6 +1642,8 @@ nav.tabs {
     flex-flow: row wrap;
     
     .views-row {
+      display: flex;
+      flex-direction: column;
       justify-content: flex-start;
       background-color: #e9e9e9;
       border-radius: 30px;
@@ -1663,9 +1665,19 @@ nav.tabs {
           width: 60%;
         }
       }
-      p:nth-of-type(2) {
+      .views-field-body {
         flex: 1;
-        font-size: .85em;
+        
+        .field-content {
+          display: flex;
+          flex-direction: column;
+          height: 100%;
+
+          p:nth-of-type(1) {
+            flex: 1;
+            font-size: .85em;
+          }
+        }
       }
 
       @include breakpoint(481px) {
