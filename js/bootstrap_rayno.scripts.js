@@ -18,7 +18,7 @@
       $(window).on("resize mresize", sticky);
 
       function sticky() {
-        topSpacing = $('#toolbar-bar').height().val() + $('.toolbar-tray-horizontal.is-active').height().val();
+        topSpacing = $('#toolbar-bar').length.height() + $('.toolbar-tray-horizontal.is-active').length.height();
         // headerWidth = $header.width(); // gets the width of the container
         headerHeight = $header.height(); // gets the height of our header
         $header.css({
