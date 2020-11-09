@@ -18,7 +18,7 @@
       $(window).on("resize mresize", sticky);
 
       function sticky() {
-        topSpacing = $('#toolbar-bar').height() + $('.toolbar-tray-horizontal.is-active').height();
+        topSpacing = $('#toolbar-bar').height().val() + $('.toolbar-tray-horizontal.is-active').height().val();
         // headerWidth = $header.width(); // gets the width of the container
         headerHeight = $header.height(); // gets the height of our header
         $header.css({
@@ -35,6 +35,7 @@
 
         console.log('Distance from top of page: ' + stickyTop);
         console.log('Position on load ' + currentPosition);
+
 
         if (currentPosition < 0) { // if target element goes above the screen
           $header.addClass('sticky-header');
