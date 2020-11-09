@@ -26,6 +26,7 @@ libraries-extend:
     - bootstrap_rayno/framework
 
 libraries:
+  - bootstrap_rayno/global-scripts
   - bootstrap_rayno/typekit
 
 
