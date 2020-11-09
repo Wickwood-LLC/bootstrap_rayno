@@ -352,6 +352,10 @@ p:last-child,
     grid-template-columns: 1fr;
     justify-content: center;
 
+    .text-logo-and-slogan {
+      max-width: 100%;
+    }
+
     #block-addressandphone {
       font-size: 1.2em;
     }
@@ -1206,7 +1210,7 @@ nav.tabs {
         top: -0.5em;
 
         h3 {
-          font-size: 5.5em;
+          font-size: 20vw;
 
           @include breakpoint(481px) {
             font-size: 6.5em;
