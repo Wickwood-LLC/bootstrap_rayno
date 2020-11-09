@@ -8117,6 +8117,23 @@ ul:last-child {
   padding-top: 35px;
   padding-bottom: 36px;
   border-top: 1px solid #E5E5E5;
+  width: 100%;
+  background-color: #1B1B1B;
+  color: #ececec;
+  text-align: center;
+}
+
+.menu--footer > li {
+  display: inline-block;
+}
+
+.menu--footer > li > a {
+  color: #ececec;
+}
+
+.menu--footer > li > a:hover, .menu--footer > li > a:focus {
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 p:last-child,
