@@ -20,7 +20,7 @@
       function sticky() {
         topSpacing = $('#toolbar-bar').height() + $('.toolbar-tray-horizontal.is-active').height();
         // headerWidth = $header.width(); // gets the width of the container
-        // headerHeight = $header.height(); // gets the height of our header
+        headerHeight = $header.height(); // gets the height of our header
         $header.css({
           // width: "initial",
         });
@@ -38,8 +38,10 @@
 
         if (currentPosition < 0) { // if target element goes above the screen
           $header.addClass('sticky-header');
+          $header.css("top", topSpacing);
         } else {
           $header.removeClass('sticky-header');
+          $header.css("top", "");
         }
         // console.log("Top spacing is " + topSpacing);
       }
@@ -53,8 +55,10 @@
 
         if (currentPosition < 0) { // if target element goes above the screen
           $header.addClass('sticky-header');
+          $header.css("top", topSpacing);
         } else if (currentPosition >= 0) {
           $header.removeClass('sticky-header');
+          $header.css("top", "");
         }
         // console.log("Top spacing is " + topSpacing);
       });
