@@ -2703,6 +2703,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/js/bootstrap_rayno.scripts.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "/js/bootstrap_rayno.scripts-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
 	"/logo.png": {
 		"ft": 32768,
 		"iS": 47246,
@@ -3165,7 +3175,7 @@
 "projectAttributes": {
 	"creationDate": 581339948.13037002,
 	"displayValue": "bootstrap_rayno",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "/bootstrap/test/dummy_node_mincer/apple-touch-icon-144-precomposed.png",
 	"iconImageWasSetByUser": 0
 	},
