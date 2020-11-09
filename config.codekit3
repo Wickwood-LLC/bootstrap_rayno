@@ -2793,15 +2793,15 @@
 		"uL": 1
 		},
 	"/scss/ckeditor-styles.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
-		"oAP": "/scss/ckeditor-styles.css",
-		"oF": 0,
+		"oAP": "/css/ckeditor-styles.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
@@ -3149,6 +3149,13 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/templates/region--navigation.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/region--navigation.html.twig",
+		"oF": 0
 		}
 	},
 "hooks": [

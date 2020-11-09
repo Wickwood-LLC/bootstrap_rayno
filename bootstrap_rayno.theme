@@ -28,5 +28,4 @@ function bootstrap_rayno_preprocess_maintenance_page(&$variables) {
   $variables['site_name'] = Markup::create(strip_tags(html_entity_decode(\Drupal::config('system.site')->get('name'))));
   $variables['#attached']['library'][] = 'bootstrap_rayno/fontawesome';
   $variables['#attached']['library'][] = 'bootstrap_rayno/typekit';
-
 }

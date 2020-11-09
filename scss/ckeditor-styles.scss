@@ -1,4 +1,5 @@
 @import "mixins";
+@import "default-variables";
 
 li {
   margin-bottom: 0.5em;
@@ -211,11 +212,12 @@ li {
   margin-left: 0;
   margin-right: 0;
 }
-a.wt-button {
+.wt-button {
   display: inline-block;
   margin-bottom: 0;
   font-weight: bold;
   text-align: center;
+  text-decoration: none;
   white-space: nowrap;
   vertical-align: middle;
   touch-action: manipulation;
@@ -223,22 +225,19 @@ a.wt-button {
   background-image: none;
   border: 1px solid transparent;
   font-family: proxima-nova, sans-serif;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
   color: #fff;
-  background-color: #5cb85c;
-  border-color: #4cae4c;
+  background-color: $brand-primary;
+  border-color: $brand-primary;
   padding: .3em .5em;
   line-height: 1.5;
-  border-radius: 3px;
+  border-radius: 20px;
   @include fluid-type(320px, 1250px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
-a.wt-button:hover {
+.wt-button:hover {
   color: #fff;
-  background-color: #449d44;
-  border-color: #398439;
+  background-color: lighten($brand-primary, 10%);
+  border-color: lighten($brand-primary, 10%);
   text-decoration: none;
 }
 .fluid-columns,

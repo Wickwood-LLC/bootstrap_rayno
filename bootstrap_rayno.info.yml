@@ -11,7 +11,7 @@ regions:
   branding: 'Branding'
   navigation: 'Navigation'
   navigation_collapsible: 'Navigation (Collapsible)'
-  header: 'Top Bar'
+  topbar: 'Top Bar'
   highlighted: 'Highlighted'
   help: 'Help'
   content: 'Content'
