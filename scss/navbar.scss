@@ -70,10 +70,15 @@
   }
 
   @media (max-width: $grid-float-breakpoint-max) {
-    position: absolute !important;
+    position: fixed !important;
     background-color: white;
     right: 0;
-    top: 78px;
+    top: 92px;
+    z-index: 11;
+    
+    body.adminimal-admin-toolbar & {
+      top: 130px;
+    }
 
     #block-bootstrap-rayno-mainmenu-2 .menu--main {
       margin: 0;
@@ -238,9 +243,14 @@
   border: 1px solid #ccc;
   border-radius: 5px 0px 0px 5px;
   right: -1px;
-  top: 42px;
+  top: 56px;
   width: 36px;
   height: 36px;
+  z-index: 10;
+
+  body.adminimal-admin-toolbar & {
+    top: 95px;
+  }
 
   &[aria-expanded="false"] {
     border-radius: 5px 0px 0px 5px;

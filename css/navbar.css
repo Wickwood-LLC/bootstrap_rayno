@@ -7139,10 +7139,14 @@ button.close {
 
 @media (max-width: 546px) {
   #navbar-collapse {
-    position: absolute !important;
+    position: fixed !important;
     background-color: white;
     right: 0;
-    top: 78px;
+    top: 92px;
+    z-index: 11;
+  }
+  body.adminimal-admin-toolbar #navbar-collapse {
+    top: 130px;
   }
   #navbar-collapse #block-bootstrap-rayno-mainmenu-2 .menu--main {
     margin: 0;
@@ -7287,9 +7291,14 @@ button.close {
   border: 1px solid #ccc;
   border-radius: 5px 0px 0px 5px;
   right: -1px;
-  top: 42px;
+  top: 56px;
   width: 36px;
   height: 36px;
+  z-index: 10;
+}
+
+body.adminimal-admin-toolbar .navbar-toggle {
+  top: 95px;
 }
 
 .navbar-toggle[aria-expanded="false"] {
