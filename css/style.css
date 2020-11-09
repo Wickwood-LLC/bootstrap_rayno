@@ -8165,6 +8165,10 @@ p:last-child,
   margin-top: 0;
 }
 
+.header-container {
+  display: block;
+}
+
 #navbar {
   background-color: transparent;
   border: 0;
