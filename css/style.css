@@ -8325,6 +8325,31 @@ p:last-child,
   }
 }
 
+/********************* STICKY HEADER *********************/
+#navbar .logo-line2,
+#navbar .navbar-text,
+#navbar #block-addressandphone {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+#navbar.sticky-header {
+  background-color: #d9d9d9;
+  padding: 0.5em;
+  position: fixed;
+  top: 6em;
+  z-index: 5;
+}
+
+#navbar.sticky-header .logo-line2,
+#navbar.sticky-header .navbar-text,
+#navbar.sticky-header #block-addressandphone {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+
 #block-addressandphone {
   text-align: center;
 }
