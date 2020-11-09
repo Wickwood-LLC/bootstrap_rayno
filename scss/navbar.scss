@@ -73,7 +73,7 @@
     position: absolute !important;
     background-color: white;
     right: 0;
-    top: 76px;
+    top: 78px;
 
     #block-bootstrap-rayno-mainmenu-2 .menu--main {
       margin: 0;
@@ -228,7 +228,7 @@
 // JavaScript plugin.
 
 .navbar-toggle {
-  position: absolute;
+  position: fixed;
   float: right;
   padding: 9px 10px;
   box-shadow: 2px 2px 30px -3px #383838;
@@ -238,7 +238,7 @@
   border: 1px solid #ccc;
   border-radius: 5px 0px 0px 5px;
   right: -1px;
-  top: 96px;
+  top: 42px;
   width: 36px;
   height: 36px;
 
