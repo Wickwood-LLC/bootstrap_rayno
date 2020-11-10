@@ -437,6 +437,7 @@ p:last-child,
 #navbar.sticky-header {
   background-color: #d9d9d9;
   box-shadow: 0px -6px 20px 0 #191919;
+  max-width: 100%;
   padding: 0.5em;
   position: fixed;
   z-index: 5;
@@ -1018,7 +1019,7 @@ nav.tabs {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    background-color: #d9d9d9;
+    background-color: #c5c5c5;
     margin: 0;
 
     .field--name-title-html {
@@ -1092,8 +1093,9 @@ nav.tabs {
   }
 
   #services-section {
-    background-color: #e4e4e4;
+    background-color: #c5c5c5;
     position: relative;
+    margin-bottom: 0;
     
     .layout__region--content {
       max-width: 1400px;
@@ -1114,6 +1116,7 @@ nav.tabs {
     background-color: #e4e4e4;
     padding: 1em 0;
     position: relative;
+    margin-bottom: 0;
 
     [class*="block-views-blockvehicle-manufacturers"] {
       position: relative;
@@ -1134,7 +1137,7 @@ nav.tabs {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    background-color: #d9d9d9;
+    background-color: #c5c5c5;
     margin: 0;
 
     .layout__region--first {
