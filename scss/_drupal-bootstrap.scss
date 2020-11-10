@@ -887,7 +887,7 @@ nav.tabs {
       }
     }
     .layout__region--second {
-      padding: 1em 7%;
+      padding: 1em;
       box-sizing: border-box;
       margin: 0;
       flex: 1 1 36%;
@@ -938,7 +938,7 @@ nav.tabs {
               display: block;
               width: 100%;
               height: 100%;
-              object-fit: cover;
+              object-fit: fill;
             }
           }
         }
@@ -1773,11 +1773,12 @@ nav.tabs {
 .slick {
   .slick-track {
     display: flex;
-    align-items: center;
   }
 
   .slick__slide {
-    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .slide__media img {

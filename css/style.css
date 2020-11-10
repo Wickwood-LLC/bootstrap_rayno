@@ -8783,7 +8783,7 @@ nav.tabs {
 }
 
 .path-frontpage #promo-slider .layout__region--second {
-  padding: 1em 7%;
+  padding: 1em;
   box-sizing: border-box;
   margin: 0;
   flex: 1 1 36%;
@@ -8842,8 +8842,8 @@ nav.tabs {
   display: block;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 .path-frontpage #what-could-it-be {
@@ -9708,11 +9708,12 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
 
 .slick .slick-track {
   display: flex;
-  align-items: center;
 }
 
 .slick .slick__slide {
-  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .slick .slide__media img {
