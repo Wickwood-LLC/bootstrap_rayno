@@ -9714,6 +9714,7 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   display: flex;
   align-items: center;
   justify-content: center;
+  height: inherit;
 }
 
 .slick .slide__media img {
