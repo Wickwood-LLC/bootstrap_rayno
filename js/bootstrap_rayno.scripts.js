@@ -18,7 +18,7 @@
       $(window).on("resize mresize", sticky);
 
       function sticky() {
-        topSpacing = ((isNaN($('#toolbar-bar').height())) ? 0 : $('#toolbar-bar').height()) + ((isNaN($('.toolbar-tray-horizontal.is-active').height())) ? 0 : $('.toolbar-tray-horizontal.is-active').height());
+        topSpacing = ((isNaN($('.toolbar-fixed #toolbar-bar').height())) ? 0 : $('#toolbar-bar').height()) + ((isNaN($('.toolbar-tray-horizontal.is-active').height())) ? 0 : $('.toolbar-tray-horizontal.is-active').height());
         // headerWidth = $header.width(); // gets the width of the container
         headerHeight = $header.height(); // gets the height of our header
         $(".header-container").css("height", headerHeight);

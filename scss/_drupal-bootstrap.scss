@@ -423,6 +423,8 @@ p:last-child,
 
 /********************* STICKY HEADER *********************/
 #navbar {
+  top: 0;
+
   .logo-line2,
   .navbar-text,
   #block-addressandphone {
@@ -436,10 +438,10 @@ p:last-child,
   background-color: #d9d9d9;
   box-shadow: 0px -6px 20px 0 #191919;
   padding: 0.5em;
-  position: fixed;  
-  top: 6em;
+  position: fixed;
   z-index: 5;
-  
+  transition: 0.5s;
+
   .logo-line2,
   .navbar-text,
   #block-addressandphone {
