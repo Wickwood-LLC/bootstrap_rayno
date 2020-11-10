@@ -922,27 +922,6 @@ nav.tabs {
         left: 2rem;
       }
     }
-
-    .view-promotions-and-testimonials {
-      .views-field-field-background-image {
-          width: 100%;
-          height: 100%;
-          position: absolute;
-          z-index: -1;
-
-          .field-content {
-            height: 100%;
-            width: 100%;
-            
-            img {
-              display: block;
-              width: 100%;
-              height: 100%;
-              object-fit: fill;
-            }
-          }
-        }
-      }
   }
 
   #what-could-it-be {
@@ -1658,6 +1637,27 @@ nav.tabs {
 .view-vehicles-serviced {
   .view-header {
     margin-bottom: 1em;
+  }
+}
+
+.view-promotions-and-testimonials {
+  .views-field-field-background-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+
+    .field-content {
+      height: 100%;
+      width: 100%;
+      
+      img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+      }
+    }
   }
 }
 
