@@ -9598,6 +9598,11 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   margin-bottom: 1em;
 }
 
+.view-promotions-and-testimonials {
+  max-width: 700px;
+  margin: auto;
+}
+
 .view-promotions-and-testimonials .views-field-field-background-image {
   width: 100%;
   height: 100%;
