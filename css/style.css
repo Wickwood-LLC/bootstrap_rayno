@@ -1394,7 +1394,7 @@ body {
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
-  background-color: #d9d9d9;
+  background-color: #e4e4e4;
 }
 
 input,
@@ -1442,7 +1442,7 @@ img {
 .img-thumbnail {
   padding: 4px;
   line-height: 1.428571429;
-  background-color: #d9d9d9;
+  background-color: #e4e4e4;
   border: 1px solid #ddd;
   border-radius: 4px;
   transition: all 0.2s ease-in-out;
@@ -2771,7 +2771,7 @@ th {
 }
 
 .table .table {
-  background-color: #d9d9d9;
+  background-color: #e4e4e4;
 }
 
 .table-condensed > thead > tr > th,
@@ -4641,7 +4641,7 @@ tbody.collapse.in {
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
   color: #555555;
   cursor: default;
-  background-color: #d9d9d9;
+  background-color: #e4e4e4;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
 }
@@ -4727,7 +4727,7 @@ tbody.collapse.in {
   .nav-tabs.nav-justified > .active > a:hover,
   .nav-tabs-justified > .active > a:focus,
   .nav-tabs.nav-justified > .active > a:focus {
-    border-bottom-color: #d9d9d9;
+    border-bottom-color: #e4e4e4;
   }
 }
 
@@ -5113,7 +5113,7 @@ a.badge:hover, a.badge:focus {
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.428571429;
-  background-color: #d9d9d9;
+  background-color: #e4e4e4;
   border: 1px solid #ddd;
   border-radius: 4px;
   transition: border 0.2s ease-in-out;
@@ -7812,7 +7812,7 @@ body.toolbar-loading.toolbar {
 
 html,
 body {
-  background-color: #d9d9d9;
+  background-color: #e4e4e4;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -8343,7 +8343,7 @@ p:last-child,
 }
 
 #navbar.sticky-header {
-  background-color: #d9d9d9;
+  background-color: #e4e4e4;
   box-shadow: 0px -6px 20px 0 #191919;
   max-width: 100%;
   padding: 0.5em;
@@ -9782,7 +9782,7 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
 
 /********************* MAINTENANCE *********************/
 .maintenance-page {
-  background-color: #d9d9d9;
+  background-color: #e4e4e4;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
