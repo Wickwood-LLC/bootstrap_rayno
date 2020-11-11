@@ -1280,6 +1280,13 @@ nav.tabs {
   }
 }
 
+.path-what-could-it-be {
+  .page-title {
+    position: relative;
+    z-index: 1;
+  }
+}
+
 /********************* LAYOUTS *********************/
 .main-container {
   width: 100%;
@@ -1514,7 +1521,7 @@ nav.tabs {
 
 .section-watermark {
   text-align: center;
-  color: #dddddd;      
+  color: #d9d9d9;      
   position: absolute;
   z-index: 0;
   left: 0;
@@ -1721,6 +1728,18 @@ nav.tabs {
 }
 
 .view-what-could-it-be- {
+  &.view-display-id-page_1 {
+    position: relative;
+
+    .view-header .section-watermark {
+      top: -4.5em;
+    }
+
+    .view-content {
+      position: relative;
+    }
+  }
+
   .view-content {
     display: flex;
     flex-flow: row wrap;
@@ -1729,7 +1748,7 @@ nav.tabs {
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
-      background-color: #e9e9e9;
+      background-color: #f1f1f1;
       border-radius: 30px;
       overflow: hidden;
       box-shadow: 0px 0px 10px #d6d6d6;
