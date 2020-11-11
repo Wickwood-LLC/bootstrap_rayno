@@ -435,7 +435,7 @@ p:last-child,
 }
 
 #navbar.sticky-header {
-  background-color: #d9d9d9;
+  background-color: $body-bg;
   box-shadow: 0px -6px 20px 0 #191919;
   max-width: 100%;
   padding: 0.5em;
@@ -875,7 +875,6 @@ nav.tabs {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    background-color: #d9d9d9;
     margin: 0;
 
     .layout__region--first {
@@ -925,7 +924,6 @@ nav.tabs {
   }
 
   #what-could-it-be {
-    background-color: #e4e4e4;
     margin-bottom: 0;
     padding: 1em 0;
     position: relative;
@@ -939,10 +937,6 @@ nav.tabs {
         max-width: 1400px;
         margin: auto;
         padding: 0 1em;
-      }
-
-      .block-title {
-        font-size: 2em;
       }
 
       .topics-container {
@@ -987,7 +981,7 @@ nav.tabs {
       position: relative;
       
       .block-title {
-        font-size: 2em;
+        font-size: 2rem;
       }
     }
   }
@@ -997,7 +991,7 @@ nav.tabs {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    background-color: #c5c5c5;
+    background-color: #d9d9d9;
     margin: 0;
 
     .field--name-title-html {
@@ -1049,7 +1043,7 @@ nav.tabs {
     .layout__region--second {
       align-self: stretch;
       flex: 1 1 100%;
-      padding: 0 7%;
+      padding: 1em 7%;
 
       .contextual-links {
         height: unset;
@@ -1071,7 +1065,6 @@ nav.tabs {
   }
 
   #services-section {
-    background-color: #c5c5c5;
     position: relative;
     margin-bottom: 0;
     
@@ -1085,13 +1078,12 @@ nav.tabs {
       position: relative;
 
       .block-title {
-        font-size: 2em;
+        font-size: 2rem;
       }
     }
   }
 
   #makes-and-models {
-    background-color: #e4e4e4;
     padding: 1em 0;
     position: relative;
     margin-bottom: 0;
@@ -1101,7 +1093,7 @@ nav.tabs {
       z-index: 1;
 
       .block-title {
-        font-size: 2em;
+        font-size: 2rem;
       }
     }
 
@@ -1110,12 +1102,16 @@ nav.tabs {
     }
   }
 
+  #classic-modern {
+    margin: 0;
+  }
+
   #join-rayno-club {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    background-color: #c5c5c5;
+    background-color: #d9d9d9;
     margin: 0;
 
     .layout__region--first {
@@ -1151,6 +1147,10 @@ nav.tabs {
       flex: 1 1 36%;
       min-width: 280px;      
     }
+  }
+
+  #our-team {
+    margin: 0;
   }
 
   #contact-section {
@@ -1222,15 +1222,11 @@ nav.tabs {
       position: relative;
 
       .section-watermark {
-        color: #cecece;
-        top: -0.5em;
+        color: #cecece;        
+        top: 0.5em;
 
-        h3 {
-          font-size: 20vw;
-
-          @include breakpoint(481px) {
-            font-size: 6.5em;
-          }
+        @include breakpoint(885px) {
+          top: 0.6em;
         }
       }
       
@@ -1239,7 +1235,7 @@ nav.tabs {
         
         .block-title {
           text-align: center;
-          font-size: 2em;
+          font-size: 2rem;
         }
       }
 
@@ -1852,7 +1848,7 @@ nav.tabs {
 
 /********************* MAINTENANCE *********************/
 .maintenance-page {
-  background-color: #d9d9d9;
+  background-color: $body-bg;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

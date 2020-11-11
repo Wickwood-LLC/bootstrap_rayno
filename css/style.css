@@ -8767,7 +8767,6 @@ nav.tabs {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  background-color: #d9d9d9;
   margin: 0;
 }
 
@@ -8827,7 +8826,6 @@ nav.tabs {
 }
 
 .path-frontpage #what-could-it-be {
-  background-color: #e4e4e4;
   margin-bottom: 0;
   padding: 1em 0;
   position: relative;
@@ -8846,11 +8844,6 @@ nav.tabs {
     margin: auto;
     padding: 0 1em;
   }
-}
-
-.path-frontpage #what-could-it-be .what-could-it-be-content .block-title,
-.path-frontpage #what-could-it-be > .layout__region--content .block-title {
-  font-size: 2em;
 }
 
 .path-frontpage #what-could-it-be .what-could-it-be-content .topics-container,
@@ -8909,7 +8902,7 @@ nav.tabs {
 }
 
 .path-frontpage #what-could-it-be .block-views-blockwhat-could-it-be--block-1 .block-title {
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 .path-frontpage #welcome-section {
@@ -8917,7 +8910,7 @@ nav.tabs {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  background-color: #c5c5c5;
+  background-color: #d9d9d9;
   margin: 0;
 }
 
@@ -8975,7 +8968,7 @@ nav.tabs {
 .path-frontpage #welcome-section .layout__region--second {
   align-self: stretch;
   flex: 1 1 100%;
-  padding: 0 7%;
+  padding: 1em 7%;
 }
 
 .path-frontpage #welcome-section .layout__region--second .contextual-links {
@@ -8998,7 +8991,6 @@ nav.tabs {
 }
 
 .path-frontpage #services-section {
-  background-color: #c5c5c5;
   position: relative;
   margin-bottom: 0;
 }
@@ -9014,11 +9006,10 @@ nav.tabs {
 }
 
 .path-frontpage #services-section .block-views-blockrayno-services-block-1 .block-title {
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 .path-frontpage #makes-and-models {
-  background-color: #e4e4e4;
   padding: 1em 0;
   position: relative;
   margin-bottom: 0;
@@ -9030,11 +9021,15 @@ nav.tabs {
 }
 
 .path-frontpage #makes-and-models [class*="block-views-blockvehicle-manufacturers"] .block-title {
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 .path-frontpage #makes-and-models .note {
   font-size: 0.5em;
+}
+
+.path-frontpage #classic-modern {
+  margin: 0;
 }
 
 .path-frontpage #join-rayno-club {
@@ -9042,7 +9037,7 @@ nav.tabs {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  background-color: #c5c5c5;
+  background-color: #d9d9d9;
   margin: 0;
 }
 
@@ -9081,6 +9076,10 @@ nav.tabs {
   box-sizing: border-box;
   flex: 1 1 36%;
   min-width: 280px;
+}
+
+.path-frontpage #our-team {
+  margin: 0;
 }
 
 .path-frontpage #contact-section {
@@ -9155,16 +9154,12 @@ nav.tabs {
 
 .path-frontpage #contact-section .layout__region--second .section-watermark {
   color: #cecece;
-  top: -0.5em;
+  top: 0.5em;
 }
 
-.path-frontpage #contact-section .layout__region--second .section-watermark h3 {
-  font-size: 20vw;
-}
-
-@media (min-width: 481px) {
-  .path-frontpage #contact-section .layout__region--second .section-watermark h3 {
-    font-size: 6.5em;
+@media (min-width: 885px) {
+  .path-frontpage #contact-section .layout__region--second .section-watermark {
+    top: 0.6em;
   }
 }
 
@@ -9174,7 +9169,7 @@ nav.tabs {
 
 .path-frontpage #contact-section .layout__region--second .block-webform .block-title {
   text-align: center;
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 @media (min-width: 885px) {
