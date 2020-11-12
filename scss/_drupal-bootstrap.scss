@@ -840,10 +840,6 @@ nav.tabs {
 
 /********************* FRONT PAGE *********************/
 .path-frontpage {
-  .block-title {
-    font-size: 2rem;
-  }
-
   .main-container {
     max-width: unset;
     padding: 0;
@@ -1561,6 +1557,10 @@ nav.tabs {
   #layout-builder & {
     position: relative;
   }
+}
+
+.section-title .block-title {
+  font-size: 2rem;
 }
 
 .boxed {
