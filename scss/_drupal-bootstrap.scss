@@ -1148,7 +1148,7 @@ nav.tabs {
     align-items: center;
     max-width: 1400px;
     margin: auto;
-    padding: 0 1em;
+    padding: 1em;
 
     .layout__region--first {
       flex: 1 1 100%;
@@ -1211,15 +1211,6 @@ nav.tabs {
       flex: 1 1 100%;
       margin: 0;
       position: relative;
-
-      .section-watermark {
-        color: #cecece;        
-        top: 0.5em;
-
-        @include breakpoint(885px) {
-          top: 0.6em;
-        }
-      }
       
       .block-webform {
         position: relative;
