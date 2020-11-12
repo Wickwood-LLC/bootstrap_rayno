@@ -840,6 +840,10 @@ nav.tabs {
 
 /********************* FRONT PAGE *********************/
 .path-frontpage {
+  .block-title {
+    font-size: 2rem;
+  }
+
   .main-container {
     max-width: unset;
     padding: 0;
@@ -979,10 +983,6 @@ nav.tabs {
 
     .block-views-blockwhat-could-it-be--block-1 {
       position: relative;
-      
-      .block-title {
-        font-size: 2rem;
-      }
     }
   }
 
@@ -1076,10 +1076,6 @@ nav.tabs {
 
     .block-views-blockrayno-services-block-1 {
       position: relative;
-
-      .block-title {
-        font-size: 2rem;
-      }
     }
   }
 
@@ -1091,10 +1087,6 @@ nav.tabs {
     [class*="block-views-blockvehicle-manufacturers"] {
       position: relative;
       z-index: 1;
-
-      .block-title {
-        font-size: 2rem;
-      }
     }
 
     .note {
