@@ -9350,16 +9350,23 @@ body {
 
 /* line 25, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 body {
-  margin-top: 15px;
+  z-index: -1;
 }
 
-/* line 30, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+@media (min-width: 0px) and (max-width: 767px) {
+  /* line 25, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  body {
+    margin-top: 15px;
+  }
+}
+
+/* line 33, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', serif;
   margin: 0.5em 0;
 }
 
-/* line 35, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 38, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 h1, .h1 {
   font-weight: bold;
 }
@@ -9383,7 +9390,7 @@ h1, .h1 {
   }
 }
 
-/* line 41, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 44, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 h2, .h2 {
   font-weight: bold;
 }
@@ -9407,7 +9414,7 @@ h2, .h2 {
   }
 }
 
-/* line 47, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 50, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 h3, .h3 {
   font-weight: bold;
 }
@@ -9431,7 +9438,7 @@ h3, .h3 {
   }
 }
 
-/* line 53, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 56, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 h4, .h4 {
   font-weight: bold;
 }
@@ -9455,7 +9462,7 @@ h4, .h4 {
   }
 }
 
-/* line 59, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 62, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 h5, .h5 {
   font-weight: bold;
 }
@@ -9479,7 +9486,7 @@ h5, .h5 {
   }
 }
 
-/* line 65, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 68, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 h6, .h6 {
   font-weight: bold;
 }
@@ -9522,94 +9529,94 @@ p {
   }
 }
 
-/* line 75, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 78, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 ol,
 ul {
   padding-left: 1.5em;
 }
 
-/* line 79, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 82, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .popover ol:last-child, .popover
 ul:last-child {
   margin-bottom: 0;
 }
 
-/* line 84, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 87, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .extlink {
   vertical-align: super;
   font-size: 0.8em;
 }
 
-/* line 89, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 92, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .align-center {
   text-align: center;
 }
 
-/* line 92, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 95, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .align-center img {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 99, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 102, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .extlink .svg-inline--fa.fa-w-16 {
   width: 0.8em;
   margin-left: 0.2em;
 }
 
-/* line 104, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 107, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .extlink span.fa-ext {
   font-size: .8em;
   margin-left: 0.2em;
 }
 
-/* line 109, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 112, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .extlink span.fa-envelope-o {
   font-size: .8em;
   margin-left: 0.2em;
 }
 
-/* line 116, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 119, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .field--label:after {
   content: ':';
 }
 
-/* line 125, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 128, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .no-field-label-colon .field--label:after,
 .no-field-label-colon .field__label:after,
 .no-field-label-colon .field--label-inline .field--label:after {
   content: '';
 }
 
-/* line 136, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 139, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .field-label-colon .field--label:after,
 .field-label-colon .field__label:after,
 .field-label-colon .field--label-inline .field--label:after {
   content: ':';
 }
 
-/* line 142, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 145, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .unpublished {
   color: red;
   text-align: center;
 }
 
-/* line 147, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 150, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .page-title {
   text-align: center;
 }
 
-/* line 152, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 155, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .page-header {
   margin-top: 0;
 }
 
-/* line 156, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 159, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-fakelogowithrealtext {
   float: none;
 }
 
-/* line 159, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 162, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .logo-line1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9626,7 +9633,7 @@ ul:last-child {
           align-items: center;
 }
 
-/* line 168, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 171, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .logo-line1:before {
   content: '';
   bottom: 12px;
@@ -9637,7 +9644,7 @@ ul:last-child {
   border-right: 4px solid transparent;
 }
 
-/* line 177, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 180, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .logo-line1:after {
   content: '';
   bottom: 12px;
@@ -9649,13 +9656,13 @@ ul:last-child {
   margin-left: 0.15rem;
 }
 
-/* line 189, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 192, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .logo-upper-case {
   text-transform: uppercase;
   font-size: 2.1em;
 }
 
-/* line 194, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 197, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .logo-lower-case {
   font-size: 2.7em;
   -ms-flex-item-align: baseline;
@@ -9663,7 +9670,7 @@ ul:last-child {
   position: relative;
 }
 
-/* line 199, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 202, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .logo-lower-case:after {
   content: '';
   width: 68px;
@@ -9674,7 +9681,7 @@ ul:last-child {
   margin-left: -23px;
 }
 
-/* line 210, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 213, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .logo-line2 {
   display: block;
   font-family: 'ITC Machine';
@@ -9683,7 +9690,7 @@ ul:last-child {
   text-align: center;
 }
 
-/* line 219, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 222, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .footer {
   margin-top: 45px;
   padding-top: 35px;
@@ -9695,42 +9702,42 @@ ul:last-child {
   text-align: center;
 }
 
-/* line 230, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 233, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .menu--footer > li {
   display: inline-block;
 }
 
-/* line 233, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 236, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .menu--footer > li > a {
   color: #ececec;
 }
 
-/* line 236, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 239, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .menu--footer > li > a:hover, .menu--footer > li > a:focus {
   background-color: transparent;
   text-decoration: underline;
 }
 
-/* line 245, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 248, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 p:last-child,
 .form-group:last-child,
 .panel:last-child {
   margin-bottom: 0;
 }
 
-/* line 253, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 256, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .region-help > .glyphicon {
   font-size: 18px;
   float: left;
   margin: -0.05em 0.5em 0 0;
 }
 
-/* line 259, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 262, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .region-help .block {
   overflow: hidden;
 }
 
-/* line 264, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 267, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .help-block,
 .control-group .help-inline {
   color: #777777;
@@ -9739,18 +9746,18 @@ p:last-child,
   padding: 0;
 }
 
-/* line 271, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 274, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .help-block:first-child,
 .control-group .help-inline:first-child {
   margin-top: 0;
 }
 
-/* line 276, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 279, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .header-container {
   display: block;
 }
 
-/* line 280, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 283, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #navbar {
   background-color: transparent;
   border: 0;
@@ -9759,13 +9766,13 @@ p:last-child,
   margin-bottom: 0;
 }
 
-/* line 287, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 290, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #navbar .navbar-header {
   float: none;
   margin: 0;
 }
 
-/* line 292, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 295, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #navbar .navbar-brand {
   color: #021062;
   float: none;
@@ -9775,12 +9782,12 @@ p:last-child,
   width: 100%;
 }
 
-/* line 300, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 303, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #navbar .navbar-brand:hover {
   color: #021062;
 }
 
-/* line 304, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 307, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #navbar .navbar-text {
   color: #021062;
   float: none;
@@ -9800,7 +9807,7 @@ p:last-child,
   text-align: center;
 }
 
-/* line 316, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 319, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #navbar .navbar-text:before, #navbar .navbar-text:after {
   content: '';
   background-image: url(../images/wrench.png);
@@ -9818,7 +9825,7 @@ p:last-child,
   transition: transform 0.2s, -webkit-transform 0.2s;
 }
 
-/* line 330, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 333, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #navbar .navbar-text:before {
   margin-right: 0.5em;
   -webkit-transform: rotate(-90deg) translateY(2em);
@@ -9826,14 +9833,14 @@ p:last-child,
 }
 
 @media (min-width: 400px) {
-  /* line 330, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 333, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   #navbar .navbar-text:before {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
   }
 }
 
-/* line 338, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 341, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #navbar .navbar-text:after {
   margin-left: 0.5em;
   -webkit-transform: rotate(270deg) translateY(-2em);
@@ -9841,14 +9848,14 @@ p:last-child,
 }
 
 @media (min-width: 400px) {
-  /* line 338, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 341, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   #navbar .navbar-text:after {
     -webkit-transform: rotate(180deg);
             transform: rotate(180deg);
   }
 }
 
-/* line 348, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 351, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #navbar .region-navigation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9868,18 +9875,18 @@ p:last-child,
           justify-content: center;
 }
 
-/* line 356, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 359, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #navbar .region-navigation .text-logo-and-slogan {
   max-width: 100%;
 }
 
-/* line 360, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 363, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #navbar .region-navigation #block-addressandphone {
   font-size: 1.2em;
 }
 
 @media (min-width: 550px) {
-  /* line 348, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 351, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   #navbar .region-navigation {
     display: -ms-grid;
     display: grid;
@@ -9896,7 +9903,7 @@ p:last-child,
     -ms-grid-row: 1;
     -ms-grid-column: 2;
   }
-  /* line 369, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 372, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   #navbar .region-navigation #block-headerbuttons {
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
@@ -9905,13 +9912,13 @@ p:last-child,
     -ms-grid-row-span: 1;
     grid-row: 1 / 2;
   }
-  /* line 373, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 376, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   #navbar .region-navigation #block-addressandphone {
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
     grid-column: 1 / span 2;
   }
-  /* line 376, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 379, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   #navbar .region-navigation #navbar-collapse {
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
@@ -9920,13 +9927,13 @@ p:last-child,
 }
 
 @media (min-width: 830px) {
-  /* line 382, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 385, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   #navbar .region-navigation .text-logo-and-slogan {
     -ms-grid-row: 1;
     -ms-grid-row-span: 2;
     grid-row: 1 / span 2;
   }
-  /* line 385, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 388, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   #navbar .region-navigation #block-headerbuttons {
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
@@ -9935,7 +9942,7 @@ p:last-child,
     -ms-grid-row-span: 1;
     grid-row: 1 / 2;
   }
-  /* line 389, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 392, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   #navbar .region-navigation #block-addressandphone {
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
@@ -9945,19 +9952,19 @@ p:last-child,
     grid-row: 2 / 3;
     font-size: 1em;
   }
-  /* line 394, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 397, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   #navbar .region-navigation #navbar-collapse {
     margin-top: 0.5em;
   }
 }
 
 @media (min-width: 1051px) {
-  /* line 348, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 351, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   #navbar .region-navigation {
     -ms-grid-columns: auto 1fr 1fr;
     grid-template-columns: auto 1fr 1fr;
   }
-  /* line 402, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 405, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   #navbar .region-navigation #block-addressandphone {
     -ms-grid-column: 2;
     -ms-grid-column-span: 1;
@@ -9967,7 +9974,7 @@ p:last-child,
     grid-row: 1 / 2;
     text-align: right;
   }
-  /* line 407, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 410, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   #navbar .region-navigation #block-headerbuttons {
     -ms-grid-column: 3;
     -ms-grid-column-span: 1;
@@ -9976,7 +9983,7 @@ p:last-child,
     -ms-grid-row-span: 1;
     grid-row: 1 / 2;
   }
-  /* line 411, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 414, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   #navbar .region-navigation #navbar-collapse {
     -ms-grid-column: 2;
     -ms-grid-column-span: 2;
@@ -9990,7 +9997,7 @@ p:last-child,
 }
 
 @media (min-width: 1238px) {
-  /* line 348, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 351, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   #navbar .region-navigation {
     -ms-grid-columns: auto 1fr auto;
     grid-template-columns: auto 1fr auto;
@@ -9998,12 +10005,12 @@ p:last-child,
 }
 
 /********************* STICKY HEADER *********************/
-/* line 425, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 428, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #navbar {
   top: 0;
 }
 
-/* line 428, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 431, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #navbar .logo-line2,
 #navbar .navbar-text,
 #navbar #block-addressandphone {
@@ -10012,7 +10019,7 @@ p:last-child,
   visibility: visible;
 }
 
-/* line 437, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 440, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #navbar.sticky-header {
   background-color: #e4e4e4;
   -webkit-box-shadow: 0px -6px 20px 0 #191919;
@@ -10025,7 +10032,7 @@ p:last-child,
   transition: 0.5s;
 }
 
-/* line 446, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 449, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #navbar.sticky-header .logo-line2,
 #navbar.sticky-header .navbar-text,
 #navbar.sticky-header #block-addressandphone {
@@ -10034,12 +10041,12 @@ p:last-child,
   visibility: hidden;
 }
 
-/* line 459, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 462, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-addressandphone {
   text-align: center;
 }
 
-/* line 462, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 465, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-addressandphone .header-address,
 #block-addressandphone .header-phone {
   display: inline-block;
@@ -10047,29 +10054,29 @@ p:last-child,
   margin: 0.5em 0.5em 0;
 }
 
-/* line 468, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 471, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-addressandphone .header-phone {
   margin: 0 0.5em 0.5em;
 }
 
-/* line 473, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 476, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #navbar-collapse {
   padding: 0;
 }
 
-/* line 478, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 481, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #navbar-collapse .navbar-nav li.dropdown:hover > ul.dropdown-menu {
   display: block;
 }
 
-/* line 485, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 488, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .nav-tabs {
   border-bottom: 0px;
   display: inline-block;
   float: right;
 }
 
-/* line 490, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 493, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .nav-tabs > li {
   float: left;
   position: relative;
@@ -10077,45 +10084,45 @@ p:last-child,
   margin-bottom: 10px;
 }
 
-/* line 496, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 499, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .nav-tabs > li.active {
   background-color: #021062;
 }
 
-/* line 499, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 502, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .nav-tabs > li.active > a {
   color: white;
   background: transparent;
   border: 1px solid transparent;
 }
 
-/* line 506, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 509, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .nav-tabs > li:hover {
   background-color: #f8f8f8;
 }
 
-/* line 509, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 512, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .nav-tabs > li:hover a:hover {
   background-color: transparent;
   border-color: transparent;
 }
 
-/* line 515, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 518, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .nav-tabs > li > a {
   color: #333333;
 }
 
-/* line 519, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 522, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .nav-tabs > li:first-child {
   border-radius: 5px 0 0 5px;
 }
 
-/* line 523, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 526, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .nav-tabs > li:last-child {
   border-radius: 0 5px 5px 0;
 }
 
-/* line 529, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 532, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .region-topbar {
   background-color: #021062;
   color: #ececec;
@@ -10125,49 +10132,49 @@ p:last-child,
   padding: 1em;
 }
 
-/* line 537, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 540, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .region-topbar a {
   color: #CAB07B;
   text-decoration: none;
 }
 
-/* line 541, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 544, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .region-topbar a:hover {
   color: #CAB07B;
   text-decoration: underline;
 }
 
-/* line 549, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 552, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .breadcrumb > li + li:before {
   padding: 0 5px;
   color: #777777;
   content: "» ";
 }
 
-/* line 556, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 559, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 nav.tabs {
   display: inline-block;
   width: 100%;
 }
 
-/* line 561, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 564, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-copyrightblock {
   text-align: center;
 }
 
-/* line 565, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 568, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-footermenu {
   text-align: center;
 }
 
-/* line 568, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 571, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-footermenu .menu li {
   display: inline-block;
   margin-left: 0;
 }
 
 /****** MAIN MENU ******/
-/* line 576, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 579, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-superfish-1 {
   position: static;
   margin-top: 1em;
@@ -10181,7 +10188,7 @@ nav.tabs {
 }
 
 @media (min-width: 718px) {
-  /* line 576, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 579, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   #block-superfish-1 {
     display: table;
     margin: 0 auto;
@@ -10189,7 +10196,7 @@ nav.tabs {
   }
 }
 
-/* line 590, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 593, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-superfish-1.sticky-menu {
   position: fixed;
   top: 0;
@@ -10203,13 +10210,13 @@ nav.tabs {
 }
 
 @media (min-width: 718px) {
-  /* line 590, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 593, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   #block-superfish-1.sticky-menu {
     padding-bottom: 0;
   }
 }
 
-/* line 604, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 607, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-superfish-1.sticky-menu .block-content {
   display: inline-block;
   width: 100%;
@@ -10218,14 +10225,14 @@ nav.tabs {
 }
 
 @media (min-width: 718px) {
-  /* line 604, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 607, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   #block-superfish-1.sticky-menu .block-content {
     width: auto;
     padding: 0 0 0.5em 0;
   }
 }
 
-/* line 617, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 620, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-superfish-1 .block-content,
 #block-superfish-1.sticky-menu .block-content {
   display: inline-block;
@@ -10233,30 +10240,30 @@ nav.tabs {
 }
 
 @media (min-width: 718px) {
-  /* line 617, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 620, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   #block-superfish-1 .block-content,
   #block-superfish-1.sticky-menu .block-content {
     width: auto;
   }
 }
 
-/* line 627, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 630, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1 {
   display: table;
   margin: auto;
 }
 
-/* line 632, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 635, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1 > li:first-child {
   border-radius: 5px 0px 0px 5px;
 }
 
-/* line 636, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 639, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1 > li:last-child {
   border-radius: 0px 5px 5px 0px;
 }
 
-/* line 641, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 644, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1 li {
   border-bottom: 0;
   float: left;
@@ -10264,12 +10271,12 @@ nav.tabs {
   padding: 0;
 }
 
-/* line 647, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 650, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1 li:hover {
   background: #f8f8f8;
 }
 
-/* line 651, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 654, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1 li a {
   background-image: none;
   color: #333;
@@ -10281,53 +10288,53 @@ nav.tabs {
   line-height: 20px;
 }
 
-/* line 661, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 664, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1 li a > .sf-sub-indicator {
   position: static;
   display: inline-block;
   margin-left: 0.5em;
 }
 
-/* line 669, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 672, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1 .sf-sub-indicator {
   -webkit-filter: invert(70%);
           filter: invert(70%);
 }
 
-/* line 673, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 676, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1 .menuparent ul {
   width: auto !important;
   overflow: visible !important;
 }
 
-/* line 677, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 680, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1 .menuparent ul li {
   white-space: nowrap !important;
   background: #ebebeb;
 }
 
-/* line 681, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 684, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1 .menuparent ul li:hover {
   background: white;
 }
 
-/* line 685, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 688, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1 .menuparent ul li a {
   text-align: left;
 }
 
-/* line 691, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 694, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1 .active-trail {
   background-color: #7bc !important;
 }
 
-/* line 694, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 697, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1 .active-trail > a {
   color: white;
   text-shadow: #38a 0px 1px 0px;
 }
 
-/* line 701, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 704, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1-toggle {
   display: block;
   text-align: center;
@@ -10340,80 +10347,80 @@ nav.tabs {
   font-weight: bold;
 }
 
-/* line 712, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 715, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1-toggle.sf-expanded {
   background-color: #7bc;
   border-radius: 10px 10px 0 0;
 }
 
-/* line 717, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 720, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1-toggle:hover {
   background-color: #7bc;
 }
 
-/* line 723, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 726, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1-accordion li {
   background-color: #e9eaec;
   line-height: 1.5;
   font-size: 16px;
 }
 
-/* line 728, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 731, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1-accordion li.active-trail {
   background-color: #00728e;
 }
 
-/* line 731, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 734, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1-accordion li.active-trail > a {
   color: white;
 }
 
-/* line 736, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 739, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1-accordion li:last-child {
   border-radius: 0 0 10px 10px;
 }
 
-/* line 740, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 743, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1-accordion li:hover {
   background-color: #9ec5d0;
 }
 
-/* line 743, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 746, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1-accordion li:hover > a {
   color: white;
 }
 
-/* line 748, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 751, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-superfish-1 #superfish-1-accordion li a {
   color: #00728e;
 }
 
-/* line 755, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 758, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .menu--header-buttons,
 #block-bootstrap-rayno-mainmenu-2 .menu--main {
   text-align: center;
 }
 
-/* line 759, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 762, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .menu--header-buttons > li,
 #block-bootstrap-rayno-mainmenu-2 .menu--main > li {
   display: inline-block;
   float: none;
 }
 
-/* line 763, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 766, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .menu--header-buttons > li a,
 #block-bootstrap-rayno-mainmenu-2 .menu--main > li a {
   font-size: 0.8em;
 }
 
-/* line 766, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 769, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .menu--header-buttons > li a:hover,
 #block-bootstrap-rayno-mainmenu-2 .menu--main > li a:hover {
   background-color: transparent;
 }
 
-/* line 772, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 775, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-bootstrap-rayno-mainmenu-2 .menu--main {
   font-weight: bold;
   text-transform: uppercase;
@@ -10421,28 +10428,28 @@ nav.tabs {
   margin-top: 0;
 }
 
-/* line 779, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 782, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-bootstrap-rayno-mainmenu-2 .menu--main > li a {
   border-bottom: 4px solid transparent;
   color: #020202;
   padding: 0.5em;
 }
 
-/* line 784, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 787, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-bootstrap-rayno-mainmenu-2 .menu--main > li a:hover, #block-bootstrap-rayno-mainmenu-2 .menu--main > li a:focus, #block-bootstrap-rayno-mainmenu-2 .menu--main > li a.is-active {
   background-color: transparent;
   border-bottom: 4px solid #021062;
   color: #021062;
 }
 
-/* line 794, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 797, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-bootstrap-rayno-mainmenu-2 .menu--main > li.active > a.active,
 #block-bootstrap-rayno-mainmenu-2 .menu--main > li.active > a:hover,
 #block-bootstrap-rayno-mainmenu-2 .menu--main > li.active > a:focus {
   background-color: transparent;
 }
 
-/* line 804, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 807, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .menu--header-buttons > li a {
   border-radius: 19.5px;
   line-height: 1;
@@ -10450,12 +10457,12 @@ nav.tabs {
   margin: 2px;
 }
 
-/* line 810, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 813, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .menu--header-buttons > li a:hover, .menu--header-buttons > li a:focus, .menu--header-buttons > li a.is-active {
   background-color: #010830;
 }
 
-/* line 821, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 824, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .field--label-inline .field--label,
 .field--label-inline .field__label,
 .field--label-inline > .field--item,
@@ -10466,7 +10473,7 @@ nav.tabs {
   padding-right: 0;
 }
 
-/* line 833, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 836, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .field--label-inline.field-item-list .field--items ol,
 .field--label-inline.field-item-list .field--items ul {
   display: inline-block;
@@ -10474,30 +10481,30 @@ nav.tabs {
 }
 
 /********************* FRONT PAGE *********************/
-/* line 843, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 846, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage .main-container {
   max-width: unset;
   padding: 0;
 }
 
-/* line 847, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 850, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage .main-container > .row {
   margin: 0;
 }
 
-/* line 850, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 853, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage .main-container > .row > section {
   padding: 0;
 }
 
-/* line 855, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 858, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage .highlighted {
   max-width: 1400px;
   margin: auto;
   padding: 0 15px;
 }
 
-/* line 860, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 863, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage nav.tabs {
   display: block;
   max-width: 1400px;
@@ -10507,12 +10514,12 @@ nav.tabs {
   position: relative;
 }
 
-/* line 869, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 872, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage article.page {
   clear: both;
 }
 
-/* line 873, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 876, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #promo-slider {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -10530,20 +10537,20 @@ nav.tabs {
   margin: 0;
 }
 
-/* line 880, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 883, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #promo-slider .layout__region--first {
   margin: 0;
   max-width: 100%;
 }
 
 @media (min-width: 769px) {
-  /* line 880, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 883, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .path-frontpage #promo-slider .layout__region--first {
     max-width: 50%;
   }
 }
 
-/* line 888, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 891, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #promo-slider .layout__region--second {
   padding: 1em;
   -webkit-box-sizing: border-box;
@@ -10556,20 +10563,20 @@ nav.tabs {
   text-align: center;
 }
 
-/* line 896, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 899, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #promo-slider .layout__region--second h1 {
   font-size: 3em;
 }
 
 @media (min-width: 769px) {
-  /* line 888, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 891, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .path-frontpage #promo-slider .layout__region--second {
     margin-right: auto;
     text-align: left;
   }
 }
 
-/* line 906, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 909, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #promo-slider .slide__caption {
   position: absolute;
   height: auto;
@@ -10583,27 +10590,27 @@ nav.tabs {
 }
 
 @media (min-width: 500px) {
-  /* line 906, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 909, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .path-frontpage #promo-slider .slide__caption {
     left: 4rem;
   }
 }
 
 @media (min-width: 769px) {
-  /* line 906, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 909, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .path-frontpage #promo-slider .slide__caption {
     left: 2rem;
   }
 }
 
-/* line 926, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 929, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #what-could-it-be {
   margin-bottom: 0;
   padding: 1em 0;
   position: relative;
 }
 
-/* line 931, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 934, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #what-could-it-be .what-could-it-be-content,
 .path-frontpage #what-could-it-be > .layout__region--content {
   max-width: 1400px;
@@ -10611,7 +10618,7 @@ nav.tabs {
 }
 
 @media (min-width: 1400px) {
-  /* line 931, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 934, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .path-frontpage #what-could-it-be .what-could-it-be-content,
   .path-frontpage #what-could-it-be > .layout__region--content {
     max-width: 1400px;
@@ -10620,13 +10627,13 @@ nav.tabs {
   }
 }
 
-/* line 942, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 945, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #what-could-it-be .what-could-it-be-content .topics-container,
 .path-frontpage #what-could-it-be > .layout__region--content .topics-container {
   overflow-x: auto;
 }
 
-/* line 945, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 948, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #what-could-it-be .what-could-it-be-content .wt-four-col,
 .path-frontpage #what-could-it-be > .layout__region--content .wt-four-col {
   -webkit-box-orient: horizontal;
@@ -10635,7 +10642,7 @@ nav.tabs {
           flex-flow: row wrap;
 }
 
-/* line 948, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 951, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #what-could-it-be .what-could-it-be-content .wt-four-col .wt-col,
 .path-frontpage #what-could-it-be > .layout__region--content .wt-four-col .wt-col {
   -webkit-box-pack: start;
@@ -10653,7 +10660,7 @@ nav.tabs {
           flex: 1 1 100%;
 }
 
-/* line 958, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 961, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #what-could-it-be .what-could-it-be-content .wt-four-col .wt-col p:nth-of-type(1) img,
 .path-frontpage #what-could-it-be > .layout__region--content .wt-four-col .wt-col p:nth-of-type(1) img {
   width: 60%;
@@ -10663,7 +10670,7 @@ nav.tabs {
   margin-bottom: -2em;
 }
 
-/* line 965, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 968, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #what-could-it-be .what-could-it-be-content .wt-four-col .wt-col p:nth-of-type(2),
 .path-frontpage #what-could-it-be > .layout__region--content .wt-four-col .wt-col p:nth-of-type(2) {
   -webkit-box-flex: 1;
@@ -10673,7 +10680,7 @@ nav.tabs {
 }
 
 @media (min-width: 481px) {
-  /* line 948, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 951, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .path-frontpage #what-could-it-be .what-could-it-be-content .wt-four-col .wt-col,
   .path-frontpage #what-could-it-be > .layout__region--content .wt-four-col .wt-col {
     -webkit-box-flex: 1;
@@ -10683,7 +10690,7 @@ nav.tabs {
 }
 
 @media (min-width: 931px) {
-  /* line 948, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 951, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .path-frontpage #what-could-it-be .what-could-it-be-content .wt-four-col .wt-col,
   .path-frontpage #what-could-it-be > .layout__region--content .wt-four-col .wt-col {
     -webkit-box-flex: 1;
@@ -10692,12 +10699,12 @@ nav.tabs {
   }
 }
 
-/* line 980, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 983, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #what-could-it-be .block-views-blockwhat-could-it-be--block-1 {
   position: relative;
 }
 
-/* line 985, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 988, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #welcome-section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -10716,24 +10723,24 @@ nav.tabs {
   margin: 0;
 }
 
-/* line 993, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 996, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #welcome-section .field--name-title-html {
   text-align: center;
 }
 
 @media (min-width: 885px) {
-  /* line 993, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 996, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .path-frontpage #welcome-section .field--name-title-html {
     text-align: left;
   }
 }
 
-/* line 1000, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1003, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #welcome-section .logo-line1 {
   color: #021062;
 }
 
-/* line 1003, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1006, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #welcome-section .logo-line1:before, .path-frontpage #welcome-section .logo-line1:after {
   width: unset;
   -webkit-box-flex: 1;
@@ -10742,18 +10749,18 @@ nav.tabs {
   max-width: 150px;
 }
 
-/* line 1010, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1013, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #welcome-section .logo-upper-case {
   font-size: 1.8em;
 }
 
-/* line 1013, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1016, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #welcome-section .logo-lower-case {
   font-size: 2.3em;
   line-height: 0.65;
 }
 
-/* line 1017, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1020, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #welcome-section .logo-lower-case:after {
   background: none;
   border-left: 3px solid transparent;
@@ -10764,7 +10771,7 @@ nav.tabs {
   height: 5px;
 }
 
-/* line 1028, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1031, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #welcome-section .layout__region--first {
   padding: 1em 4%;
   -webkit-box-sizing: border-box;
@@ -10776,12 +10783,12 @@ nav.tabs {
   min-width: 280px;
 }
 
-/* line 1035, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1038, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #welcome-section .layout__region--first img {
   width: 100%;
 }
 
-/* line 1039, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1042, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #welcome-section .layout__region--second {
   -ms-flex-item-align: stretch;
       -ms-grid-row-align: stretch;
@@ -10792,14 +10799,14 @@ nav.tabs {
   padding: 1em 7%;
 }
 
-/* line 1044, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1047, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #welcome-section .layout__region--second .contextual-links {
   height: unset;
   width: unset;
 }
 
 @media (min-width: 885px) {
-  /* line 1039, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1042, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .path-frontpage #welcome-section .layout__region--second {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 50%;
@@ -10807,7 +10814,7 @@ nav.tabs {
     max-width: 50%;
     padding: 0;
   }
-  /* line 1054, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1057, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .path-frontpage #welcome-section .layout__region--second * {
     -o-object-fit: cover;
        object-fit: cover;
@@ -10816,48 +10823,48 @@ nav.tabs {
   }
 }
 
-/* line 1063, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1066, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #services-section {
   position: relative;
   margin-bottom: 0;
 }
 
-/* line 1067, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1070, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #services-section .layout__region--content {
   max-width: 1400px;
   padding: 1em;
   margin: auto;
 }
 
-/* line 1073, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1076, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #services-section .block-views-blockrayno-services-block-1 {
   position: relative;
 }
 
-/* line 1078, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1081, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #makes-and-models {
   padding: 1em 0;
   position: relative;
   margin-bottom: 0;
 }
 
-/* line 1083, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1086, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #makes-and-models [class*="block-views-blockvehicle-manufacturers"] {
   position: relative;
   z-index: 1;
 }
 
-/* line 1088, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1091, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #makes-and-models .note {
   font-size: 0.5em;
 }
 
-/* line 1093, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1096, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #classic-modern {
   margin: 0;
 }
 
-/* line 1097, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1100, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #join-rayno-club {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -10876,7 +10883,7 @@ nav.tabs {
   margin: 0;
 }
 
-/* line 1105, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1108, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #join-rayno-club .layout__region--first {
   -ms-flex-item-align: stretch;
       -ms-grid-row-align: stretch;
@@ -10888,19 +10895,19 @@ nav.tabs {
   margin: 0;
 }
 
-/* line 1111, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1114, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #join-rayno-club .layout__region--first .contextual-links {
   height: unset;
   width: unset;
 }
 
-/* line 1116, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1119, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #join-rayno-club .layout__region--first img {
   width: 100%;
 }
 
 @media (min-width: 885px) {
-  /* line 1105, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1108, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .path-frontpage #join-rayno-club .layout__region--first {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 50%;
@@ -10908,7 +10915,7 @@ nav.tabs {
     max-width: 50%;
     padding: 0;
   }
-  /* line 1125, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1128, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .path-frontpage #join-rayno-club .layout__region--first * {
     -o-object-fit: cover;
        object-fit: cover;
@@ -10917,7 +10924,7 @@ nav.tabs {
   }
 }
 
-/* line 1132, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1135, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #join-rayno-club .layout__region--second {
   padding: 1em 4%;
   -webkit-box-sizing: border-box;
@@ -10928,12 +10935,12 @@ nav.tabs {
   min-width: 280px;
 }
 
-/* line 1140, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1143, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #our-team {
   margin: 0;
 }
 
-/* line 1144, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1147, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #contact-section {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -10943,7 +10950,7 @@ nav.tabs {
   padding: 0 1em;
 }
 
-/* line 1150, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1153, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #contact-section .layout__region--first {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 100%;
@@ -10955,7 +10962,7 @@ nav.tabs {
   text-align: center;
 }
 
-/* line 1157, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1160, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #contact-section .layout__region--first .contact-info .field--name-body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -10972,40 +10979,40 @@ nav.tabs {
           justify-content: center;
 }
 
-/* line 1163, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1166, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #contact-section .layout__region--first .contact-info .location, .path-frontpage #contact-section .layout__region--first .contact-info .phone, .path-frontpage #contact-section .layout__region--first .contact-info .mail {
   margin: 1em;
 }
 
-/* line 1166, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1169, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #contact-section .layout__region--first .contact-info .location h3, .path-frontpage #contact-section .layout__region--first .contact-info .phone h3, .path-frontpage #contact-section .layout__region--first .contact-info .mail h3 {
   font-family: 'Roboto', sans-serif;
   margin: 0;
 }
 
-/* line 1170, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1173, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #contact-section .layout__region--first .contact-info .location h3 .fontawesome-icon-inline, .path-frontpage #contact-section .layout__region--first .contact-info .phone h3 .fontawesome-icon-inline, .path-frontpage #contact-section .layout__region--first .contact-info .mail h3 .fontawesome-icon-inline {
   color: #021062;
 }
 
-/* line 1174, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1177, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #contact-section .layout__region--first .contact-info .location p, .path-frontpage #contact-section .layout__region--first .contact-info .phone p, .path-frontpage #contact-section .layout__region--first .contact-info .mail p {
   font-family: 'Playfair Display', serif;
   margin: 0;
 }
 
-/* line 1178, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1181, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #contact-section .layout__region--first .contact-info .location a, .path-frontpage #contact-section .layout__region--first .contact-info .phone a, .path-frontpage #contact-section .layout__region--first .contact-info .mail a {
   color: inherit;
 }
 
-/* line 1181, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1184, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #contact-section .layout__region--first .contact-info .location a:hover, .path-frontpage #contact-section .layout__region--first .contact-info .phone a:hover, .path-frontpage #contact-section .layout__region--first .contact-info .mail a:hover {
   text-decoration: none;
 }
 
 @media (min-width: 885px) {
-  /* line 1150, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1153, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .path-frontpage #contact-section .layout__region--first {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 calc(50% - 0.5em);
@@ -11018,17 +11025,17 @@ nav.tabs {
     padding: 0 10%;
     text-align: left;
   }
-  /* line 1197, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1200, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .path-frontpage #contact-section .layout__region--first .contact-info .field--name-body {
     display: block;
   }
-  /* line 1200, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1203, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .path-frontpage #contact-section .layout__region--first .contact-info .location, .path-frontpage #contact-section .layout__region--first .contact-info .phone, .path-frontpage #contact-section .layout__region--first .contact-info .mail {
     margin: 0 0 1em 0;
   }
 }
 
-/* line 1207, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1210, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #contact-section .layout__region--second {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 100%;
@@ -11037,32 +11044,32 @@ nav.tabs {
   position: relative;
 }
 
-/* line 1212, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1215, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #contact-section .layout__region--second .section-watermark {
   color: #cecece;
   top: 0.5em;
 }
 
 @media (min-width: 885px) {
-  /* line 1212, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1215, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .path-frontpage #contact-section .layout__region--second .section-watermark {
     top: 0.6em;
   }
 }
 
-/* line 1221, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1224, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #contact-section .layout__region--second .block-webform {
   position: relative;
 }
 
-/* line 1224, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1227, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-frontpage #contact-section .layout__region--second .block-webform .block-title {
   text-align: center;
   font-size: 2rem;
 }
 
 @media (min-width: 885px) {
-  /* line 1207, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1210, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .path-frontpage #contact-section .layout__region--second {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 calc(50% - 0.5em);
@@ -11074,12 +11081,12 @@ nav.tabs {
 }
 
 /********************* NODE *********************/
-/* line 1242, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1245, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .node.teaser .node-title {
   text-align: center;
 }
 
-/* line 1248, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1251, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .page-node-type-promotion .node .content {
   position: relative;
   display: -webkit-box;
@@ -11087,17 +11094,17 @@ nav.tabs {
   display: flex;
 }
 
-/* line 1252, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1255, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .page-node-type-promotion .node .content .field--name-field-background-image {
   width: 100%;
 }
 
-/* line 1255, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1258, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .page-node-type-promotion .node .content .field--name-field-background-image img {
   width: 100%;
 }
 
-/* line 1259, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1262, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .page-node-type-promotion .node .content .field--name-body {
   position: absolute;
   width: 100%;
@@ -11116,25 +11123,25 @@ nav.tabs {
           flex-flow: column;
 }
 
-/* line 1272, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1275, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-what-could-it-be .page-title {
   position: relative;
   z-index: 1;
 }
 
-/* line 1280, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1283, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .node.what-could-it-be .what-could-it-be-title .block-title {
   font-size: 2em;
   position: relative;
   z-index: 1;
 }
 
-/* line 1285, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1288, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .node.what-could-it-be .what-could-it-be-title .section-watermark {
   top: -0.4em;
 }
 
-/* line 1290, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1293, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .node.what-could-it-be .content-section {
   background-color: #f1f1f1;
   border-radius: 30px;
@@ -11145,12 +11152,12 @@ nav.tabs {
   margin: 0.5em;
 }
 
-/* line 1298, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1301, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .node.what-could-it-be .content-section .block-field-blocknodewhat-could-it-befield-problem-image {
   text-align: right;
 }
 
-/* line 1301, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1304, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .node.what-could-it-be .content-section .field--name-field-problem-image {
   display: inline-block;
   margin-right: -1em;
@@ -11158,52 +11165,53 @@ nav.tabs {
 }
 
 /********************* LAYOUTS *********************/
-/* line 1310, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1313, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .main-container {
   width: 100%;
   max-width: 1400px;
 }
 
-/* line 1315, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1318, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .layout {
+  position: relative;
   margin-bottom: 1em;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
 
-/* line 1319, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1323, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .layout .layout__region {
   margin: 0.5em 0;
 }
 
-/* line 1322, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1326, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .layout .layout__region:first-child {
   margin-top: 0;
 }
 
-/* line 1326, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1330, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .layout .layout__region:last-child {
   margin-bottom: 0;
 }
 
 @media (min-width: 740px) {
-  /* line 1319, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1323, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .layout .layout__region {
     margin: 0 0.5em;
   }
-  /* line 1333, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1337, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .layout .layout__region:first-child {
     margin-left: 0;
   }
-  /* line 1337, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1341, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .layout .layout__region:last-child {
     margin-right: 0;
   }
 }
 
 @media (min-width: 40em) {
-  /* line 1344, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1348, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .layout.layout--twocol-section--50-50 > .layout__region {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 100%;
@@ -11212,7 +11220,7 @@ nav.tabs {
 }
 
 @media (min-width: 740px) {
-  /* line 1344, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1348, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .layout.layout--twocol-section--50-50 > .layout__region {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 calc(50% - 0.5em);
@@ -11220,33 +11228,46 @@ nav.tabs {
   }
 }
 
-/* line 1355, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
-.layout.layout--twocol-section--50-50.rtlb:not(.layout-builder__layout) > .layout__region--first {
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
-}
-
 @media (min-width: 740px) {
-  /* line 1359, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1358, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  .layout.layout--twocol-section--50-50.rtlb:not(.layout-builder__layout) {
+    display: block;
+  }
+  /* line 1362, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .layout.layout--twocol-section--50-50.rtlb:not(.layout-builder__layout) > .layout__region--first {
-    -webkit-box-ordinal-group: 1;
-        -ms-flex-order: 0;
-            order: 0;
+    float: right;
+    margin-left: 1em;
+    margin-right: 0;
+    margin-bottom: 1em;
+    width: 50%;
+  }
+  /* line 1370, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  .layout.layout--twocol-section--50-50.rtlb:not(.layout-builder__layout) > .layout__region--second {
+    margin: 0;
   }
 }
 
 @media (min-width: 740px) {
-  /* line 1367, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1376, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  .layout.layout--twocol-section--50-50.ltrb:not(.layout-builder__layout) {
+    display: block;
+  }
+  /* line 1380, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .layout.layout--twocol-section--50-50.ltrb:not(.layout-builder__layout) > .layout__region--first {
-    -webkit-box-ordinal-group: 1;
-        -ms-flex-order: 0;
-            order: 0;
+    float: left;
+    margin-left: 0;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    width: 50%;
+  }
+  /* line 1388, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  .layout.layout--twocol-section--50-50.ltrb:not(.layout-builder__layout) > .layout__region--second {
+    margin: 0;
   }
 }
 
 @media (min-width: 40em) {
-  /* line 1376, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1397, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .layout.layout--twocol > .layout__region--first,
   .layout.layout--twocol > .layout__region--second {
     -webkit-box-flex: 1;
@@ -11256,7 +11277,7 @@ nav.tabs {
 }
 
 @media (min-width: 740px) {
-  /* line 1376, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1397, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .layout.layout--twocol > .layout__region--first,
   .layout.layout--twocol > .layout__region--second {
     -webkit-box-flex: 0;
@@ -11267,21 +11288,21 @@ nav.tabs {
 }
 
 @media (min-width: 740px) {
-  /* line 1388, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1409, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .layout.layout--twocol > .layout__region--first {
     margin-left: 0;
   }
 }
 
 @media (min-width: 740px) {
-  /* line 1394, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1415, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .layout.layout--twocol > .layout__region--second {
     margin-right: 0;
   }
 }
 
 @media (min-width: 40em) {
-  /* line 1403, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1424, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .layout.layout--threecol-section--33-34-33 > .layout__region--first,
   .layout.layout--threecol-section--33-34-33 > .layout__region--third {
     -webkit-box-flex: 0;
@@ -11291,7 +11312,7 @@ nav.tabs {
 }
 
 @media (min-width: 40em) {
-  /* line 1410, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1431, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .layout.layout--threecol-section--33-34-33 > .layout__region--second {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 calc(34% - 1em);
@@ -11300,7 +11321,7 @@ nav.tabs {
 }
 
 @media (min-width: 40em) {
-  /* line 1419, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1439, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .layout.layout--threecol-section--25-50-25 > .layout__region--first,
   .layout.layout--threecol-section--25-50-25 > .layout__region--third {
     -webkit-box-flex: 0;
@@ -11310,7 +11331,7 @@ nav.tabs {
 }
 
 @media (min-width: 40em) {
-  /* line 1426, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1446, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .layout.layout--threecol-section--25-50-25 > .layout__region--second {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 calc(50% - 1em);
@@ -11318,7 +11339,7 @@ nav.tabs {
   }
 }
 
-/* line 1435, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1455, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .press-release.full .sutro-double {
   max-width: 960px;
   background: #FFF;
@@ -11330,28 +11351,28 @@ nav.tabs {
           box-sizing: border-box;
 }
 
-/* line 1443, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1463, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .press-release.full .sutro-double .row {
   margin: 1em 0;
 }
 
-/* line 1446, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1466, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .press-release.full .sutro-double .row:first-child {
   margin-top: 0;
 }
 
-/* line 1450, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1470, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .press-release.full .sutro-double .row:last-child {
   margin-bottom: 0;
 }
 
-/* line 1455, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1475, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .press-release.full .sutro-double .field--name-field-pr-about {
   margin: 3em 0;
 }
 
 /********************* BLOCKS *********************/
-/* line 1462, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1482, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .js-layout-builder-block {
   padding: 1em;
   cursor: move;
@@ -11361,7 +11382,7 @@ nav.tabs {
   margin-bottom: 1em;
 }
 
-/* line 1471, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1491, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-bootstrap-rayno-socialsharingblock {
   position: fixed;
   top: 56px;
@@ -11376,31 +11397,31 @@ nav.tabs {
   z-index: 5;
 }
 
-/* line 1483, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1503, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 body.adminimal-admin-toolbar #block-bootstrap-rayno-socialsharingblock {
   top: 95px;
 }
 
-/* line 1486, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1506, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingblock {
   top: 140px;
 }
 
-/* line 1490, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1510, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-bootstrap-rayno-socialsharingblock:hover, #block-bootstrap-rayno-socialsharingblock:focus, #block-bootstrap-rayno-socialsharingblock:active {
   left: 0;
   -webkit-box-shadow: 2px 3px 10px 0 #333;
           box-shadow: 2px 3px 10px 0 #333;
 }
 
-/* line 1496, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1516, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-bootstrap-rayno-socialsharingblock:hover:before, #block-bootstrap-rayno-socialsharingblock:focus:before, #block-bootstrap-rayno-socialsharingblock:active:before {
   opacity: 0;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-/* line 1502, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1522, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-bootstrap-rayno-socialsharingblock:before {
   display: table;
   content: '\f1e0' !important;
@@ -11426,7 +11447,7 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   transition: all 1s ease 0.5s;
 }
 
-/* line 1524, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1544, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-bootstrap-rayno-socialsharingblock .block-title {
   background-color: unset;
   color: unset;
@@ -11453,46 +11474,46 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   }
 }
 
-/* line 1532, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1552, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-bootstrap-rayno-socialsharingblock ul {
   margin-bottom: 0;
 }
 
-/* line 1535, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1555, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #block-bootstrap-rayno-socialsharingblock ul li:last-child {
   margin-right: 0;
 }
 
-/* line 1541, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1561, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .section-watermark {
   text-align: center;
   color: #d9d9d9;
   position: absolute;
-  z-index: 0;
+  z-index: -1;
   left: 0;
   top: 0.6em;
   width: 100%;
 }
 
-/* line 1550, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1570, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .section-watermark h3 {
-  font-size: 4.5em;
+  font-size: 3.5em;
   font-weight: 800;
   font-family: 'Playfair Display', serif;
   margin: 0;
 }
 
-/* line 1557, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1577, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #layout-builder .section-watermark {
   position: relative;
 }
 
-/* line 1562, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1582, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .section-title .block-title {
   font-size: 2rem;
 }
 
-/* line 1566, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1586, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .boxed {
   background-color: whitesmoke;
   border: 1px solid #021062;
@@ -11501,7 +11522,7 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   padding: 0.5em;
 }
 
-/* line 1573, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1593, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .boxed > .block-title {
   background-color: #021062;
   border-radius: 5px 5px 0 0;
@@ -11510,7 +11531,7 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   margin: 0;
 }
 
-/* line 1581, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1601, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .boxed > h3.block-title {
   font-weight: bold;
 }
@@ -11534,24 +11555,24 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   }
 }
 
-/* line 1586, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1606, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .boxed > .block-content {
   padding: 0.5em 1em 0 1em;
 }
 
-/* line 1590, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1610, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .boxed .more-link {
   text-align: right;
   margin-right: 1em;
   font-weight: bold;
 }
 
-/* line 1595, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1615, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .boxed .more-link a {
   color: #e24f4c;
 }
 
-/* line 1601, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1621, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .boxed-columns > .layout__region {
   background-color: whitesmoke;
   border: 1px solid #021062;
@@ -11559,12 +11580,12 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   padding: 0.5em;
 }
 
-/* line 1609, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1629, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .centered-content .block-content {
   text-align: center;
 }
 
-/* line 1613, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1633, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .centered-content .field--label-inline .field--label,
 .centered-content .field--label-inline .field__label,
 .centered-content .field--label-inline > .field--item,
@@ -11573,54 +11594,54 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   padding-right: 0;
 }
 
-/* line 1622, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1642, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .centered-title .block-title {
   text-align: center;
 }
 
-/* line 1632, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1652, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #edit-actions {
   text-align: center;
 }
 
-/* line 1636, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1656, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .float-left {
   float: left;
 }
 
-/* line 1639, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1659, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .float-left.js-layout-builder-block {
   float: none;
 }
 
-/* line 1644, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1664, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .float-right {
   float: right;
 }
 
-/* line 1647, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1667, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .float-right.js-layout-builder-block {
   float: none;
 }
 
-/* line 1652, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1672, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .g-recaptcha {
   margin-bottom: 0.5em;
 }
 
-/* line 1655, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1675, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .g-recaptcha > div {
   margin: auto;
 }
 
 /********************* VIEWS *********************/
-/* line 1662, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1682, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .views-exposed-form .form--inline > .form-item {
   float: none;
   display: inline-block;
 }
 
-/* line 1669, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1689, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .view-vehicle-manufacturers .view-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11634,7 +11655,7 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
           justify-content: center;
 }
 
-/* line 1674, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1694, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .view-vehicle-manufacturers .view-content .views-row {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 calc(100% / 8);
@@ -11644,23 +11665,23 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   text-align: center;
 }
 
-/* line 1680, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1700, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .view-vehicle-manufacturers .view-content .views-row img {
   margin: auto;
 }
 
-/* line 1688, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1708, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .view-vehicles-serviced .view-header {
   margin-bottom: 1em;
 }
 
-/* line 1693, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1713, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .view-promotions-and-testimonials {
   max-width: 700px;
   margin: auto;
 }
 
-/* line 1697, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1717, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .view-promotions-and-testimonials .views-field-field-background-image {
   width: 100%;
   height: 100%;
@@ -11668,13 +11689,13 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   z-index: -1;
 }
 
-/* line 1703, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1723, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .view-promotions-and-testimonials .views-field-field-background-image .field-content {
   height: 100%;
   width: 100%;
 }
 
-/* line 1707, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1727, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .view-promotions-and-testimonials .views-field-field-background-image .field-content img {
   display: block;
   width: 100%;
@@ -11683,7 +11704,7 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
      object-fit: fill;
 }
 
-/* line 1718, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1738, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .view-rayno-services .view-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11700,7 +11721,7 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
           justify-content: center;
 }
 
-/* line 1724, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1744, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .view-rayno-services .views-row {
   margin: 0.5em;
   -webkit-box-flex: 1;
@@ -11710,7 +11731,7 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   overflow: hidden;
 }
 
-/* line 1730, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1750, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .view-rayno-services .views-row .views-field-field-feature-media img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -11718,7 +11739,7 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   height: 100%;
 }
 
-/* line 1735, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1755, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .view-rayno-services .views-row .views-field-title-html {
   position: absolute;
   bottom: 0;
@@ -11728,7 +11749,7 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   color: white;
 }
 
-/* line 1743, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1763, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .view-rayno-services .views-row .views-field-title-html img {
   position: absolute;
   top: -1.8em;
@@ -11739,22 +11760,22 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   border-radius: 50%;
 }
 
-/* line 1757, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1777, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .view-what-could-it-be-.view-display-id-page_1 {
   position: relative;
 }
 
-/* line 1760, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1780, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .view-what-could-it-be-.view-display-id-page_1 .view-header .section-watermark {
   top: -4.5em;
 }
 
-/* line 1764, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1784, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .view-what-could-it-be-.view-display-id-page_1 .view-content {
   position: relative;
 }
 
-/* line 1769, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1789, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .view-what-could-it-be- .view-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11765,7 +11786,7 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
           flex-flow: row wrap;
 }
 
-/* line 1773, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1793, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .view-what-could-it-be- .view-content .views-row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11789,7 +11810,7 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
           flex: 1 1 100%;
 }
 
-/* line 1785, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1805, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .view-what-could-it-be- .view-content .views-row .views-field-field-problem-image {
   position: relative;
   top: -1em;
@@ -11798,20 +11819,20 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   text-align: right;
 }
 
-/* line 1792, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1812, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .view-what-could-it-be- .view-content .views-row .views-field-field-problem-image img {
   display: inline-block;
   width: 60%;
 }
 
-/* line 1797, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1817, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .view-what-could-it-be- .view-content .views-row .views-field-body {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
 }
 
-/* line 1800, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1820, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .view-what-could-it-be- .view-content .views-row .views-field-body .field-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11823,7 +11844,7 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   height: 100%;
 }
 
-/* line 1805, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1825, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .view-what-could-it-be- .view-content .views-row .views-field-body .field-content p:nth-of-type(1) {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -11832,7 +11853,7 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
 }
 
 @media (min-width: 481px) {
-  /* line 1773, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1793, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .view-what-could-it-be- .view-content .views-row {
     -webkit-box-flex: 1;
         -ms-flex: 1 0 calc(50% - 1em);
@@ -11841,7 +11862,7 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
 }
 
 @media (min-width: 931px) {
-  /* line 1773, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1793, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .view-what-could-it-be- .view-content .views-row {
     -webkit-box-flex: 1;
         -ms-flex: 1 0 calc(25% - 1em);
@@ -11850,29 +11871,29 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
 }
 
 /********************* SLIDERS *********************/
-/* line 1824, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1844, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 #flexslider-1 .slides > li {
   margin: 15px;
 }
 
-/* line 1830, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1850, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .slick-arrow:before {
   color: #333;
 }
 
-/* line 1833, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1853, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .slick-arrow:hover::before {
   color: rgba(2, 16, 98, 0.71);
 }
 
-/* line 1839, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1859, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .slick .slick-track {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-/* line 1843, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1863, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .slick .slick__slide {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11886,12 +11907,12 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   height: inherit;
 }
 
-/* line 1850, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1870, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .slick .slide__media img {
   margin: auto;
 }
 
-/* line 1854, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1874, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .slick .slick__arrow {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11908,7 +11929,7 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   top: unset;
 }
 
-/* line 1863, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1883, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .slick .slick__arrow .slick-arrow {
   border: 0;
   border-radius: 50%;
@@ -11931,7 +11952,7 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
           align-items: center;
 }
 
-/* line 1877, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1897, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .slick .slick__arrow .slick-dots {
   position: relative;
   bottom: unset;
@@ -11945,13 +11966,13 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   text-align: center;
 }
 
-/* line 1887, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1907, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .slick .slick__arrow .slick-dots li {
   margin-bottom: 0;
 }
 
 /********************* MAINTENANCE *********************/
-/* line 1895, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1915, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .maintenance-page {
   background-color: #e4e4e4;
   min-height: 100vh;
@@ -11971,25 +11992,25 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
 }
 
 @media (min-width: 768px) {
-  /* line 1895, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1915, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .maintenance-page {
     min-height: calc(100vh - 15px);
   }
 }
 
-/* line 1907, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1927, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .maintenance-page #navbar {
   background-color: transparent;
   border-color: transparent;
   margin-bottom: 0;
 }
 
-/* line 1912, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1932, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .maintenance-page #navbar .container {
   width: 100%;
 }
 
-/* line 1916, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1936, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .maintenance-page #navbar .col-sm-12 {
   float: none;
   display: -webkit-box;
@@ -12000,13 +12021,13 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
           justify-content: center;
 }
 
-/* line 1922, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1942, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .maintenance-page #navbar a {
   color: #021062;
   white-space: nowrap;
 }
 
-/* line 1927, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1947, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .maintenance-page #navbar .logo {
   display: block;
   margin-bottom: 1em;
@@ -12014,13 +12035,13 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   text-align: center;
 }
 
-/* line 1933, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1953, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .maintenance-page #navbar .logo img {
   max-width: 100%;
   width: 500px;
 }
 
-/* line 1939, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1959, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .maintenance-page .navbar-header {
   -webkit-box-flex: 1;
       -ms-flex: 1 100%;
@@ -12029,7 +12050,7 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   margin-bottom: 1em;
 }
 
-/* line 1944, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1964, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .maintenance-page .header-address {
   display: inline-block;
   margin-left: 1em;
@@ -12037,65 +12058,65 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   margin-bottom: 0;
 }
 
-/* line 1951, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1971, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .maintenance-page main {
   text-align: center;
 }
 
-/* line 1954, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1974, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .maintenance-page main .site-name,
 .maintenance-page main .page-title {
   margin: 0;
 }
 
-/* line 1960, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1980, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .maintenance-page .promo {
   margin-top: 1em;
   width: 100%;
 }
 
-/* line 1964, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1984, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .maintenance-page .promo img {
   display: inline-block;
 }
 
 /********************* FORMS *********************/
-/* line 1972, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1992, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 form#user-login-form,
 form#user-pass {
   max-width: 500px;
   margin: auto;
 }
 
-/* line 1977, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 1997, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 form#user-login-form #edit-actions,
 form#user-pass #edit-actions {
   text-align: center;
 }
 
-/* line 1983, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 2003, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 form#user-register-form .row {
   margin-bottom: 0.5em;
 }
 
-/* line 1986, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 2006, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 form#user-register-form .row > div[class*="col"] {
   margin-bottom: 0.5em;
 }
 
-/* line 1991, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 2011, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 form#user-register-form label[for] {
   display: inline-block;
 }
 
-/* line 1994, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 2014, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 form#user-register-form label[for]:after {
   content: ":\00a0";
   display: inline-block;
   vertical-align: baseline;
 }
 
-/* line 2000, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 2020, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 form#user-register-form label[for].form-required:after {
   width: 12px;
   margin-right: 0.3em;
@@ -12105,18 +12126,18 @@ form#user-register-form label[for].form-required:after {
   background-size: contain;
 }
 
-/* line 2012, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 2032, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 form#user-register-form .form-type-checkbox label:after {
   content: "";
 }
 
-/* line 2017, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 2037, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 form#user-register-form .field--type-datetime .label:after {
   content: ":\00a0";
   display: inline;
 }
 
-/* line 2022, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 2042, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 form#user-register-form .form-type-textfield,
 form#user-register-form .form-type-select,
 form#user-register-form .form-type-email,
@@ -12135,7 +12156,7 @@ form#user-register-form .field--type-datetime {
           align-items: center;
 }
 
-/* line 2032, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 2052, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 form#user-register-form .form-type-textfield input,
 form#user-register-form .form-type-select input,
 form#user-register-form .form-type-email input,
@@ -12146,7 +12167,7 @@ form#user-register-form .field--type-datetime input {
   max-width: 100%;
 }
 
-/* line 2037, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 2057, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 form#user-register-form .form-type-textfield .description,
 form#user-register-form .form-type-select .description,
 form#user-register-form .form-type-email .description,
@@ -12158,7 +12179,7 @@ form#user-register-form .field--type-datetime .description {
           flex: 1 100%;
 }
 
-/* line 2050, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 2070, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 form#user-register-form #edit-group-user .form-type-textfield label,
 form#user-register-form #edit-group-user .form-type-textfield .label,
 form#user-register-form #edit-group-user .form-type-select label,
@@ -12174,7 +12195,7 @@ form#user-register-form #edit-group-user .field--type-datetime .label {
           flex: 0 0 136px;
 }
 
-/* line 2055, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 2075, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 form#user-register-form #edit-group-user .form-type-textfield input,
 form#user-register-form #edit-group-user .form-type-textfield .select-wrapper,
 form#user-register-form #edit-group-user .form-type-select input,
@@ -12190,7 +12211,7 @@ form#user-register-form #edit-group-user .field--type-datetime .select-wrapper {
           flex: 1 1 calc(100% - 136px);
 }
 
-/* line 2070, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 2090, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 form#user-register-form #edit-group-user-login-info .form-type-textfield label,
 form#user-register-form #edit-group-user-login-info .form-type-textfield .label,
 form#user-register-form #edit-group-user-login-info .form-type-select label,
@@ -12206,7 +12227,7 @@ form#user-register-form #edit-group-user-login-info .field--type-datetime .label
           flex: 0 0 150px;
 }
 
-/* line 2075, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 2095, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 form#user-register-form #edit-group-user-login-info .form-type-textfield input,
 form#user-register-form #edit-group-user-login-info .form-type-select input,
 form#user-register-form #edit-group-user-login-info .form-type-email input,
@@ -12217,7 +12238,7 @@ form#user-register-form #edit-group-user-login-info .field--type-datetime input 
           flex: 1 1 calc(100% - 150px);
 }
 
-/* line 2089, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 2109, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 form#user-register-form #field-mailing-address-values div[class*="field-address-type"] label,
 form#user-register-form #field-mailing-address-values div[class*="field-address-type"] .label,
 form#user-register-form #field-mailing-address-values div[class*="address-country-code"] label,
@@ -12233,7 +12254,7 @@ form#user-register-form #field-mailing-address-values div[class*="address-postal
           flex: 0 0 143px;
 }
 
-/* line 2094, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 2114, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 form#user-register-form #field-mailing-address-values div[class*="field-address-type"] input,
 form#user-register-form #field-mailing-address-values div[class*="field-address-type"] .select-wrapper,
 form#user-register-form #field-mailing-address-values div[class*="address-country-code"] input,
@@ -12249,7 +12270,7 @@ form#user-register-form #field-mailing-address-values div[class*="address-postal
           flex: 1 1 calc(100% - 143px);
 }
 
-/* line 2106, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 2126, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 form#user-register-form #field-phone-values div[class*="subform-field-phone-number"] label,
 form#user-register-form #field-phone-values div[class*="subform-field-phone-number"] .label,
 form#user-register-form #field-phone-values div[class*="subform-field-phone-type"] label,
@@ -12259,7 +12280,7 @@ form#user-register-form #field-phone-values div[class*="subform-field-phone-type
           flex: 0 0 155px;
 }
 
-/* line 2111, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 2131, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 form#user-register-form #field-phone-values div[class*="subform-field-phone-number"] input,
 form#user-register-form #field-phone-values div[class*="subform-field-phone-number"] .select-wrapper,
 form#user-register-form #field-phone-values div[class*="subform-field-phone-type"] input,
@@ -12269,61 +12290,61 @@ form#user-register-form #field-phone-values div[class*="subform-field-phone-type
           flex: 1 1 calc(100% - 155px);
 }
 
-/* line 2119, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 2139, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 form#user-register-form .field--name-user-picture .image-widget {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-/* line 2122, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 2142, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 form#user-register-form .field--name-user-picture .image-widget .image-preview {
   -webkit-box-flex: 1;
       -ms-flex: 1 0 auto;
           flex: 1 0 auto;
 }
 
-/* line 2126, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 2146, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 form#user-register-form .field--name-user-picture .image-widget .image-widget-data {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
 }
 
-/* line 2129, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 2149, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 form#user-register-form .field--name-user-picture .image-widget .image-widget-data input.form-text {
   width: 100%;
 }
 
-/* line 2136, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 2156, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 form#user-register-form .paragraphs-add-wrapper {
   text-align: center;
 }
 
-/* line 2140, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 2160, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 form#user-register-form .paragraphs-subform {
   margin-left: -50px;
 }
 
-/* line 2144, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 2164, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 form#user-register-form .captcha {
   max-width: 500px;
   margin: 1em auto;
   display: block;
 }
 
-/* line 2152, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 2172, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-user .field--name-user-picture img {
   margin: auto;
 }
 
-/* line 2156, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 2176, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-user .field--label,
 .path-user .field__label {
   font-weight: 500;
 }
 
-/* line 2161, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+/* line 2181, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
 .path-user .block-field-blockparagraphphonefield-phone-type {
   margin-right: 0.3em;
 }
