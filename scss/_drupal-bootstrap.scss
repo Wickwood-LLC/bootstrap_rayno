@@ -1304,6 +1304,23 @@ nav.tabs {
   .section-watermark {
     top: -0.4em;
   }
+
+  .contact-info {
+    max-width: 800px;
+    margin: auto;
+
+    .fluid-columns {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+
+      > div {
+        flex: 1 1 250px;
+        text-align: center;
+        margin: 0.5em;
+      }
+    }
+  }
 }
 
 /********************* LAYOUTS *********************/

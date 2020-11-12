@@ -9230,6 +9230,23 @@ nav.tabs {
   top: -0.4em;
 }
 
+.page-node-type-webform .contact-info {
+  max-width: 800px;
+  margin: auto;
+}
+
+.page-node-type-webform .contact-info .fluid-columns {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.page-node-type-webform .contact-info .fluid-columns > div {
+  flex: 1 1 250px;
+  text-align: center;
+  margin: 0.5em;
+}
+
 /********************* LAYOUTS *********************/
 .main-container {
   width: 100%;
