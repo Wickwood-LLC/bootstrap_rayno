@@ -11215,46 +11215,8 @@ nav.tabs {
   }
 }
 
-@media (min-width: 740px) {
-  /* line 1349, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
-  .layout.layout--twocol-section--50-50.rtlb:not(.layout-builder__layout) {
-    display: block;
-  }
-  /* line 1353, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
-  .layout.layout--twocol-section--50-50.rtlb:not(.layout-builder__layout) > .layout__region--first {
-    float: right;
-    margin-left: 1em;
-    margin-right: 0;
-    margin-bottom: 1em;
-    width: 50%;
-  }
-  /* line 1361, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
-  .layout.layout--twocol-section--50-50.rtlb:not(.layout-builder__layout) > .layout__region--second {
-    margin: 0;
-  }
-}
-
-@media (min-width: 740px) {
-  /* line 1367, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
-  .layout.layout--twocol-section--50-50.ltrb:not(.layout-builder__layout) {
-    display: block;
-  }
-  /* line 1371, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
-  .layout.layout--twocol-section--50-50.ltrb:not(.layout-builder__layout) > .layout__region--first {
-    float: left;
-    margin-left: 0;
-    margin-right: 1em;
-    margin-bottom: 1em;
-    width: 50%;
-  }
-  /* line 1379, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
-  .layout.layout--twocol-section--50-50.ltrb:not(.layout-builder__layout) > .layout__region--second {
-    margin: 0;
-  }
-}
-
 @media (min-width: 40em) {
-  /* line 1388, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1352, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .layout.layout--twocol > .layout__region--first,
   .layout.layout--twocol > .layout__region--second {
     -webkit-box-flex: 1;
@@ -11264,7 +11226,7 @@ nav.tabs {
 }
 
 @media (min-width: 740px) {
-  /* line 1388, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1352, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .layout.layout--twocol > .layout__region--first,
   .layout.layout--twocol > .layout__region--second {
     -webkit-box-flex: 0;
@@ -11275,21 +11237,21 @@ nav.tabs {
 }
 
 @media (min-width: 740px) {
-  /* line 1400, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1364, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .layout.layout--twocol > .layout__region--first {
     margin-left: 0;
   }
 }
 
 @media (min-width: 740px) {
-  /* line 1406, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1370, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .layout.layout--twocol > .layout__region--second {
     margin-right: 0;
   }
 }
 
 @media (min-width: 40em) {
-  /* line 1415, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1379, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .layout.layout--threecol-section--33-34-33 > .layout__region--first,
   .layout.layout--threecol-section--33-34-33 > .layout__region--third {
     -webkit-box-flex: 0;
@@ -11299,7 +11261,7 @@ nav.tabs {
 }
 
 @media (min-width: 40em) {
-  /* line 1422, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1386, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .layout.layout--threecol-section--33-34-33 > .layout__region--second {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 calc(34% - 1em);
@@ -11308,7 +11270,7 @@ nav.tabs {
 }
 
 @media (min-width: 40em) {
-  /* line 1430, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1394, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .layout.layout--threecol-section--25-50-25 > .layout__region--first,
   .layout.layout--threecol-section--25-50-25 > .layout__region--third {
     -webkit-box-flex: 0;
@@ -11318,11 +11280,49 @@ nav.tabs {
 }
 
 @media (min-width: 40em) {
-  /* line 1437, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  /* line 1401, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
   .layout.layout--threecol-section--25-50-25 > .layout__region--second {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 calc(50% - 1em);
             flex: 0 1 calc(50% - 1em);
+  }
+}
+
+@media (min-width: 740px) {
+  /* line 1409, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  .rtlb:not(.layout-builder__layout) {
+    display: block;
+  }
+  /* line 1413, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  .rtlb:not(.layout-builder__layout) > .layout__region--first {
+    float: right;
+    margin-left: 1em;
+    margin-right: 0;
+    margin-bottom: 1em;
+    width: 50%;
+  }
+  /* line 1421, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  .rtlb:not(.layout-builder__layout) > .layout__region--second {
+    margin: 0;
+  }
+}
+
+@media (min-width: 740px) {
+  /* line 1427, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  .ltrb:not(.layout-builder__layout) {
+    display: block;
+  }
+  /* line 1431, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  .ltrb:not(.layout-builder__layout) > .layout__region--first {
+    float: left;
+    margin-left: 0;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    width: 50%;
+  }
+  /* line 1439, ../../../../Documents/John's Projects/bootstrap_rayno/scss/_drupal-bootstrap.scss */
+  .ltrb:not(.layout-builder__layout) > .layout__region--second {
+    margin: 0;
   }
 }
 
