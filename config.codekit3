@@ -2759,7 +2759,7 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/_ckeditor-view.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -3011,16 +3011,16 @@
 		"uL": 1
 		},
 	"/scss/navbar.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/navbar.css",
-		"oF": 3,
-		"oS": 1,
+		"oAP": "/scss/navbar.css",
+		"oF": 0,
+		"oS": 0,
 		"uL": 1
 		},
 	"/scss/README.md": {

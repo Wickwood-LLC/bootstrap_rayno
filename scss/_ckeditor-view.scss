@@ -206,13 +206,24 @@
   border-color: lighten($brand-primary, 10%);
   text-decoration: none;
 }
+.fluid-columns {
+  border: 5px solid #ddd;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 1em;
+  border-radius: 5px;
+}
+.fluid-columns > * {
+  flex: 1 1 250px;  
+}
 .fluid-columns-300 {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
 .fluid-columns-300 > * {
-  flex: 0 1 300px;
+  flex: 1 1 300px;
 }
 .wt-notice-block {
   -webkit-box-sizing: border-box;
