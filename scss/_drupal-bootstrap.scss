@@ -2003,6 +2003,20 @@ nav.tabs {
 
 
 /********************* FORMS *********************/
+fieldset.webform-composite-hidden-title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.webform-flexbox:first-child {
+  margin-top: 0;
+}
+.webform-flex--container {
+  margin: 0.5em 0;
+  @include breakpoint(768px) {
+    margin: 0 0.5em;
+  }
+}
+
 form#user-login-form,
 form#user-pass {
   max-width: 500px;
@@ -2179,6 +2193,20 @@ form#user-register-form {
     max-width: 500px;
     margin: 1em auto;
     display: block;
+  }
+}
+
+form#webform-submission-contact-node-14-add-form {
+  max-width: 800px;
+  margin: 1em auto;
+  background-color: #f1f1f1;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px #d6d6d6;
+  padding: 1em;
+
+  .webform-required {
+    text-align: right;
   }
 }
 
