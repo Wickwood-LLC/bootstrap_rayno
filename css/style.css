@@ -10213,20 +10213,20 @@ form#webform-submission-contact-node-14-add-form #edit-vehicle-details .panel-bo
 
 form#webform-submission-contact-node-14-add-form #edit-vehicle-details .panel-body > .form-item {
   display: block;
-  flex: 1 1 0;
+  flex: 1 1 250px;
 }
 
 form#webform-submission-contact-node-14-add-form #edit-vehicle-details .panel-body .form-item-manufacture-year {
   flex: 0 1 auto;
 }
 
-form#webform-submission-contact-node-14-add-form #edit-vehicle-details .panel-body .form-item-manufacture-year label {
-  display: block;
-  margin-bottom: 0;
-}
-
 form#webform-submission-contact-node-14-add-form #edit-vehicle-details .panel-body .form-item-manufacture-year #edit-manufacture-year {
   margin: 0;
+}
+
+form#webform-submission-contact-node-14-add-form #edit-vehicle-details .panel-body .control-label {
+  display: block;
+  margin-bottom: 0;
 }
 
 form#webform-submission-contact-node-14-add-form #edit-vehicle-details .panel-body .form-type-select {

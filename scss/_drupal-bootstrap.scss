@@ -2249,22 +2249,21 @@ form#webform-submission-contact-node-14-add-form {
 
     > .form-item {
       display: block;
-      flex: 1 1 0;
+      flex: 1 1 250px;
     }
 
     .form-item-manufacture-year {
       flex: 0 1 auto;
-      
-      label {
-        display: block;
-        margin-bottom: 0;
-      }
 
       #edit-manufacture-year {
         margin: 0;
       }
     }
-      
+    
+    .control-label {
+      display: block;
+      margin-bottom: 0;
+    }      
     .form-type-select {
       margin: 0;
     }
