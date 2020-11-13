@@ -10192,7 +10192,12 @@ form#webform-submission-contact-node-14-add-form .webform-required {
   text-align: right;
 }
 
-form#webform-submission-contact-node-14-add-form #edit-can-you-drop-off-your-vehicle- .form-type-radio {
+form#webform-submission-contact-node-14-add-form #edit-can-you-drop-off-your-vehicle-radios {
+  -webkit-column-count: 1;
+          column-count: 1;
+}
+
+form#webform-submission-contact-node-14-add-form #edit-can-you-drop-off-your-vehicle-radios .form-type-radio {
   display: block;
 }
 
