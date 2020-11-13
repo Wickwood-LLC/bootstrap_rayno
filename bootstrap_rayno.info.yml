@@ -3,7 +3,7 @@ description: 'Bootstrap-based theme for Rayno Automotive. This is a sub-theme of
 package: 'Bootstrap'
 core: 8.x
 type: theme
-base theme: bootstrap
+base theme: bootstrap_wwm_base
 
 logo: logo.png
 
