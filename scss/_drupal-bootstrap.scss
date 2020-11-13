@@ -2029,7 +2029,7 @@ form {
       @extend .form-item;
     }
   }
-  .form-checkboxes, .form-type-radio {
+  .form-checkboxes, .js-webform-checkboxes, .form-radios, .js-webform-radios {
     column-count: auto;
     column-width: 200px;
 
