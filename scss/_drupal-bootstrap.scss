@@ -2012,17 +2012,18 @@ form {
   .webform-flexbox {
     margin: 0;
   }
-  .webform-flex--container {
-    margin: 0;
-  }
-  .webform-flex--container > .form-item {
-    margin: unset;
-  }
   .form-group {
     margin: 0;
   }
   .form-item {
     margin: 0.5em;
+  }
+  .webform-flex--container {
+    @extend .form-item;
+
+    > .form-item {
+      @extend .form-item;
+    }
   }
 }
 
