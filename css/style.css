@@ -7389,7 +7389,7 @@ table .checkbox.form-no-label, table .radio.form-no-label {
 .checkbox input[type="checkbox"],
 .checkbox-inline input[type="checkbox"] {
   position: relative;
-  margin-left: 0;
+  margin-left: -20px;
   margin-right: 0.25em;
 }
 
@@ -9974,8 +9974,10 @@ form .webform-flex--container {
 }
 
 form .form-checkboxes {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+  -webkit-column-count: auto;
+          column-count: auto;
+  -webkit-column-width: 200px;
+          column-width: 200px;
 }
 
 form .form-checkboxes > .form-type-checkbox {
