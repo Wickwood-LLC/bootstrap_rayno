@@ -7143,18 +7143,18 @@ html.js .btn .ajax-throbber {
   margin-right: -.25em;
 }
 
-html.js .form-item .input-group-addon .glyphicon, html.js form .webform-flex--container .input-group-addon .glyphicon, form html.js .webform-flex--container .input-group-addon .glyphicon {
+html.js .form-item .input-group-addon .glyphicon {
   color: #777777;
   opacity: .5;
   transition: 150ms color, 150ms opacity;
 }
 
-html.js .form-item .input-group-addon .glyphicon.glyphicon-spin, html.js form .webform-flex--container .input-group-addon .glyphicon.glyphicon-spin, form html.js .webform-flex--container .input-group-addon .glyphicon.glyphicon-spin {
+html.js .form-item .input-group-addon .glyphicon.glyphicon-spin {
   color: #021062;
   opacity: 1;
 }
 
-html.js .form-item .input-group-addon .input-group-addon, html.js form .webform-flex--container .input-group-addon .input-group-addon, form html.js .webform-flex--container .input-group-addon .input-group-addon {
+html.js .form-item .input-group-addon .input-group-addon {
   background-color: white;
 }
 
@@ -7382,6 +7382,15 @@ table .checkbox.form-no-label, table .radio.form-no-label {
   line-height: 1;
   height: 7px;
   width: 10px;
+}
+
+.radio input[type="radio"],
+.radio-inline input[type="radio"],
+.checkbox input[type="checkbox"],
+.checkbox-inline input[type="checkbox"] {
+  position: relative;
+  margin-left: 0;
+  margin-right: 0.25em;
 }
 
 .form-actions .btn, .form-actions .btn-group {
@@ -9628,7 +9637,7 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
 }
 
 /********************* VIEWS *********************/
-.views-exposed-form .form--inline > .form-item, .views-exposed-form form .form--inline > .webform-flex--container, form .views-exposed-form .form--inline > .webform-flex--container, .views-exposed-form form .webform-flex--container.form--inline > .form-item {
+.views-exposed-form .form--inline > .form-item, .views-exposed-form form .webform-flex--container.form--inline > .form-item {
   float: none;
   display: inline-block;
 }
@@ -9947,12 +9956,30 @@ form .webform-flexbox {
   margin: 0;
 }
 
+form .webform-checkboxes-other {
+  margin: 0.5em;
+  display: block;
+}
+
 form .form-group {
   margin: 0;
 }
 
-form .form-item, form .webform-flex--container, form .webform-flex--container > .form-item {
-  margin: 0.5em;
+form .form-item, form .webform-flex--container > .form-item {
+  margin: 0.25em;
+}
+
+form .webform-flex--container {
+  margin: 0;
+}
+
+form .form-checkboxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+}
+
+form .form-checkboxes > .form-type-checkbox {
+  margin: 0 0.5em 0 0;
 }
 
 form#user-login-form,

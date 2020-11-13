@@ -90,6 +90,12 @@
   width: 10px;
 }
 
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+  position: relative;
+  margin-left: 0;
+  margin-right: 0.25em;
+}
+
 // Form action buttons.
 .form-actions {
   .btn, .btn-group {

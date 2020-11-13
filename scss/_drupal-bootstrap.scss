@@ -2012,17 +2012,29 @@ form {
   .webform-flexbox {
     margin: 0;
   }
+  .webform-checkboxes-other {
+    margin: 0.5em;
+    display: block;
+  }
   .form-group {
     margin: 0;
   }
   .form-item {
-    margin: 0.5em;
+    margin: 0.25em;
   }
   .webform-flex--container {
-    @extend .form-item;
+    margin: 0;
 
     > .form-item {
       @extend .form-item;
+    }
+  }
+  .form-checkboxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+
+    > .form-type-checkbox {
+      margin: 0 0.5em 0 0;
     }
   }
 }
