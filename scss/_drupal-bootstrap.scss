@@ -2029,11 +2029,11 @@ form {
       @extend .form-item;
     }
   }
-  .form-checkboxes {
+  .form-checkboxes, .form-type-radio {
     column-count: auto;
     column-width: 200px;
 
-    > .form-type-checkbox {
+    > .form-item {
       margin: 0 0.5em 0 0;
     }
   }

@@ -9973,14 +9973,14 @@ form .webform-flex--container {
   margin: 0;
 }
 
-form .form-checkboxes {
+form .form-checkboxes, form .form-type-radio {
   -webkit-column-count: auto;
           column-count: auto;
   -webkit-column-width: 200px;
           column-width: 200px;
 }
 
-form .form-checkboxes > .form-type-checkbox {
+form .form-checkboxes > .form-item, form .form-type-radio > .form-item {
   margin: 0 0.5em 0 0;
 }
 
