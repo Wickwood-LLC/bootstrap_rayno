@@ -2239,6 +2239,36 @@ form#webform-submission-contact-node-14-add-form {
       display: block;
     }
   }
+  #edit-vehicle-details {
+    display: flex;
+    flex-flow: row wrap;
+
+    .help-block {
+      flex: 100%;
+    }
+
+    > .form-item {
+      display: block;
+      flex: 1 1 0;
+    }
+
+    .form-item-manufacture-year {
+      flex: 0 1 auto;
+      
+      label {
+        display: block;
+        margin-bottom: 0;
+      }
+
+      #edit-manufacture-year {
+        margin: 0;
+      }
+    }
+      
+    .form-type-select {
+      margin: 0;
+    }
+  }
 }
 
 .path-user {
