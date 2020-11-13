@@ -8143,7 +8143,6 @@ ul:last-child {
 }
 
 p:last-child,
-.form-group:last-child,
 .panel:last-child {
   margin-bottom: 0;
 }
@@ -9940,8 +9939,8 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
 }
 
 /********************* FORMS *********************/
-form fieldset.webform-composite-hidden-title {
-  margin: 0;
+form fieldset {
+  display: contents;
 }
 
 form .webform-flexbox {
@@ -9950,6 +9949,10 @@ form .webform-flexbox {
 
 form .webform-flex--container {
   margin: 0;
+}
+
+form .webform-flex--container > .form-item {
+  margin: unset;
 }
 
 form .form-group {

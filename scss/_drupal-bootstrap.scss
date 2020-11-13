@@ -246,7 +246,6 @@ ul {
 
 // Paragraphs.
 p:last-child,
-.form-group:last-child,
 .panel:last-child {
   margin-bottom: 0;
 }
@@ -2007,14 +2006,17 @@ nav.tabs {
 
 /********************* FORMS *********************/
 form {
-  fieldset.webform-composite-hidden-title {
-    margin: 0;
+  fieldset {
+    display: contents;
   }
   .webform-flexbox {
     margin: 0;
   }
   .webform-flex--container {
     margin: 0;
+  }
+  .webform-flex--container > .form-item {
+    margin: unset;
   }
   .form-group {
     margin: 0;
