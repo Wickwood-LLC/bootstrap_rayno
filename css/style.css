@@ -10192,6 +10192,10 @@ form#webform-submission-contact-node-14-add-form .webform-required {
   text-align: right;
 }
 
+form#webform-submission-contact-node-14-add-form #edit-can-you-drop-off-your-vehicle- .form-type-radio {
+  display: block;
+}
+
 .path-user .field--name-user-picture img {
   margin: auto;
 }
