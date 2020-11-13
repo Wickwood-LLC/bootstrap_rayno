@@ -9981,6 +9981,7 @@ form .form-checkboxes, form .js-webform-checkboxes, form .form-radios, form .js-
 }
 
 form .form-checkboxes > .form-item, form .js-webform-checkboxes > .form-item, form .form-radios > .form-item, form .js-webform-radios > .form-item {
+  display: block;
   margin: 0 0.5em 0 0;
 }
 

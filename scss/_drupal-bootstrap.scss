@@ -2034,6 +2034,7 @@ form {
     column-width: 200px;
 
     > .form-item {
+      display: block;
       margin: 0 0.5em 0 0;
     }
   }
@@ -2233,7 +2234,7 @@ form#webform-submission-contact-node-14-add-form {
 
   #edit-can-you-drop-off-your-vehicle-radios {
     column-count: 1;
-    
+
     .form-type-radio {
       display: block;
     }
