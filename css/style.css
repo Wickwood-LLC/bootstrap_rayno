@@ -9236,9 +9236,12 @@ nav.tabs {
 }
 
 .page-node-type-webform .contact-info .fluid-columns {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+  margin: 1em auto 0;
+  background-color: #f1f1f1;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px #d6d6d6;
+  padding: 1em;
 }
 
 .page-node-type-webform .contact-info .fluid-columns > div {
@@ -9937,23 +9940,24 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
 }
 
 /********************* FORMS *********************/
-fieldset.webform-composite-hidden-title {
-  margin-top: 0;
-  margin-bottom: 0;
+form fieldset.webform-composite-hidden-title {
+  margin: 0;
 }
 
-.webform-flexbox:first-child {
-  margin-top: 0;
+form .webform-flexbox {
+  margin: 0;
 }
 
-.webform-flex--container {
-  margin: 0.5em 0;
+form .webform-flex--container {
+  margin: 0;
 }
 
-@media (min-width: 768px) {
-  .webform-flex--container {
-    margin: 0 0.5em;
-  }
+form .form-group {
+  margin: 0;
+}
+
+form .form-item {
+  margin: 0.5em;
 }
 
 form#user-login-form,
