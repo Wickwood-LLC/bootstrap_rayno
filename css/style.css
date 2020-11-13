@@ -10224,6 +10224,10 @@ form#webform-submission-contact-node-14-add-form #edit-vehicle-details .panel-bo
   margin: 0;
 }
 
+form#webform-submission-contact-node-14-add-form #edit-vehicle-details .panel-body #edit-manufacture-other {
+  max-width: calc(100% - 0.25em);
+}
+
 form#webform-submission-contact-node-14-add-form #edit-vehicle-details .panel-body .control-label {
   display: block;
   margin-bottom: 0;
