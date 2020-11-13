@@ -2231,7 +2231,9 @@ form#webform-submission-contact-node-14-add-form {
     text-align: right;
   }
 
-  #edit-can-you-drop-off-your-vehicle- {
+  #edit-can-you-drop-off-your-vehicle-radios {
+    column-count: 1;
+    
     .form-type-radio {
       display: block;
     }
