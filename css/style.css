@@ -10202,6 +10202,37 @@ form#webform-submission-contact-node-14-add-form #edit-can-you-drop-off-your-veh
   display: block;
 }
 
+form#webform-submission-contact-node-14-add-form #edit-vehicle-details {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+form#webform-submission-contact-node-14-add-form #edit-vehicle-details .help-block {
+  flex: 100%;
+}
+
+form#webform-submission-contact-node-14-add-form #edit-vehicle-details > .form-item {
+  display: block;
+  flex: 1 1 0;
+}
+
+form#webform-submission-contact-node-14-add-form #edit-vehicle-details .form-item-manufacture-year {
+  flex: 0 1 auto;
+}
+
+form#webform-submission-contact-node-14-add-form #edit-vehicle-details .form-item-manufacture-year label {
+  display: block;
+  margin-bottom: 0;
+}
+
+form#webform-submission-contact-node-14-add-form #edit-vehicle-details .form-item-manufacture-year #edit-manufacture-year {
+  margin: 0;
+}
+
+form#webform-submission-contact-node-14-add-form #edit-vehicle-details .form-type-select {
+  margin: 0;
+}
+
 .path-user .field--name-user-picture img {
   margin: auto;
 }
