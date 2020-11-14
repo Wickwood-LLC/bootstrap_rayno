@@ -7859,7 +7859,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0.5em 0;
 }
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+h1 .content a, h2 .content a, h3 .content a, h4 .content a, h5 .content a, h6 .content a {
   color: #021062;
 }
 
