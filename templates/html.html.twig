@@ -53,7 +53,7 @@
     theme.settings.navbar_position ? 'navbar-is-' ~ theme.settings.navbar_position,
     theme.has_glyphicons ? 'has-glyphicons',
     node_type and not is_published ? 'is-unpublished',
-    $head_title_array.title|clean_class
+    $head_title_array.title.value|clean_class
   ]
 %}
 <!DOCTYPE html>
