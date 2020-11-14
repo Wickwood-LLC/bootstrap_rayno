@@ -7859,7 +7859,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0.5em 0;
 }
 
-h1 .content a, h2 .content a, h3 .content a, h4 .content a, h5 .content a, h6 .content a {
+.content h1 a, .content h2 a, .content h3 a, .content h4 a, .content h5 a, .content h6 a {
   color: #021062;
 }
 
@@ -10553,7 +10553,7 @@ form#webform-submission-contact-node-14-add-form #edit-preferred-date-and-time-d
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  color: #fff impo !important;
+  color: #fff !important;
   background-color: #021062;
   border-color: #021062;
   padding: .3em .5em;
