@@ -9109,85 +9109,27 @@ article > .content {
   padding: 1em;
 }
 
-.path-frontpage #contact-section .layout__region--first {
-  flex: 1 1 100%;
-  margin: 0;
-  order: 1;
+.path-frontpage #contact-section .block-block-contenteaaac563-eb18-477f-827b-13fcb03cafa4 {
+  max-width: 800px;
+}
+
+.path-frontpage #contact-section .block-block-contenteaaac563-eb18-477f-827b-13fcb03cafa4 .fluid-columns {
+  margin: 1em auto 0;
+  background-color: #f1f1f1;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px #d6d6d6;
+  padding: 1em;
+}
+
+.path-frontpage #contact-section .block-block-contenteaaac563-eb18-477f-827b-13fcb03cafa4 .fluid-columns > div {
+  flex: 1 1 250px;
   text-align: center;
+  margin: 0.5em;
 }
 
-.path-frontpage #contact-section .layout__region--first .contact-info .field--name-body {
-  display: flex;
-  align-items: center;
-  flex-flow: row wrap;
-  justify-content: center;
-}
-
-.path-frontpage #contact-section .layout__region--first .contact-info .location, .path-frontpage #contact-section .layout__region--first .contact-info .phone, .path-frontpage #contact-section .layout__region--first .contact-info .mail {
-  margin: 1em;
-}
-
-.path-frontpage #contact-section .layout__region--first .contact-info .location h3, .path-frontpage #contact-section .layout__region--first .contact-info .phone h3, .path-frontpage #contact-section .layout__region--first .contact-info .mail h3 {
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-}
-
-.path-frontpage #contact-section .layout__region--first .contact-info .location h3 .fontawesome-icon-inline, .path-frontpage #contact-section .layout__region--first .contact-info .phone h3 .fontawesome-icon-inline, .path-frontpage #contact-section .layout__region--first .contact-info .mail h3 .fontawesome-icon-inline {
-  color: #021062;
-}
-
-.path-frontpage #contact-section .layout__region--first .contact-info .location p, .path-frontpage #contact-section .layout__region--first .contact-info .phone p, .path-frontpage #contact-section .layout__region--first .contact-info .mail p {
-  font-family: 'Playfair Display', serif;
-  margin: 0;
-}
-
-.path-frontpage #contact-section .layout__region--first .contact-info .location a, .path-frontpage #contact-section .layout__region--first .contact-info .phone a, .path-frontpage #contact-section .layout__region--first .contact-info .mail a {
-  color: inherit;
-}
-
-.path-frontpage #contact-section .layout__region--first .contact-info .location a:hover, .path-frontpage #contact-section .layout__region--first .contact-info .phone a:hover, .path-frontpage #contact-section .layout__region--first .contact-info .mail a:hover {
-  text-decoration: none;
-}
-
-@media (min-width: 885px) {
-  .path-frontpage #contact-section .layout__region--first {
-    flex: 1 1 calc(50% - 0.5em);
-    max-width: calc(50% - 0.5em);
-    margin-right: 0.5em;
-    order: 0;
-    padding: 0 10%;
-    text-align: left;
-  }
-  .path-frontpage #contact-section .layout__region--first .contact-info .field--name-body {
-    display: block;
-  }
-  .path-frontpage #contact-section .layout__region--first .contact-info .location, .path-frontpage #contact-section .layout__region--first .contact-info .phone, .path-frontpage #contact-section .layout__region--first .contact-info .mail {
-    margin: 0 0 1em 0;
-  }
-}
-
-.path-frontpage #contact-section .layout__region--second {
-  flex: 1 1 100%;
-  margin: 0;
-  position: relative;
-}
-
-.path-frontpage #contact-section .layout__region--second .block-webform {
-  position: relative;
-}
-
-.path-frontpage #contact-section .layout__region--second .block-webform .block-title {
-  text-align: center;
-  font-size: 2rem;
-}
-
-@media (min-width: 885px) {
-  .path-frontpage #contact-section .layout__region--second {
-    flex: 1 1 calc(50% - 0.5em);
-    max-width: calc(50% - 0.5em);
-    margin-left: 0.5em;
-    padding-top: 1em;
-  }
+.path-frontpage #contact-section .block-block-contenteaaac563-eb18-477f-827b-13fcb03cafa4 .fluid-columns .contact-button {
+  flex: 100%;
 }
 
 /********************* NODE *********************/
