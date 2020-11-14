@@ -36,9 +36,7 @@
 
 
         if (currentPosition < 0) { // if target element goes above the screen
-          if (!($header.hasClass('sticky-header'))) {
-            $header.addClass('sticky-header');
-          }
+          $header.addClass('sticky-header');
           $header.css("top", topSpacing);
           $header.slideDown();
         } else {
