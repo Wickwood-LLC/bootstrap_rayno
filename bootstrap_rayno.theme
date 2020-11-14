@@ -19,7 +19,7 @@ function bootstrap_rayno_preprocess_html(&$variables) {
     $variables['head_title']['name'] = html_entity_decode($variables['head_title']['name']);
   }
 
-  dump(variables);
+  dump($variables);
 }
 
 function bootstrap_rayno_preprocess_page(&$variables) {
