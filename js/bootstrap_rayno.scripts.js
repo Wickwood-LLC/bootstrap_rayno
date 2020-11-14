@@ -48,8 +48,8 @@
           $header.css("top", "");
         }
         // console.log("Top spacing is " + topSpacing);
+        setTimeout(sticky, 500);
       }
-      setTimeout(sticky, 500);
 
       $(window).scroll(function() { // scroll event 
         windowTop = $(window).scrollTop(); // tells how far our screen is currently from the top of the page
