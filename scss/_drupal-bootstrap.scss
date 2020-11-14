@@ -447,7 +447,7 @@ p:last-child,
   padding: 0.5em;
   position: fixed;
   z-index: 501;
-  transform: translateY(150px);
+  transform: translateY(-150px);
   animation: come-in 0.8s ease forwards;
   
   @keyframes come-in {

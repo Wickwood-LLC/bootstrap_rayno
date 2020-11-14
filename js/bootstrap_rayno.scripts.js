@@ -15,7 +15,7 @@
       $header = $('#navbar');
 
       $(document).ready(sticky);
-      $(window).on("resize mresize", sticky);
+      $(window).delay(500).on("resize mresize", sticky);
 
       function sticky() {
         if ($('sticky-header')) {
