@@ -8374,8 +8374,27 @@ p:last-child,
 #navbar.sticky-header .navbar-text,
 #navbar.sticky-header #block-addressandphone {
   display: none;
-  opacity: 0;
-  visibility: hidden;
+}
+
+@media (min-width: 550px) {
+  #navbar.sticky-header .navbar-text {
+    display: flex;
+  }
+}
+
+@media (min-width: 830px) {
+  #navbar.sticky-header #block-addressandphone {
+    display: block;
+  }
+  #navbar.sticky-header #block-addressandphone .field--name-body {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+  }
+  #navbar.sticky-header #block-addressandphone .field--name-body .header-address,
+  #navbar.sticky-header #block-addressandphone .field--name-body .header-phone {
+    margin: 0;
+  }
 }
 
 #block-addressandphone {
@@ -8385,7 +8404,7 @@ p:last-child,
 #block-addressandphone .header-address,
 #block-addressandphone .header-phone {
   display: inline-block;
-  font-size: 0.8em;
+  font-size: 0.8rem;
   margin: 0.5em 0.5em 0;
 }
 

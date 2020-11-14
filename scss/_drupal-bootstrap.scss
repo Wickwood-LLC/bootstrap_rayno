@@ -453,12 +453,29 @@ p:last-child,
   .navbar-text,
   #block-addressandphone {
     display: none;
-    opacity: 0;
-    visibility: hidden;
   }
 
-  @include breakpoint(550px) {}
-  @include breakpoint(830px) {}
+  @include breakpoint(550px) {
+    .navbar-text {
+      display: flex;
+    }
+  }
+  @include breakpoint(830px) {
+    #block-addressandphone {
+      display: block;
+      
+      .field--name-body {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        
+        .header-address,
+        .header-phone {
+          margin: 0;
+        }
+      }
+    }
+  }
   @include breakpoint(1051px) {}
 }
 
@@ -468,7 +485,7 @@ p:last-child,
   .header-address,
   .header-phone {
     display: inline-block;
-    font-size: 0.8em;
+    font-size: 0.8rem;
     margin: 0.5em 0.5em 0;
   }
   .header-phone {
