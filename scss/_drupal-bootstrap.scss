@@ -1174,7 +1174,7 @@ article > .content {
     .block-block-contenteaaac563-eb18-477f-827b-13fcb03cafa4 {
       max-width: 800px;
       margin: auto;
-      
+
       .fluid-columns {
         margin: 1em auto 0;
         background-color: #f1f1f1;
@@ -1483,6 +1483,12 @@ article > .content {
 }
 
 /********************* BLOCKS *********************/
+#layout-builder {
+  .section-watermark {
+    z-index: 0;
+  }
+}
+
 .js-layout-builder-block {
   padding: 1em;
   cursor: move;

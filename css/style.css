@@ -9398,6 +9398,10 @@ article > .content {
 }
 
 /********************* BLOCKS *********************/
+#layout-builder .section-watermark {
+  z-index: 0;
+}
+
 .js-layout-builder-block {
   padding: 1em;
   cursor: move;
