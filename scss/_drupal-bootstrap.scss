@@ -1712,6 +1712,25 @@ article > .content {
 //   }
 // }
 
+.join-rayno-club-promo-title {
+  color: $brand-primary;
+  font-size: 1rem;
+
+  .logo-lower-case {
+    line-height: 0.65;
+
+    &:after {
+      background: none;
+      border-left: 3px solid transparent;
+      border-bottom: 5px solid #041068;
+      bottom: -44%;
+      margin-left: -95%;
+      width: 165%;
+      height: 5px;
+    }
+  }
+}
+
 #edit-actions {
   text-align: center;
 }
