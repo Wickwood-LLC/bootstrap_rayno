@@ -1271,7 +1271,7 @@ article > .content {
     width: 100vw;
     margin-left: -15px;
 
-    @breakpoint(1401px) {
+    @include breakpoint(1401px) {
       margin-left: calc(-7.5px - (50vw - 700px));
     }
   }

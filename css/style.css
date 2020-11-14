@@ -9203,7 +9203,7 @@ article > .content {
   margin-left: -15px;
 }
 
-@breakpoint (1401px) {
+@media (min-width: 1401px) {
   .page-directions-to-rayno-automotive .map {
     margin-left: calc(-7.5px - (50vw - 700px));
   }
