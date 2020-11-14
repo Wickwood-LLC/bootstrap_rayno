@@ -15,7 +15,7 @@
       $header = $('#navbar');
 
       $(document).ready(sticky);
-      $(window).delay(500).on("resize mresize", sticky);
+      $(window).on("resize mresize", sticky);
 
       function sticky() {
         if ($('sticky-header')) {
@@ -49,6 +49,7 @@
         }
         // console.log("Top spacing is " + topSpacing);
       }
+      setTimeout(sticky, 500);
 
       $(window).scroll(function() { // scroll event 
         windowTop = $(window).scrollTop(); // tells how far our screen is currently from the top of the page
