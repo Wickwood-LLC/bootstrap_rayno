@@ -9554,12 +9554,12 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   position: absolute;
   z-index: -1;
   left: 0;
-  top: 0.6em;
+  top: -0.4em;
   width: 100%;
 }
 
-.node .section-watermark {
-  top: -0.4em;
+.layout .section-watermark {
+  top: 0.6em;
 }
 
 .section-watermark h3 {

@@ -1623,11 +1623,11 @@ article > .content {
   position: absolute;
   z-index: -1;
   left: 0;
-  top: 0.6em;
+  top: -0.4em;
   width: 100%;
   
-  .node & {
-    top: -0.4em;
+  .layout & {
+    top: 0.6em;
   }
 
   h3 {
