@@ -1254,6 +1254,27 @@ article > .content {
     max-width: 1000px;
     margin: auto;
   }
+
+  #directions {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5em;
+
+    > * {
+      margin: 0.25em;
+    }
+  }
+
+  .map {
+    width: 100vw;
+    margin-left: -15px;
+
+    @breakpoint(1401px) {
+      margin-left: calc(-7.5px - (50vw - 700px));
+    }
+  }
 }
 
 .node.what-could-it-be {

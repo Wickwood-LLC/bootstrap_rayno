@@ -9186,6 +9186,29 @@ article > .content {
   margin: auto;
 }
 
+.page-directions-to-rayno-automotive #directions {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5em;
+}
+
+.page-directions-to-rayno-automotive #directions > * {
+  margin: 0.25em;
+}
+
+.page-directions-to-rayno-automotive .map {
+  width: 100vw;
+  margin-left: -15px;
+}
+
+@breakpoint (1401px) {
+  .page-directions-to-rayno-automotive .map {
+    margin-left: calc(-7.5px - (50vw - 700px));
+  }
+}
+
 .node.what-could-it-be .what-could-it-be-title .block-title {
   font-size: 2em;
   position: relative;
