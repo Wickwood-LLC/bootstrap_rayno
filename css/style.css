@@ -8387,13 +8387,11 @@ p:last-child,
     display: block;
   }
   #navbar.sticky-header #block-addressandphone .field--name-body {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
+    display: block;
   }
   #navbar.sticky-header #block-addressandphone .field--name-body .header-address,
   #navbar.sticky-header #block-addressandphone .field--name-body .header-phone {
-    margin: 0;
+    margin: 0 0.5em;
   }
 }
 

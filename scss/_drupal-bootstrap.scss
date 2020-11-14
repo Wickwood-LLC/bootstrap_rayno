@@ -465,13 +465,11 @@ p:last-child,
       display: block;
       
       .field--name-body {
-        display: flex;
-        justify-content: center;
-        align-items: baseline;
+        display: block;
         
         .header-address,
         .header-phone {
-          margin: 0;
+          margin: 0 0.5em;
         }
       }
     }
