@@ -53,6 +53,7 @@
     theme.settings.navbar_position ? 'navbar-is-' ~ theme.settings.navbar_position,
     theme.has_glyphicons ? 'has-glyphicons',
     node_type and not is_published ? 'is-unpublished',
+    'page-' ~ head_title_array.title|clean_class
   ]
 %}
 <!DOCTYPE html>
@@ -100,7 +101,6 @@
     </script>
   </head>
   <body{{ attributes.addClass(body_classes) }}>
-  {{ head_title_array.title }}
     <a href="#main-content" class="visually-hidden focusable skip-link">
       {{ 'Skip to main content'|t }}
     </a>
