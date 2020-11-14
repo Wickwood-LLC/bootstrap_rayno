@@ -1315,15 +1315,22 @@ article > .content {
     position: absolute;
     right: 0;
     z-index: 0;
-  }
-  .field--name-field-problem-image {
-    display: inline-block;
-    margin-right: -1em;
-    margin-top: -1em;
 
-    img {
-      filter: opacity(0.5);
+    .field--name-field-problem-image {
+      display: inline-block;
+      margin-right: -1em;
+      margin-top: -1em;
+
+      img {
+        filter: opacity(0.5);
+      }
     }
+  }
+  
+  .block-field-blocknodewhat-could-it-betitle-html,
+  .block-field-blocknodewhat-could-it-bebody {
+    position: relative;
+    z-index: 1;
   }
 }
 
