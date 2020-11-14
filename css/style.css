@@ -9655,6 +9655,10 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   font-size: 1rem;
 }
 
+.join-rayno-club-promo-title br {
+  display: none;
+}
+
 .join-rayno-club-promo-title .logo-lower-case {
   line-height: 0.65;
 }

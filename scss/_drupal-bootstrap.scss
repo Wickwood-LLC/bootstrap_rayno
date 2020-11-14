@@ -1716,6 +1716,10 @@ article > .content {
   color: $brand-primary;
   font-size: 1rem;
 
+  br {
+    display: none;
+  }
+
   .logo-lower-case {
     line-height: 0.65;
 
