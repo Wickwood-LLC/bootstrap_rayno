@@ -13,7 +13,8 @@
       var topSpacing;
 
       $header = $('#navbar');
-
+      setTimeout(sticky, 500);
+      
       $(document).ready(sticky);
       $(window).on("resize mresize", sticky);
 
@@ -48,7 +49,6 @@
           $header.css("top", "");
         }
         // console.log("Top spacing is " + topSpacing);
-        setTimeout(sticky, 500);
       }
 
       $(window).scroll(function() { // scroll event 
