@@ -25,7 +25,7 @@
         $header.css({
           // width: "initial",
         });
-        if ($('sticky-header')) {
+        if (!($header.hasClass('sticky-header'))) {
           $header.removeClass('sticky-header');
         }
         // headerHeight = $header.height(); // gets the height of our header
@@ -39,9 +39,10 @@
 
 
         if (currentPosition < 0) { // if target element goes above the screen
-          $header.addClass('sticky-header');
+          if (!($header.hasClass('sticky-header'))) {
+            $header.addClass('sticky-header');
+          }
           $header.css("top", topSpacing);
-          $header.slideDown();
         } else {
           $header.removeClass('sticky-header');
           $header.css("top", "");
@@ -57,7 +58,9 @@
         console.log('Current position: ' + currentPosition);
 
         if (currentPosition < 0) { // if target element goes above the screen
-          $header.addClass('sticky-header');
+          if (!($header.hasClass('sticky-header'))) {
+            $header.addClass('sticky-header');
+          }
           $header.css("top", topSpacing);
         } else if (currentPosition >= 0) {
           $header.removeClass('sticky-header');
