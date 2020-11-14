@@ -25,6 +25,9 @@
         $header.css({
           // width: "initial",
         });
+        if ($('sticky-header')) {
+          $header.removeClass('sticky-header');
+        }
         // headerHeight = $header.height(); // gets the height of our header
 
         stickyTop = $header.offset().top; // tells how far our target element is from the top of the page
