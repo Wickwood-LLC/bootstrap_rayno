@@ -18,6 +18,8 @@ function bootstrap_rayno_preprocess_html(&$variables) {
   if (!empty($variables['head_title']['name'])) {
     $variables['head_title']['name'] = html_entity_decode($variables['head_title']['name']);
   }
+
+  dump(variables);
 }
 
 function bootstrap_rayno_preprocess_page(&$variables) {
