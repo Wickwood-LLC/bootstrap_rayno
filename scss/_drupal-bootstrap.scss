@@ -840,8 +840,24 @@ nav.tabs {
   }
 }
 
+.region-content {
+  a {
+    font-weight: 600;
+  }
+}
+
+article > .content {
+  max-width: 1000px;
+  margin: auto;
+}
+
 /********************* FRONT PAGE *********************/
 .path-frontpage {
+  article > .content {
+    max-width: unset;
+    margin: auto;
+  }
+
   .main-container {
     max-width: unset;
     padding: 0;
@@ -921,6 +937,12 @@ nav.tabs {
       }
       @include breakpoint(769px) {
         left: 2rem;
+      }
+    }
+
+    .block-views-blockvehicles-serviced-block-1 {
+      .block-title {
+        font-size: 2rem;
       }
     }
   }
@@ -1262,9 +1284,20 @@ nav.tabs {
 }
 
 .path-what-could-it-be {
+  article > .content {
+    max-width: unset;
+    margin: auto;
+  }
+
   .page-title {
     position: relative;
     z-index: 1;
+  }
+}
+.path-services {
+  article > .content {
+    max-width: unset;
+    margin: auto;
   }
 }
 
@@ -2042,7 +2075,7 @@ form {
 
 .ui-dialog {
   background-color: #f7f7f7;
-  
+
   .ui-dialog-titlebar {
     background-color: $brand-primary;
     border-color: $btn-primary-border;
