@@ -1625,6 +1625,10 @@ article > .content {
   left: 0;
   top: 0.6em;
   width: 100%;
+  
+  .node & {
+    top: -0.4em;
+  }
 
   h3 {
     font-size: 3.5em;

@@ -9558,6 +9558,10 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   width: 100%;
 }
 
+.node .section-watermark {
+  top: -0.4em;
+}
+
 .section-watermark h3 {
   font-size: 3.5em;
   font-weight: 800;
