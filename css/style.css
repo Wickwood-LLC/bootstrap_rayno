@@ -8362,7 +8362,7 @@ p:last-child,
   max-width: 100%;
   padding: 0.5em;
   position: fixed;
-  z-index: 5;
+  z-index: 501;
   transition: 0.5s;
 }
 
@@ -9141,6 +9141,7 @@ article > .content {
 .page-node-type-promotion .node .content {
   position: relative;
   display: flex;
+  max-width: 700px;
 }
 
 .page-node-type-promotion .node .content .field--name-field-background-image {

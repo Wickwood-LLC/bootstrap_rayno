@@ -442,7 +442,7 @@ p:last-child,
   max-width: 100%;
   padding: 0.5em;
   position: fixed;
-  z-index: 5;
+  z-index: 501;
   transition: 0.5s;
 
   .logo-line2,
@@ -1208,6 +1208,7 @@ article > .content {
   .node .content {
     position: relative;
     display: flex;
+    max-width: 700px;
     
     .field--name-field-background-image {
       width: 100%;
