@@ -18,6 +18,9 @@
       $(window).on("resize mresize", sticky);
 
       function sticky() {
+        if ($('sticky-header')) {
+          $header.removeClass('sticky-header');
+        }
         topSpacing = ((isNaN($('.toolbar-fixed #toolbar-bar').height())) ? 0 : $('#toolbar-bar').height()) + ((isNaN($('.toolbar-tray-horizontal.is-active').height())) ? 0 : $('.toolbar-tray-horizontal.is-active').height());
         // headerWidth = $header.width(); // gets the width of the container
         headerHeight = $header.height(); // gets the height of our header
@@ -25,9 +28,7 @@
         $header.css({
           // width: "initial",
         });
-        if ($('sticky-header')) {
-          $header.removeClass('sticky-header');
-        }
+        
         // headerHeight = $header.height(); // gets the height of our header
 
         stickyTop = $header.offset().top; // tells how far our target element is from the top of the page

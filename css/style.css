@@ -8367,7 +8367,6 @@ p:last-child,
   padding: 0.5em;
   position: fixed;
   z-index: 501;
-  transition: background-color 0.5s;
 }
 
 #navbar.sticky-header .logo-line2,
