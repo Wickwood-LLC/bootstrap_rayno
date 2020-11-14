@@ -13,10 +13,9 @@
       var topSpacing;
 
       $header = $('#navbar');
-      setTimeout(sticky, 500);
-      
+
       $(document).ready(sticky);
-      $(window).on("resize mresize", sticky);
+      $(window).on("resize mresize", setTimeout(sticky, 500));
 
       function sticky() {
         if ($('sticky-header')) {
