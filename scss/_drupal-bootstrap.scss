@@ -1275,6 +1275,19 @@ article > .content {
       margin-left: calc(-7.5px - (50vw - 700px));
     }
   }
+  .extra-below {
+    width: 90%;
+    max-width: 800px;
+    margin: 1em auto;
+    background-color: #f1f1f1;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px #d6d6d6;
+    padding: 1em;
+  }
+  .adp-directions {
+    width: 100%;
+  }
 }
 
 .node.what-could-it-be {
