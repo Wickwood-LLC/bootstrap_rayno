@@ -386,10 +386,11 @@
   background-color: #ececec;
   margin-top: 0;
   border-top-left-radius: 0;
+  border-top-right-radius: 5px;
 
   > li > a:hover {
     background-color: $brand-primary;
-    color: #ececec;
+    color: #021062;
   }
 }
 // Menu position and menu caret support for dropups via extra dropup class
