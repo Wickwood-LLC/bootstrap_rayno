@@ -383,8 +383,14 @@
 
 // Menu position and menu carets
 .navbar-nav > li > .dropdown-menu {
+  background-color: #ececec;
   margin-top: 0;
-  @include border-top-radius(0);
+  border-top-left-radius: 0;
+
+  > li > a:hover {
+    background-color: $brand-primary;
+    color: #ececec;
+  }
 }
 // Menu position and menu caret support for dropups via extra dropup class
 .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {

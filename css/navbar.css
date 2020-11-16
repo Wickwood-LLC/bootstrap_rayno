@@ -5608,9 +5608,12 @@ button.close {
       box-shadow: none; } }
 
 .navbar-nav > li > .dropdown-menu {
+  background-color: #ececec;
   margin-top: 0;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0; }
+  border-top-left-radius: 0; }
+  .navbar-nav > li > .dropdown-menu > li > a:hover {
+    background-color: #021062;
+    color: #ececec; }
 
 .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
   margin-bottom: 0;
