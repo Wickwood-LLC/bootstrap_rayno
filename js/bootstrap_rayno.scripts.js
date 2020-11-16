@@ -71,17 +71,4 @@
     }
   };
 
-  /**
-   * Make Bootstrap menu parent clickable
-   */
-  Drupal.behaviors.clickMenu = {
-    attach: function(context, settings) {
-      if ($(window).width() > 546) {
-        $('.menu .dropdown > a').click(function() {
-          location.href = this.href;
-        });
-      }
-    }
-  };
-
 })(jQuery, Drupal);
