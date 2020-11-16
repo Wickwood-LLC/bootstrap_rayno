@@ -430,14 +430,6 @@ p:last-child,
 /********************* STICKY HEADER *********************/
 #navbar {
   top: 0;
-
-  .logo-line2,
-  .navbar-text,
-  #block-addressandphone {
-    display: block;
-    opacity: 1;
-    visibility: visible;
-  }
 }
 
 #navbar.sticky-header {
