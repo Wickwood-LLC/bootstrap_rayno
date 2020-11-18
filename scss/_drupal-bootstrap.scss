@@ -798,12 +798,12 @@ nav.tabs {
 
     @include breakpoint(547px) {
       border-bottom: 4px solid transparent;
-    }
-    
-    &:hover,
-    &:focus,
-    &.active {
-      border-bottom: 4px solid $brand-primary;
+      
+      &:hover,
+      &:focus,
+      &.active {
+        border-bottom: 4px solid $brand-primary;
+      }
     }
 
     > a {
