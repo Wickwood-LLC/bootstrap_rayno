@@ -76,9 +76,12 @@
    */
   Drupal.behaviors.activeli = {
     attach: function(context, settings) {
-      if ($('.menu a.is-active').length) {
-        $(this).parent().addClass('active'); 
-      }
+        $('.menu a.is-active').each(function(){
+            if(urlRegExp.test(this.href)){
+                $(this).parent().addClass('active');
+            }
+
+        });
     }
   };  
 
