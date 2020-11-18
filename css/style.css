@@ -7859,7 +7859,13 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0.5em 0;
 }
 
-.content h1 a, .content h2 a, .content h3 a, .content h4 a, .content h5 a, .content h6 a {
+.content h1 a,
+.views-element-container h1 a, .content h2 a,
+.views-element-container h2 a, .content h3 a,
+.views-element-container h3 a, .content h4 a,
+.views-element-container h4 a, .content h5 a,
+.views-element-container h5 a, .content h6 a,
+.views-element-container h6 a {
   color: #021062;
 }
 

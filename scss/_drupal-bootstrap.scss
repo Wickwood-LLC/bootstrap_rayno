@@ -34,7 +34,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', serif;
   margin: 0.5em 0;
 
-  .content & a {
+  .content & a,
+  .views-element-container & a {
     color: $brand-primary;
   }
 }
@@ -798,7 +799,7 @@ nav.tabs {
 
     @include breakpoint(547px) {
       border-bottom: 4px solid transparent;
-      
+
       &:hover,
       &:focus,
       &.active {
