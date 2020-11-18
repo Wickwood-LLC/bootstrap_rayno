@@ -74,11 +74,15 @@
   /**
    * Sticky header
    */
-  Drupal.behaviors.activeli = {
+  Drupal.behaviors.menuFix = {
     attach: function(context, settings) {
         $('.menu a.is-active').each(function(){
             $(this).parent().addClass('active');
         });
+
+        if ($(window).width() > 546) {
+            $('#navbar-collapse').removeClass('in');
+        }
     }
   };  
 
