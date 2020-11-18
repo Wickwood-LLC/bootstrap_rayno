@@ -71,4 +71,15 @@
     }
   };
 
+  /**
+   * Sticky header
+   */
+  Drupal.behaviors.activeli = {
+    attach: function(context, settings) {
+      if ($('.menu a.is-active')) {
+        $(this).parent().addClass('active'); 
+      }
+    }
+  };  
+
 })(jQuery, Drupal);
