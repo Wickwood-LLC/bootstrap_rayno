@@ -2707,9 +2707,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/js/bootstrap_rayno.scripts-min.js",
-		"oF": 1,
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
@@ -3011,15 +3011,15 @@
 		"uL": 1
 		},
 	"/scss/navbar.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/navbar.css",
-		"oF": 2,
+		"oAP": "/scss/navbar.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},

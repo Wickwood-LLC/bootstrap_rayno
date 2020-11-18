@@ -8728,15 +8728,21 @@ nav.tabs {
   margin-top: 0;
 }
 
-#block-bootstrap-rayno-mainmenu-2 .menu--main > li > a {
+#block-bootstrap-rayno-mainmenu-2 .menu--main > li {
   border-bottom: 4px solid transparent;
+}
+
+#block-bootstrap-rayno-mainmenu-2 .menu--main > li:hover, #block-bootstrap-rayno-mainmenu-2 .menu--main > li:focus, #block-bootstrap-rayno-mainmenu-2 .menu--main > li:active {
+  border-bottom: 4px solid #021062;
+}
+
+#block-bootstrap-rayno-mainmenu-2 .menu--main > li > a {
   color: #020202;
   padding: 0.5em;
 }
 
 #block-bootstrap-rayno-mainmenu-2 .menu--main > li > a:hover, #block-bootstrap-rayno-mainmenu-2 .menu--main > li > a:focus, #block-bootstrap-rayno-mainmenu-2 .menu--main > li > a.is-active {
   background-color: transparent;
-  border-bottom: 4px solid #021062;
   color: #021062;
 }
 
