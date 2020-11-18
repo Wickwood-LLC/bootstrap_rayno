@@ -2342,7 +2342,7 @@
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
 		"oAP": "/css/navbar-min.css",
 		"oF": 0,
@@ -3011,15 +3011,15 @@
 		"uL": 1
 		},
 	"/scss/navbar.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
-		"oAP": "/scss/navbar.css",
-		"oF": 0,
+		"oAP": "/css/navbar.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},

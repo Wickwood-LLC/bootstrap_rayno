@@ -387,6 +387,7 @@
   margin-top: 0;
   border-top-left-radius: 0;
   border-top-right-radius: 5px;
+  top: calc(100% + 4px);
 
   > li > a:hover {
     background-color: $brand-primary;

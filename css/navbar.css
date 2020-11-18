@@ -5611,7 +5611,8 @@ button.close {
   background-color: #ececec;
   margin-top: 0;
   border-top-left-radius: 0;
-  border-top-right-radius: 5px; }
+  border-top-right-radius: 5px;
+  top: calc(100% + 4px); }
   .navbar-nav > li > .dropdown-menu > li > a:hover {
     background-color: #021062;
     color: #021062; }
