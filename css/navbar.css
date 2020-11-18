@@ -5608,7 +5608,6 @@ button.close {
       box-shadow: none; } }
 
 .navbar-nav > li > .dropdown-menu {
-  position: relative;
   background-color: #ececec;
   margin-top: 0;
   border-top-left-radius: 0;
