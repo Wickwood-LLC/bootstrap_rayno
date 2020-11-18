@@ -813,14 +813,6 @@ nav.tabs {
         color: $brand-primary;
       }
     }
-
-    &.active {
-      > a.active,
-      > a:hover,
-      > a:focus {
-        background-color: transparent;
-      } 
-    }
   }
 }
 .menu--header-buttons {

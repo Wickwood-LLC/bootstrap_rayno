@@ -8746,12 +8746,6 @@ nav.tabs {
   color: #021062;
 }
 
-#block-bootstrap-rayno-mainmenu-2 .menu--main > li.active > a.active,
-#block-bootstrap-rayno-mainmenu-2 .menu--main > li.active > a:hover,
-#block-bootstrap-rayno-mainmenu-2 .menu--main > li.active > a:focus {
-  background-color: transparent;
-}
-
 .menu--header-buttons > li a {
   border-radius: 19.5px;
   line-height: 1;
