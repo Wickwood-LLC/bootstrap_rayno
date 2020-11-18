@@ -80,9 +80,11 @@
             $(this).parent().addClass('active');
         });
 
-        if ($(window).width() > 546) {
-            $('#navbar-collapse').removeClass('in');
-        }
+        $(window).resize(function() {
+            if ($(window).width() > 546) {
+                $('#navbar-collapse').removeClass('in');
+            }
+        });
     }
   };  
 
