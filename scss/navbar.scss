@@ -392,9 +392,13 @@
   border-top-right-radius: 0;
   top: calc(100% + 4px);
 
-  > li > a:hover {
-    background-color: $brand-primary;
-    color: #f5f5f5;
+  > li {
+    border-bottom: 0;
+    
+    > a:hover {
+      background-color: $brand-primary;
+      color: #f5f5f5;
+    }
   }
 
   @include breakpoint(547px) {
