@@ -77,6 +77,7 @@
     right: 0;
     top: 92px;
     z-index: 11;
+    overflow: visible;
     
     body.adminimal-admin-toolbar & {
       top: 130px;
@@ -389,7 +390,7 @@
   margin-top: 0;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
-  top: calc(100% + 4px);
+  top: 100%;
 
   > li {
     > a:hover {
@@ -401,6 +402,7 @@
   @include breakpoint(547px) {
     position: absolute;
     border-top-right-radius: 5px;
+    top: calc(100% + 4px);
   }
 }
 // Menu position and menu caret support for dropups via extra dropup class

@@ -5383,7 +5383,8 @@ button.close {
       background-color: white;
       right: 0;
       top: 92px;
-      z-index: 11; }
+      z-index: 11;
+      overflow: visible; }
       body.adminimal-admin-toolbar #navbar-collapse {
         top: 130px; }
       #navbar-collapse #block-bootstrap-rayno-mainmenu-2 .menu--main {
@@ -5612,14 +5613,15 @@ button.close {
   margin-top: 0;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
-  top: calc(100% + 4px); }
+  top: 100%; }
   .navbar-nav > li > .dropdown-menu > li > a:hover {
     background-color: #021062;
     color: #f5f5f5; }
   @media (min-width: 547px) {
     .navbar-nav > li > .dropdown-menu {
       position: absolute;
-      border-top-right-radius: 5px; } }
+      border-top-right-radius: 5px;
+      top: calc(100% + 4px); } }
 
 .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
   margin-bottom: 0;
