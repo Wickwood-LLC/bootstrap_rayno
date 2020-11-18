@@ -76,7 +76,7 @@
    */
   Drupal.behaviors.activeli = {
     attach: function(context, settings) {
-      if ($('.menu a.is-active')) {
+      if ($('.menu a.is-active').length) {
         $(this).parent().addClass('active'); 
       }
     }
