@@ -393,8 +393,6 @@
   top: calc(100% + 4px);
 
   > li {
-    border: 0;
-    
     > a:hover {
       background-color: $brand-primary;
       color: #f5f5f5;

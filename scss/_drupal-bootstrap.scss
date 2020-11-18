@@ -794,7 +794,11 @@ nav.tabs {
   margin-top: 0;
 
   > li {
-    border-bottom: 4px solid transparent;
+    border-bottom: 0;
+
+    @include breakpoint(547px) {
+      border-bottom: 4px solid transparent;
+    }
     
     &:hover,
     &:focus,

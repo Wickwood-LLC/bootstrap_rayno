@@ -8729,7 +8729,13 @@ nav.tabs {
 }
 
 #block-bootstrap-rayno-mainmenu-2 .menu--main > li {
-  border-bottom: 4px solid transparent;
+  border-bottom: 0;
+}
+
+@media (min-width: 547px) {
+  #block-bootstrap-rayno-mainmenu-2 .menu--main > li {
+    border-bottom: 4px solid transparent;
+  }
 }
 
 #block-bootstrap-rayno-mainmenu-2 .menu--main > li:hover, #block-bootstrap-rayno-mainmenu-2 .menu--main > li:focus, #block-bootstrap-rayno-mainmenu-2 .menu--main > li.active {
