@@ -69,6 +69,17 @@
         // console.log("Top spacing is " + topSpacing);
       });
     }
-  }; 
+  };
+
+  /**
+   * Sticky header
+   */
+  Drupal.behaviors.activeli = {
+    attach: function(context, settings) {
+        $('.menu a.is-active').each(function(){
+            $(this).parent().addClass('active');
+        });
+    }
+  };  
 
 })(jQuery, Drupal);
