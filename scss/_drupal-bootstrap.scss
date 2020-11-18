@@ -778,7 +778,7 @@ nav.tabs {
     display: inline-block;
     float: none;
 
-    a {
+    > a {
       font-size: 0.8em;
       
       &:hover {

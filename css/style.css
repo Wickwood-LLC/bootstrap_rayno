@@ -8711,13 +8711,13 @@ nav.tabs {
   float: none;
 }
 
-.menu--header-buttons > li a,
-#block-bootstrap-rayno-mainmenu-2 .menu--main > li a {
+.menu--header-buttons > li > a,
+#block-bootstrap-rayno-mainmenu-2 .menu--main > li > a {
   font-size: 0.8em;
 }
 
-.menu--header-buttons > li a:hover,
-#block-bootstrap-rayno-mainmenu-2 .menu--main > li a:hover {
+.menu--header-buttons > li > a:hover,
+#block-bootstrap-rayno-mainmenu-2 .menu--main > li > a:hover {
   background-color: transparent;
 }
 
