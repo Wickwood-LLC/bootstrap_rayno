@@ -9252,7 +9252,7 @@ article > .content {
   text-align: center;
 }
 
-.page-directions-to-rayno-automotive #directions .button.get_user_location {
+.page-directions-to-rayno-automotive #directions button.get_user_location {
   margin: 3px;
 }
 
