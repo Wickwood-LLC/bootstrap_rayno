@@ -9252,6 +9252,10 @@ article > .content {
   text-align: center;
 }
 
+.page-directions-to-rayno-automotive #directions .button.get_user_location {
+  margin: 3px;
+}
+
 .page-directions-to-rayno-automotive .map {
   width: 100vw;
   margin-left: -15px;
