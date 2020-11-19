@@ -918,8 +918,10 @@ article > .content {
     .layout__region--first {
       margin: 0;
       max-width: 100%;
+      flex: 100%;
 
-      @include breakpoint(769px) {
+      @include breakpoint(885px) {
+        flex: 1 1 40%;
         max-width: 50%;
       }
     }
@@ -930,12 +932,14 @@ article > .content {
       flex: 1 1 36%;
       min-width: 280px;
       text-align: center;
+      flex: 100%;
 
       h1 {
         font-size: 3em;
       }
 
-      @include breakpoint(769px) {
+      @include breakpoint(885px) {
+        flex: 1 1 40%;
         margin-right: auto;
         text-align: left;
       }
@@ -1837,6 +1841,10 @@ article > .content {
         object-fit: fill;
       }
     }
+  }
+
+  .views-field-body {
+    max-width: 100%;
   }
 }
 

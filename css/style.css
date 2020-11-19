@@ -8843,10 +8843,12 @@ article > .content {
 .path-frontpage #promo-slider .layout__region--first {
   margin: 0;
   max-width: 100%;
+  flex: 100%;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 885px) {
   .path-frontpage #promo-slider .layout__region--first {
+    flex: 1 1 40%;
     max-width: 50%;
   }
 }
@@ -8858,14 +8860,16 @@ article > .content {
   flex: 1 1 36%;
   min-width: 280px;
   text-align: center;
+  flex: 100%;
 }
 
 .path-frontpage #promo-slider .layout__region--second h1 {
   font-size: 3em;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 885px) {
   .path-frontpage #promo-slider .layout__region--second {
+    flex: 1 1 40%;
     margin-right: auto;
     text-align: left;
   }
@@ -9793,6 +9797,10 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   height: 100%;
   -o-object-fit: fill;
      object-fit: fill;
+}
+
+.view-promotions-and-testimonials .views-field-body {
+  max-width: 100%;
 }
 
 .view-rayno-services .view-content {
