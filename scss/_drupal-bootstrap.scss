@@ -1125,7 +1125,7 @@ article > .content {
   }
 
   #makes-and-models {
-    padding: 1em;
+    padding: 1em 0;
     position: relative;
     margin-bottom: 0;
 
@@ -1138,8 +1138,8 @@ article > .content {
       font-size: 0.5em;
     }
 
-    @include breakpoint(885px) {
-      padding: 1em 0;
+    .view-header {
+      padding: 1em;
     }
   }
 

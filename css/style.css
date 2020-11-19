@@ -9081,7 +9081,7 @@ article > .content {
 }
 
 .path-frontpage #makes-and-models {
-  padding: 1em;
+  padding: 1em 0;
   position: relative;
   margin-bottom: 0;
 }
@@ -9095,10 +9095,8 @@ article > .content {
   font-size: 0.5em;
 }
 
-@media (min-width: 885px) {
-  .path-frontpage #makes-and-models {
-    padding: 1em 0;
-  }
+.path-frontpage #makes-and-models .view-header {
+  padding: 1em;
 }
 
 .path-frontpage #classic-modern {
