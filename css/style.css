@@ -8360,6 +8360,7 @@ p:last-child,
 
 #navbar.sticky-header {
   background-color: #e4e4e4;
+  border-radius: 0;
   box-shadow: 0px -6px 20px 0 #191919;
   max-width: 100%;
   padding: 0.5em;
@@ -9248,6 +9249,7 @@ article > .content {
 
 .page-directions-to-rayno-automotive #directions > * {
   margin: 0.25em;
+  text-align: center;
 }
 
 .page-directions-to-rayno-automotive .map {

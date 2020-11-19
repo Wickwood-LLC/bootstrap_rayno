@@ -435,6 +435,7 @@ p:last-child,
 
 #navbar.sticky-header {
   background-color: $body-bg;
+  border-radius: 0;
   box-shadow: 0px -6px 20px 0 #191919;
   max-width: 100%;
   padding: 0.5em;
@@ -1294,6 +1295,7 @@ article > .content {
 
     > * {
       margin: 0.25em;
+      text-align: center;
     }
   }
 
