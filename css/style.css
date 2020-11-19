@@ -9348,6 +9348,10 @@ article > .content {
   margin: 0.5em;
 }
 
+.field--name-field-media-image img {
+  margin: auto;
+}
+
 /********************* LAYOUTS *********************/
 .main-container {
   width: 100%;
