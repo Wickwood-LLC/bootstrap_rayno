@@ -8751,6 +8751,7 @@ nav.tabs {
 #block-bootstrap-rayno-mainmenu-2 .menu--main > li > a {
   color: #020202;
   padding: 0.5em;
+  white-space: nowrap;
 }
 
 #block-bootstrap-rayno-mainmenu-2 .menu--main > li > a:hover, #block-bootstrap-rayno-mainmenu-2 .menu--main > li > a:focus, #block-bootstrap-rayno-mainmenu-2 .menu--main > li > a.is-active {
@@ -8761,6 +8762,8 @@ nav.tabs {
 @media (min-width: 547px) {
   #block-bootstrap-rayno-mainmenu-2 .menu--main {
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 

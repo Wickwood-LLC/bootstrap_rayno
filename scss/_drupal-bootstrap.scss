@@ -811,6 +811,7 @@ nav.tabs {
     > a {
       color: #020202;
       padding: 0.5em;
+      white-space: nowrap;
       
       &:hover,
       &:focus,
@@ -823,6 +824,8 @@ nav.tabs {
 
   @include breakpoint(547px) {
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 .menu--header-buttons {
