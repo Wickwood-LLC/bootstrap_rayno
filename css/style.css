@@ -10129,6 +10129,10 @@ form .form-checkboxes > .form-item, form .js-webform-checkboxes > .form-item, fo
   color: #ececec;
 }
 
+.ui-dialog .ui-widget-content a {
+  color: #021062;
+}
+
 form#user-login-form,
 form#user-pass {
   max-width: 500px;

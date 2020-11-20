@@ -2165,6 +2165,10 @@ form {
       color: #ececec;
     }
   }
+
+  .ui-widget-content a {
+    color: $brand-primary;
+  }
 }
 
 form#user-login-form,
