@@ -820,6 +820,10 @@ nav.tabs {
       }
     }
   }
+
+  @include breakpoint(547px) {
+    display: flex;
+  }
 }
 .menu--header-buttons {
   > li {
