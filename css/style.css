@@ -8386,7 +8386,7 @@ p:last-child,
   }
 }
 
-@media screen and (orientation: landscape) and (max-aspect-ratio: 16 / 9) and (max-width: 480px) {
+@media screen and (orientation: landscape) and (max-aspect-ratio: 16 / 9) and (max-width: 768px) {
   #navbar.sticky-header {
     position: static;
   }
