@@ -448,6 +448,10 @@ p:last-child,
     to { transform: translateY(0); }
   }
 
+  @include breakpoint((orientation landscape)) {
+    position: static;
+  }
+
   .logo-line2,
   .navbar-text,
   #block-addressandphone {

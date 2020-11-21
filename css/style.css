@@ -8386,6 +8386,12 @@ p:last-child,
   }
 }
 
+@media (orientation: landscape) {
+  #navbar.sticky-header {
+    position: static;
+  }
+}
+
 #navbar.sticky-header .logo-line2,
 #navbar.sticky-header .navbar-text,
 #navbar.sticky-header #block-addressandphone {
