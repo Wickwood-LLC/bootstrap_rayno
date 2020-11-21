@@ -448,7 +448,7 @@ p:last-child,
     to { transform: translateY(0); }
   }
 
-  @include breakpoint((orientation landscape)) {
+  @media handheld and (orientation: landscape) {
     position: static;
   }
 
