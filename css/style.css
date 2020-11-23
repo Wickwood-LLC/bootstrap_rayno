@@ -8387,6 +8387,9 @@ p:last-child,
 }
 
 @media screen and (orientation: landscape) and (max-height: 768px) {
+  #navbar.sticky-header {
+    padding: 0.25em;
+  }
   #navbar.sticky-header .region-navigation {
     align-items: baseline;
     grid-gap: 0.5em;
@@ -8394,8 +8397,11 @@ p:last-child,
   #navbar.sticky-header .logo-line1:before, #navbar.sticky-header .logo-line1:after {
     width: 50px;
   }
+  #navbar.sticky-header .navbar-brand {
+    display: flex;
+  }
   #navbar.sticky-header #block-headerbuttons,
-  #navbar.sticky-header .navbar-text {
+  #navbar.sticky-header .text-logo-and-slogan .navbar-text {
     display: none;
   }
   #navbar.sticky-header #navbar-collapse {

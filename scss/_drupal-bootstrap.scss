@@ -449,6 +449,8 @@ p:last-child,
   }
 
   @media screen and (orientation: landscape) and (max-height: 768px) {
+    padding: 0.25em;
+    
     .region-navigation {
       align-items: baseline;
       grid-gap: 0.5em;
@@ -459,9 +461,12 @@ p:last-child,
         width: 50px;
       }
     }
+    .navbar-brand {
+      display: flex;
+    }
 
     #block-headerbuttons,
-    .navbar-text {
+    .text-logo-and-slogan .navbar-text {
       display: none;
     }
 
