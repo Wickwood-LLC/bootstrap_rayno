@@ -8387,8 +8387,19 @@ p:last-child,
 }
 
 @media screen and (orientation: landscape) and (max-height: 768px) {
-  #navbar.sticky-header {
-    position: static;
+  #navbar.sticky-header .region-navigation {
+    align-items: baseline;
+    grid-gap: 0.5em;
+  }
+  #navbar.sticky-header .logo-line1:before, #navbar.sticky-header .logo-line1:after {
+    width: 50px;
+  }
+  #navbar.sticky-header #block-headerbuttons,
+  #navbar.sticky-header .navbar-text {
+    display: none;
+  }
+  #navbar.sticky-header #navbar-collapse {
+    grid-column: 2 / span 1;
   }
 }
 

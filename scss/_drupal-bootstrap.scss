@@ -449,7 +449,25 @@ p:last-child,
   }
 
   @media screen and (orientation: landscape) and (max-height: 768px) {
-    position: static;
+    .region-navigation {
+      align-items: baseline;
+      grid-gap: 0.5em;
+    }
+    .logo-line1 {
+      &:before,
+      &:after {
+        width: 50px;
+      }
+    }
+
+    #block-headerbuttons,
+    .navbar-text {
+      display: none;
+    }
+
+    #navbar-collapse {
+      grid-column: 2 / span 1;
+    }
   }
 
   .logo-line2,
