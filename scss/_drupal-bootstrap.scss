@@ -2182,6 +2182,10 @@ form {
   }
 }
 
+.ui-datepicker {
+  z-index: 11;
+}
+
 form#user-login-form,
 form#user-pass {
   max-width: 500px;
