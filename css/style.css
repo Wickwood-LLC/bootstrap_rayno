@@ -8212,6 +8212,9 @@ p:last-child,
     z-index: 11;
     overflow: visible;
   }
+  #navbar .region-navigation #navbar-collapse .collapse {
+    display: none;
+  }
   body.adminimal-admin-toolbar #navbar .region-navigation #navbar-collapse {
     top: 130px;
   }

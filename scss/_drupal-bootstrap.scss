@@ -303,6 +303,10 @@ p:last-child,
       z-index: 11;
       overflow: visible;
       
+      .collapse {
+        display: none;
+      }
+      
       body.adminimal-admin-toolbar & {
         top: 130px;
       }
