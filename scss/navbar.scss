@@ -92,6 +92,7 @@
       
       > li {
         display: block;
+        border-bottom: 0px;
 
         a {
           border-bottom: 0px;
@@ -103,9 +104,13 @@
           }
         }
 
-        &.active a.is-active {
-          background-color: $brand-primary;
-          color: #FFF;
+        &.active {
+          border-bottom: 0px;
+          
+          a.is-active {
+            background-color: $brand-primary;
+            color: #FFF;
+          }
         }
       }
     }

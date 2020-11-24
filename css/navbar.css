@@ -5393,15 +5393,18 @@ button.close {
         display: block;
         margin: 0; }
         #navbar-collapse #block-bootstrap-rayno-mainmenu-2 .menu--main > li {
-          display: block; }
+          display: block;
+          border-bottom: 0px; }
           #navbar-collapse #block-bootstrap-rayno-mainmenu-2 .menu--main > li a {
             border-bottom: 0px; }
             #navbar-collapse #block-bootstrap-rayno-mainmenu-2 .menu--main > li a:hover, #navbar-collapse #block-bootstrap-rayno-mainmenu-2 .menu--main > li a:focus {
               background-color: #031894;
               color: #FFF; }
-          #navbar-collapse #block-bootstrap-rayno-mainmenu-2 .menu--main > li.active a.is-active {
-            background-color: #021062;
-            color: #FFF; } }
+          #navbar-collapse #block-bootstrap-rayno-mainmenu-2 .menu--main > li.active {
+            border-bottom: 0px; }
+            #navbar-collapse #block-bootstrap-rayno-mainmenu-2 .menu--main > li.active a.is-active {
+              background-color: #021062;
+              color: #FFF; } }
   @media (min-width: 547px) {
     #navbar-collapse {
       width: auto;
