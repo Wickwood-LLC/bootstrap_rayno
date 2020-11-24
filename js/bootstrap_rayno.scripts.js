@@ -24,6 +24,7 @@
           }
           topSpacing = ((isNaN($('.toolbar-fixed #toolbar-bar').height())) ? 0 : $('#toolbar-bar').height()) + ((isNaN($('.toolbar-tray-horizontal.is-active').height())) ? 0 : $('.toolbar-tray-horizontal.is-active').height());
           headerHeight = $header.height(); // gets the height of our header
+          $(".header-container").css("height", headerHeight);
           $header.css({
             // width: "initial",
           });
@@ -36,10 +37,9 @@
           // console.log('Position on load ' + currentPosition);
 
           if ((window.matchMedia("(orientation: landscape)").matches) && (($(window).height() < 769))) {
+            $(".header-container").css("height", "unset");
             return;
           }
-          $(".header-container").css("height", headerHeight);
-
 
           if (currentPosition < 0) { // if target element goes above the screen
             $header.addClass('sticky-header');
