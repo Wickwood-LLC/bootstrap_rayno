@@ -5390,6 +5390,7 @@ button.close {
       body.adminimal-admin-toolbar #navbar-collapse {
         top: 130px; }
       #navbar-collapse #block-bootstrap-rayno-mainmenu-2 .menu--main {
+        display: block;
         margin: 0; }
         #navbar-collapse #block-bootstrap-rayno-mainmenu-2 .menu--main > li {
           display: block; }
