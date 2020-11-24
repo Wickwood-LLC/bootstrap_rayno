@@ -2091,6 +2091,12 @@ article > .content {
     border-color: transparent;
     margin-bottom: 0;
 
+    &.sticky-header {
+      position: static;
+      box-shadow: unset;
+      padding: unset;
+    }
+
     .container {
       width: 100%;
     }

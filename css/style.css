@@ -10050,6 +10050,12 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   margin-bottom: 0;
 }
 
+.maintenance-page #navbar.sticky-header {
+  position: static;
+  box-shadow: unset;
+  padding: unset;
+}
+
 .maintenance-page #navbar .container {
   width: 100%;
 }
