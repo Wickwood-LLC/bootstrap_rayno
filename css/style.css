@@ -8201,6 +8201,22 @@ p:last-child,
   margin-bottom: 0;
 }
 
+@media screen and (orientation: landscape) and (max-height: 768px) {
+  #navbar .navbar-toggle {
+    display: block;
+  }
+  #navbar .region-navigation #navbar-collapse {
+    position: fixed !important;
+    background-color: white;
+    right: 0;
+    z-index: 11;
+    overflow: visible;
+  }
+  body.adminimal-admin-toolbar #navbar .region-navigation #navbar-collapse {
+    top: 130px;
+  }
+}
+
 #navbar .navbar-header {
   float: none;
   margin: 0;
@@ -8383,15 +8399,6 @@ p:last-child,
   to {
     -webkit-transform: translateY(0);
             transform: translateY(0);
-  }
-}
-
-@media screen and (orientation: landscape) and (max-height: 768px) {
-  #navbar.sticky-header {
-    position: static;
-  }
-  #navbar.sticky-header .navbar-toggle {
-    display: block;
   }
 }
 

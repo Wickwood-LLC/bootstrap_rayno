@@ -291,6 +291,24 @@ p:last-child,
   max-width: 1400px;
   margin-bottom: 0;
 
+  @media screen and (orientation: landscape) and (max-height: 768px) {
+    .navbar-toggle {
+      display: block;
+    }
+
+    .region-navigation #navbar-collapse {
+      position: fixed !important;
+      background-color: white;
+      right: 0;
+      z-index: 11;
+      overflow: visible;
+      
+      body.adminimal-admin-toolbar & {
+        top: 130px;
+      }
+    }
+  }
+
   .navbar-header {
     float: none;
     margin: 0;
@@ -446,14 +464,6 @@ p:last-child,
   
   @keyframes come-in {
     to { transform: translateY(0); }
-  }
-
-  @media screen and (orientation: landscape) and (max-height: 768px) {
-    position: static;
-
-    .navbar-toggle {
-      display: block;
-    }
   }
 
   .logo-line2,
