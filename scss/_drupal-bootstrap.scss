@@ -303,7 +303,7 @@ p:last-child,
       z-index: 11;
       overflow: visible;
       
-      .collapse {
+      &.collapse {
         display: none;
       }
       
