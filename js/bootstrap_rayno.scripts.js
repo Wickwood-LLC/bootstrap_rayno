@@ -39,6 +39,10 @@
           // console.log('Distance from top of page: ' + stickyTop);
           // console.log('Position on load ' + currentPosition);
 
+          if ((window.matchMedia("(orientation: landscape)").matches) && (($(window).height() < 769))) {
+            return;
+          }
+
 
           if (currentPosition < 0) { // if target element goes above the screen
             $header.addClass('sticky-header');
@@ -53,6 +57,10 @@
       }
 
       $(window).scroll(function() { // scroll event 
+        if ((window.matchMedia("(orientation: landscape)").matches) && (($(window).height() < 769))) {
+          return;
+        }
+        
         windowTop = $(window).scrollTop(); // tells how far our screen is currently from the top of the page
         currentPosition = stickyTop - windowTop - topSpacing + headerHeight; // tells how far our target element is from where our screen is currently
 
