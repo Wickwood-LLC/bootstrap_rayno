@@ -116,7 +116,7 @@
     box-shadow: none;
 
     &.collapse {
-      display: block !important;
+      display: block;
       height: auto !important;
       padding-bottom: 0; // Override default setting
       overflow: visible !important;
