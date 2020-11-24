@@ -305,6 +305,10 @@ p:last-child,
       
       &.collapse {
         display: none;
+
+        &.in {
+          display: block;
+        }
       }
       
       body.adminimal-admin-toolbar & {

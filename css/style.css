@@ -8215,6 +8215,9 @@ p:last-child,
   #navbar .region-navigation #navbar-collapse.collapse {
     display: none;
   }
+  #navbar .region-navigation #navbar-collapse.collapse.in {
+    display: block;
+  }
   body.adminimal-admin-toolbar #navbar .region-navigation #navbar-collapse {
     top: 130px;
   }
