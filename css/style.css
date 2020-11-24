@@ -9271,7 +9271,7 @@ article > .content {
   margin: auto;
 }
 
-.page-directions-to-rayno-automotive #directions {
+.page-directions-to-rayno-automotive div[id*="directions"] {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -9279,12 +9279,12 @@ article > .content {
   margin: 0.5em;
 }
 
-.page-directions-to-rayno-automotive #directions > * {
+.page-directions-to-rayno-automotive div[id*="directions"] > * {
   margin: 0.25em;
   text-align: center;
 }
 
-.page-directions-to-rayno-automotive #directions button.get_user_location {
+.page-directions-to-rayno-automotive div[id*="directions"] button.get_user_location {
   margin: 3px;
 }
 

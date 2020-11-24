@@ -1320,7 +1320,7 @@ article > .content {
     margin: auto;
   }
 
-  #directions {
+  div[id*="directions"] {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
