@@ -5404,7 +5404,9 @@ button.close {
             border-bottom: 0px; }
             #navbar-collapse #block-bootstrap-rayno-mainmenu-2 .menu--main > li.active a.is-active {
               background-color: #021062;
-              color: #FFF; } }
+              color: #FFF; }
+          #navbar-collapse #block-bootstrap-rayno-mainmenu-2 .menu--main > li > .dropdown-menu {
+            top: 100%; } }
   @media (min-width: 547px) {
     #navbar-collapse {
       width: auto;

@@ -106,11 +106,15 @@
 
         &.active {
           border-bottom: 0px;
-          
+
           a.is-active {
             background-color: $brand-primary;
             color: #FFF;
           }
+        }
+
+        > .dropdown-menu {
+          top: 100%;
         }
       }
     }
