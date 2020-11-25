@@ -8213,10 +8213,10 @@ p:last-child,
     overflow: visible;
   }
   #navbar .region-navigation #navbar-collapse.collapse {
-    display: none;
+    display: none !important;
   }
   #navbar .region-navigation #navbar-collapse.collapse.in {
-    display: block;
+    display: block !important;
   }
   body.adminimal-admin-toolbar #navbar .region-navigation #navbar-collapse {
     top: 130px;

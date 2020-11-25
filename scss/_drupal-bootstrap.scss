@@ -304,10 +304,10 @@ p:last-child,
       overflow: visible;
       
       &.collapse {
-        display: none;
+        display: none !important;
 
         &.in {
-          display: block;
+          display: block !important;
         }
       }
       

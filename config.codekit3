@@ -2338,40 +2338,6 @@
 		"oAP": "/css/ckeditor-styles.css.map",
 		"oF": 0
 		},
-	"/css/navbar.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "/css/navbar-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/css/navbar.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/css/navbar.css.map",
-		"oF": 0
-		},
-	"/css/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/style-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/css/style.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/css/style.css.map",
-		"oF": 0
-		},
 	"/drupal_8.sublime-workspace": {
 		"cB": 0,
 		"ft": 8192,
@@ -2703,16 +2669,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/js/bootstrap_rayno.scripts.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/js/bootstrap_rayno.scripts-min.js",
-		"oF": 1,
-		"sC": 3,
-		"tS": 0
-		},
 	"/logo.png": {
 		"ft": 32768,
 		"iS": 47246,
@@ -3007,19 +2963,6 @@
 		"oA": 1,
 		"oAP": "/scss/drupal-bootstrap/jquery-ui/_autocomplete.css",
 		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/scss/navbar.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "/css/navbar.css",
-		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
