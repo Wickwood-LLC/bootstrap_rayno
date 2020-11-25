@@ -1297,7 +1297,7 @@ article > .content {
     margin: auto;
   }
 
-  #directions {
+  div[id*="directions"] {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -2067,6 +2067,12 @@ article > .content {
     background-color: transparent;
     border-color: transparent;
     margin-bottom: 0;
+
+    &.sticky-header {
+      position: static;
+      box-shadow: unset;
+      padding: unset;
+    }
 
     .container {
       width: 100%;
