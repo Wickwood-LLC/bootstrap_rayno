@@ -291,7 +291,7 @@ p:last-child,
   max-width: 1400px;
   margin-bottom: 0;
 
-  @media screen and (orientation: landscape) and (max-height: 768px) {
+  @media screen and (orientation: landscape) and (max-height: 550px) {
     .navbar-toggle {
       display: block;
     }

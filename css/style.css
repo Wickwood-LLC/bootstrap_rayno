@@ -8201,7 +8201,7 @@ p:last-child,
   margin-bottom: 0;
 }
 
-@media screen and (orientation: landscape) and (max-height: 768px) {
+@media screen and (orientation: landscape) and (max-height: 550px) {
   #navbar .navbar-toggle {
     display: block;
   }
