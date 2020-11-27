@@ -166,16 +166,15 @@ ul {
 }
 .logo-line1 {
   display: flex;
-  font-family: 'Verdana';
-  font-style: italic;
+  font-family: 'Verdana-BoldItalic';
   font-weight: bold;
   text-align: center;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
 
   &:before {
     content: '';
-    bottom: 12px;
+    align-self: center;
     font-size: 0px;
     line-height: 0%;
     width: 100px;
@@ -184,7 +183,7 @@ ul {
   }
   &:after {
     content: '';
-    bottom: 12px;
+    align-self: center;
     font-size: 0px;
     line-height: 0%;
     width: 100px;
@@ -205,13 +204,17 @@ ul {
   position: relative;
 
   &:after {
-    content: '';
-    width: 68px;
-    height: 5.5px;
-    background: #041068;
-    position: absolute;
     bottom: -19px;
     margin-left: -23px;
+    content: '';
+    position: absolute;
+    background: none;
+    border-left: 3px solid transparent;
+    border-bottom: 5px solid #041068;
+    bottom: -65%;
+    margin-left: -95%;
+    width: 165%;
+    height: 5px;
   }
 }
 
@@ -394,7 +397,7 @@ p:last-child,
       font-size: 1.2em;
     }
 
-    @include breakpoint(546px) {
+    @include breakpoint(550px) {
       display: grid;
       grid-template-columns: auto 1fr;
       grid-template-rows: auto;

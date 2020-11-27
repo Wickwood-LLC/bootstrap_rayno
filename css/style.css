@@ -8079,17 +8079,16 @@ ul:last-child {
 
 .logo-line1 {
   display: flex;
-  font-family: 'Verdana';
-  font-style: italic;
+  font-family: 'Verdana-BoldItalic';
   font-weight: bold;
   text-align: center;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
 }
 
 .logo-line1:before {
   content: '';
-  bottom: 12px;
+  align-self: center;
   font-size: 0px;
   line-height: 0%;
   width: 100px;
@@ -8099,7 +8098,7 @@ ul:last-child {
 
 .logo-line1:after {
   content: '';
-  bottom: 12px;
+  align-self: center;
   font-size: 0px;
   line-height: 0%;
   width: 100px;
@@ -8120,13 +8119,17 @@ ul:last-child {
 }
 
 .logo-lower-case:after {
-  content: '';
-  width: 68px;
-  height: 5.5px;
-  background: #041068;
-  position: absolute;
   bottom: -19px;
   margin-left: -23px;
+  content: '';
+  position: absolute;
+  background: none;
+  border-left: 3px solid transparent;
+  border-bottom: 5px solid #041068;
+  bottom: -65%;
+  margin-left: -95%;
+  width: 165%;
+  height: 5px;
 }
 
 .logo-line2 {
