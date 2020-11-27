@@ -291,7 +291,7 @@ p:last-child,
   max-width: 1400px;
   margin-bottom: 0;
 
-  @media screen and (orientation: landscape) and (max-height: 550px) {
+  @media screen and (orientation: landscape) and (max-height: 546px) {
     .navbar-toggle {
       display: block;
     }
@@ -394,7 +394,7 @@ p:last-child,
       font-size: 1.2em;
     }
 
-    @include breakpoint(550px) {
+    @include breakpoint(546px) {
       display: grid;
       grid-template-columns: auto 1fr;
       grid-template-rows: auto;
@@ -480,7 +480,7 @@ p:last-child,
     display: none;
   }
 
-  @include breakpoint(550px) {
+  @include breakpoint(546px) {
     .navbar-text {
       display: flex;
     }

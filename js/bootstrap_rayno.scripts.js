@@ -36,7 +36,7 @@
           // console.log('Distance from top of page: ' + stickyTop);
           // console.log('Position on load ' + currentPosition);
 
-          if ((window.matchMedia("(orientation: landscape)").matches) && (($(window).height() < 551))) {
+          if ((window.matchMedia("(orientation: landscape)").matches) && (($(window).height() < 547))) {
             $(".header-container").css("height", "unset");
             return;
           }
@@ -54,7 +54,7 @@
       }
 
       $(window).scroll(function() { // scroll event 
-        if ((window.matchMedia("(orientation: landscape)").matches) && (($(window).height() < 551))) {
+        if ((window.matchMedia("(orientation: landscape)").matches) && (($(window).height() < 547))) {
           return;
         }
 

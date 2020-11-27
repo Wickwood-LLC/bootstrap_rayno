@@ -5379,7 +5379,7 @@ button.close {
     border-radius: 5px 0px 0px 5px; }
   #navbar-collapse.in {
     overflow-y: visible; }
-  @media (max-width: 546px), screen and (orientation: landscape) and (max-height: 768px) {
+  @media (max-width: 546px), screen and (orientation: landscape) and (max-height: 546px) {
     #navbar-collapse {
       position: fixed !important;
       background-color: white;

@@ -8201,7 +8201,7 @@ p:last-child,
   margin-bottom: 0;
 }
 
-@media screen and (orientation: landscape) and (max-height: 550px) {
+@media screen and (orientation: landscape) and (max-height: 546px) {
   #navbar .navbar-toggle {
     display: block;
   }
@@ -8313,7 +8313,7 @@ p:last-child,
   font-size: 1.2em;
 }
 
-@media (min-width: 550px) {
+@media (min-width: 546px) {
   #navbar .region-navigation {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -8414,7 +8414,7 @@ p:last-child,
   display: none;
 }
 
-@media (min-width: 550px) {
+@media (min-width: 546px) {
   #navbar.sticky-header .navbar-text {
     display: flex;
   }
