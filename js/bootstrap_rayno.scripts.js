@@ -23,14 +23,11 @@
             $header.removeClass('sticky-header');
           }
           topSpacing = ((isNaN($('.toolbar-fixed #toolbar-bar').height())) ? 0 : $('#toolbar-bar').height()) + ((isNaN($('.toolbar-tray-horizontal.is-active').height())) ? 0 : $('.toolbar-tray-horizontal.is-active').height());
-          // headerWidth = $header.width(); // gets the width of the container
           headerHeight = $header.height(); // gets the height of our header
           $(".header-container").css("height", headerHeight);
           $header.css({
             // width: "initial",
           });
-
-          // headerHeight = $header.height(); // gets the height of our header
 
           stickyTop = $header.offset().top; // tells how far our target element is from the top of the page
           windowTop = $(window).scrollTop(); // tells how far our screen is currently from the top of the page
@@ -39,6 +36,10 @@
           // console.log('Distance from top of page: ' + stickyTop);
           // console.log('Position on load ' + currentPosition);
 
+          if ((window.matchMedia("(orientation: landscape)").matches) && (($(window).height() < 551))) {
+            $(".header-container").css("height", "unset");
+            return;
+          }
 
           if (currentPosition < 0) { // if target element goes above the screen
             $header.addClass('sticky-header');
@@ -53,6 +54,10 @@
       }
 
       $(window).scroll(function() { // scroll event 
+        if ((window.matchMedia("(orientation: landscape)").matches) && (($(window).height() < 551))) {
+          return;
+        }
+
         windowTop = $(window).scrollTop(); // tells how far our screen is currently from the top of the page
         currentPosition = stickyTop - windowTop - topSpacing + headerHeight; // tells how far our target element is from where our screen is currently
 

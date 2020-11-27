@@ -74,7 +74,7 @@
     overflow-y: visible;
   }
 
-  @media (max-width: $grid-float-breakpoint-max) {
+  @media (max-width: $grid-float-breakpoint-max), screen and (orientation: landscape) and (max-height: 550px) {
     position: fixed !important;
     background-color: white;
     right: 0;
@@ -87,10 +87,12 @@
     }
 
     #block-bootstrap-rayno-mainmenu-2 .menu--main {
+      display: block;
       margin: 0;
       
       > li {
         display: block;
+        border-bottom: 0px;
 
         a {
           border-bottom: 0px;
@@ -102,9 +104,17 @@
           }
         }
 
-        &.active a.is-active {
-          background-color: $brand-primary;
-          color: #FFF;
+        &.active {
+          border-bottom: 0px;
+
+          a.is-active {
+            background-color: $brand-primary;
+            color: #FFF;
+          }
+        }
+
+        > .dropdown-menu {
+          top: 100%;
         }
       }
     }
@@ -116,7 +126,7 @@
     box-shadow: none;
 
     &.collapse {
-      display: block !important;
+      display: block;
       height: auto !important;
       padding-bottom: 0; // Override default setting
       overflow: visible !important;

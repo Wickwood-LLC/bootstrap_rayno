@@ -8079,7 +8079,7 @@ ul:last-child {
 
 .logo-line1 {
   display: flex;
-  font-family: Verdana;
+  font-family: 'Verdana';
   font-style: italic;
   font-weight: bold;
   text-align: center;
@@ -8199,6 +8199,28 @@ p:last-child,
   width: 100%;
   max-width: 1400px;
   margin-bottom: 0;
+}
+
+@media screen and (orientation: landscape) and (max-height: 550px) {
+  #navbar .navbar-toggle {
+    display: block;
+  }
+  #navbar .region-navigation #navbar-collapse {
+    position: fixed !important;
+    background-color: white;
+    right: 0;
+    z-index: 11;
+    overflow: visible;
+  }
+  #navbar .region-navigation #navbar-collapse.collapse {
+    display: none !important;
+  }
+  #navbar .region-navigation #navbar-collapse.collapse.in {
+    display: block !important;
+  }
+  body.adminimal-admin-toolbar #navbar .region-navigation #navbar-collapse {
+    top: 130px;
+  }
 }
 
 #navbar .navbar-header {
@@ -8383,12 +8405,6 @@ p:last-child,
   to {
     -webkit-transform: translateY(0);
             transform: translateY(0);
-  }
-}
-
-@media screen and (orientation: landscape) and (max-height: 768px) {
-  #navbar.sticky-header {
-    position: static;
   }
 }
 

@@ -166,7 +166,7 @@ ul {
 }
 .logo-line1 {
   display: flex;
-  font-family: Verdana;
+  font-family: 'Verdana';
   font-style: italic;
   font-weight: bold;
   text-align: center;
@@ -290,6 +290,32 @@ p:last-child,
   width: 100%;
   max-width: 1400px;
   margin-bottom: 0;
+
+  @media screen and (orientation: landscape) and (max-height: 550px) {
+    .navbar-toggle {
+      display: block;
+    }
+
+    .region-navigation #navbar-collapse {
+      position: fixed !important;
+      background-color: white;
+      right: 0;
+      z-index: 11;
+      overflow: visible;
+      
+      &.collapse {
+        display: none !important;
+
+        &.in {
+          display: block !important;
+        }
+      }
+      
+      body.adminimal-admin-toolbar & {
+        top: 130px;
+      }
+    }
+  }
 
   .navbar-header {
     float: none;
@@ -446,10 +472,6 @@ p:last-child,
   
   @keyframes come-in {
     to { transform: translateY(0); }
-  }
-
-  @media screen and (orientation: landscape) and (max-height: 768px) {
-    position: static;
   }
 
   .logo-line2,

@@ -5379,7 +5379,7 @@ button.close {
     border-radius: 5px 0px 0px 5px; }
   #navbar-collapse.in {
     overflow-y: visible; }
-  @media (max-width: 546px) {
+  @media (max-width: 546px), screen and (orientation: landscape) and (max-height: 768px) {
     #navbar-collapse {
       position: fixed !important;
       background-color: white;
@@ -5390,24 +5390,30 @@ button.close {
       body.adminimal-admin-toolbar #navbar-collapse {
         top: 130px; }
       #navbar-collapse #block-bootstrap-rayno-mainmenu-2 .menu--main {
+        display: block;
         margin: 0; }
         #navbar-collapse #block-bootstrap-rayno-mainmenu-2 .menu--main > li {
-          display: block; }
+          display: block;
+          border-bottom: 0px; }
           #navbar-collapse #block-bootstrap-rayno-mainmenu-2 .menu--main > li a {
             border-bottom: 0px; }
             #navbar-collapse #block-bootstrap-rayno-mainmenu-2 .menu--main > li a:hover, #navbar-collapse #block-bootstrap-rayno-mainmenu-2 .menu--main > li a:focus {
               background-color: #031894;
               color: #FFF; }
-          #navbar-collapse #block-bootstrap-rayno-mainmenu-2 .menu--main > li.active a.is-active {
-            background-color: #021062;
-            color: #FFF; } }
+          #navbar-collapse #block-bootstrap-rayno-mainmenu-2 .menu--main > li.active {
+            border-bottom: 0px; }
+            #navbar-collapse #block-bootstrap-rayno-mainmenu-2 .menu--main > li.active a.is-active {
+              background-color: #021062;
+              color: #FFF; }
+          #navbar-collapse #block-bootstrap-rayno-mainmenu-2 .menu--main > li > .dropdown-menu {
+            top: 100%; } }
   @media (min-width: 547px) {
     #navbar-collapse {
       width: auto;
       border-top: 0;
       box-shadow: none; }
       #navbar-collapse.collapse {
-        display: block !important;
+        display: block;
         height: auto !important;
         padding-bottom: 0;
         overflow: visible !important; }
