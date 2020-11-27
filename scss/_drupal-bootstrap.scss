@@ -204,13 +204,17 @@ ul {
   position: relative;
 
   &:after {
-    content: '';
-    width: 68px;
-    height: 5.5px;
-    background: #041068;
-    position: absolute;
     bottom: -19px;
     margin-left: -23px;
+    content: '';
+    position: absolute;
+    background: none;
+    border-left: 3px solid transparent;
+    border-bottom: 5px solid #041068;
+    bottom: -65%;
+    margin-left: -95%;
+    width: 165%;
+    height: 5px;
   }
 }
 
