@@ -166,16 +166,15 @@ ul {
 }
 .logo-line1 {
   display: flex;
-  font-family: Verdana;
-  font-style: italic;
+  font-family: 'Verdana-BoldItalic';
   font-weight: bold;
   text-align: center;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
 
   &:before {
     content: '';
-    bottom: 12px;
+    align-self: center;
     font-size: 0px;
     line-height: 0%;
     width: 100px;
@@ -184,7 +183,7 @@ ul {
   }
   &:after {
     content: '';
-    bottom: 12px;
+    align-self: center;
     font-size: 0px;
     line-height: 0%;
     width: 100px;
