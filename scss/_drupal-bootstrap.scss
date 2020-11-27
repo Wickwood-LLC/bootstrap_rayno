@@ -1085,7 +1085,7 @@ article > .content {
     }
     .logo-line1 {
       color: $brand-primary;
-
+      line-height: 1.5em;
       &:before,
       &:after {
         width: unset;

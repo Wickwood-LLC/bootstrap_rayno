@@ -8316,7 +8316,7 @@ p:last-child,
   font-size: 1.2em;
 }
 
-@media (min-width: 546px) {
+@media (min-width: 550px) {
   #navbar .region-navigation {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -9036,6 +9036,7 @@ article > .content {
 
 .path-frontpage #welcome-section .logo-line1 {
   color: #021062;
+  line-height: 1.5em;
 }
 
 .path-frontpage #welcome-section .logo-line1:before, .path-frontpage #welcome-section .logo-line1:after {
