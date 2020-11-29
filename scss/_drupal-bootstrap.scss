@@ -216,6 +216,10 @@ ul {
     margin-left: -95%;
     width: 165%;
     height: 5px;
+
+    body.mobile & {
+      bottom: -39%;
+    }
   }
 }
 
@@ -1112,6 +1116,10 @@ article > .content {
         margin-left: -95%;
         width: 165%;
         height: 5px;
+
+        @at-root body.mobile.path-frontpage #welcome-section .logo-lower-case:after {
+          bottom: -24%;
+        }
       }
     }
 
@@ -1805,10 +1813,14 @@ article > .content {
       background: none;
       border-left: 3px solid transparent;
       border-bottom: 5px solid #041068;
-      bottom: -44%;
+      bottom: -27%;
       margin-left: -95%;
       width: 165%;
       height: 5px;
+
+      body.mobile & {
+        bottom: -26%;
+      }
     }
   }
 }

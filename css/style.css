@@ -8133,6 +8133,10 @@ ul:last-child {
   height: 5px;
 }
 
+body.mobile .logo-lower-case:after {
+  bottom: -39%;
+}
+
 .logo-line2 {
   display: block;
   font-family: 'ITC Machine';
@@ -9068,6 +9072,10 @@ article > .content {
   height: 5px;
 }
 
+body.mobile.path-frontpage #welcome-section .logo-lower-case:after {
+  bottom: -24%;
+}
+
 .path-frontpage #welcome-section .layout__region--first {
   padding: 1em 4%;
   box-sizing: border-box;
@@ -9766,10 +9774,14 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   background: none;
   border-left: 3px solid transparent;
   border-bottom: 5px solid #041068;
-  bottom: -44%;
+  bottom: -27%;
   margin-left: -95%;
   width: 165%;
   height: 5px;
+}
+
+body.mobile .join-rayno-club-promo-title .logo-lower-case:after {
+  bottom: -26%;
 }
 
 #edit-actions {
