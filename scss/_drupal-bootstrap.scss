@@ -168,6 +168,7 @@ ul {
   display: flex;
   font-family: 'Verdana-BoldItalic';
   font-weight: bold;
+  line-height: 1.5em;
   text-align: center;
   justify-content: center;
   align-items: baseline;
@@ -1085,7 +1086,6 @@ article > .content {
     }
     .logo-line1 {
       color: $brand-primary;
-      line-height: 1.5em;
       &:before,
       &:after {
         width: unset;

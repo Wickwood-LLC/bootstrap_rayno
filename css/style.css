@@ -8081,6 +8081,7 @@ ul:last-child {
   display: flex;
   font-family: 'Verdana-BoldItalic';
   font-weight: bold;
+  line-height: 1.5em;
   text-align: center;
   justify-content: center;
   align-items: baseline;
@@ -9036,7 +9037,6 @@ article > .content {
 
 .path-frontpage #welcome-section .logo-line1 {
   color: #021062;
-  line-height: 1.5em;
 }
 
 .path-frontpage #welcome-section .logo-line1:before, .path-frontpage #welcome-section .logo-line1:after {
