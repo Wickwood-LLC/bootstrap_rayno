@@ -8911,6 +8911,10 @@ article > .content {
   }
 }
 
+.path-frontpage #promo-slider .logo-line2 {
+  line-height: 1.5em;
+}
+
 .path-frontpage #promo-slider .slide__caption {
   position: absolute;
   height: auto;
