@@ -98,7 +98,7 @@
    */
   Drupal.behaviors.browserHacks = {
     attach: function(context, settings) {
-        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        if( /Android|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
          $('body').addClass('mobile');
         }
     }
