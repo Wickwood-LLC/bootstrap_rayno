@@ -77,7 +77,7 @@
   };
 
   /**
-   * Sticky header
+   * Menu Fix
    */
   Drupal.behaviors.menuFix = {
     attach: function(context, settings) {
@@ -91,6 +91,17 @@
             }
         });
     }
-  };  
+  }; 
+
+  /**
+   * Browser Hacks
+   */
+  Drupal.behaviors.browserHacks = {
+    attach: function(context, settings) {
+        if( /Android|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+         $('body').addClass('mobile');
+        }
+    }
+  };    
 
 })(jQuery, Drupal);
