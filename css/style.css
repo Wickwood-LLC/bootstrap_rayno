@@ -10580,6 +10580,46 @@ form#webform-submission-contact-node-14-add-form #edit-preferred-date-and-time-d
   padding-right: 7.5px;
 }
 
+.wt-three-col.lbrb {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+.wt-three-col.lbrb .wt-col-2 {
+  flex: 100%;
+  padding: 1em 0;
+}
+
+.wt-three-col.lbrb .wt-col-1,
+.wt-three-col.lbrb .wt-col-3 {
+  order: 1;
+  flex: 50%;
+}
+
+.wt-three-col.lbrb .wt-col-1 {
+  padding-right: 0.5em;
+}
+
+.wt-three-col.lbrb .wt-col-3 {
+  padding-left: 0.5em;
+}
+
+@media only screen and (min-width: 600px) {
+  .wt-three-col.lbrb {
+    flex-flow: row nowrap;
+  }
+  .wt-three-col.lbrb .wt-col-2 {
+    flex: 80%;
+    padding: 1em 0.5em;
+  }
+  .wt-three-col.lbrb .wt-col-1,
+  .wt-three-col.lbrb .wt-col-3 {
+    order: 0;
+    flex: 10%;
+  }
+}
+
 .wt-row.wt-four-col {
   display: flex;
 }
