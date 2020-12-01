@@ -39,10 +39,11 @@ global-scripts:
   version: 1.x
   js:
     js/bootstrap_rayno.scripts.js: {}
+    bower_components/ua-parser-js/src/ua-parser.js: {}
   dependencies:
     - core/jquery
 
-fontawesome:
+fontawesome:  
   js:
     https://kit.fontawesome.com/e5b7f39059.js: {
       type: external,

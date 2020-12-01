@@ -96,10 +96,15 @@
   /**
    * Browser Hacks
    */
-  Drupal.behaviors.browserHacks = {
+  Drupal.behaviors.browserHacks = { 
     attach: function(context, settings) {
-        if( /Android|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        if( /Android|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) { // Add class on mobile devices
          $('body').addClass('mobile');
+        }
+
+        var parser = UAParser();
+        if ((parser.os.name == "macOS") && (parser.browser.name != "Safari")) {   // Add class on macOS browsers except Safari
+            $('body').addClass('mobile');
         }
     }
   };    

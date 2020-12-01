@@ -1784,6 +1784,14 @@
 		"oAP": "/bootstrap_rayno.theme",
 		"oF": 0
 		},
+	"/bower.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/bower-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"/bower_components/breakpoint-sass/.bower.json": {
 		"ft": 524288,
 		"oA": 2,
@@ -2307,6 +2315,134 @@
 		"oAP": "/bower_components/sassy-maps/sassy-maps.gemspec",
 		"oF": 0
 		},
+	"/bower_components/ua-parser-js/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "/bower_components/ua-parser-js/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/bower_components/ua-parser-js/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/bower_components/ua-parser-js/.gitignore",
+		"oF": 0
+		},
+	"/bower_components/ua-parser-js/.npmrc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/bower_components/ua-parser-js/.npmrc",
+		"oF": 0
+		},
+	"/bower_components/ua-parser-js/.travis.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/bower_components/ua-parser-js/.travis.yml",
+		"oF": 0
+		},
+	"/bower_components/ua-parser-js/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "/bower_components/ua-parser-js/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/bower_components/ua-parser-js/dist/ua-parser.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/bower_components/ua-parser-js/dist/ua-parser.html",
+		"oF": 0
+		},
+	"/bower_components/ua-parser-js/dist/ua-parser.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/bower_components/ua-parser-js/dist/ua-parser.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/bower_components/ua-parser-js/dist/ua-parser.pack.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/bower_components/ua-parser-js/dist/ua-parser.pack.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/bower_components/ua-parser-js/license.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "/bower_components/ua-parser-js/license.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/bower_components/ua-parser-js/package.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/bower_components/ua-parser-js/package.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/bower_components/ua-parser-js/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "/bower_components/ua-parser-js/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/bower_components/ua-parser-js/readme.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "/bower_components/ua-parser-js/readme.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/bower_components/ua-parser-js/src/ua-parser.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/bower_components/ua-parser-js/src/ua-parser.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/config/install/bootstrap_rayno.settings.yml": {
 		"cB": 0,
 		"ft": 8192,
@@ -2706,10 +2842,10 @@
 	"/js/bootstrap_rayno.scripts.js": {
 		"ft": 64,
 		"ma": 0,
-		"mi": 1,
-		"oA": 0,
+		"mi": 0,
+		"oA": 1,
 		"oAP": "/js/bootstrap_rayno.scripts-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
