@@ -10584,6 +10584,8 @@ form#webform-submission-contact-node-14-add-form #edit-preferred-date-and-time-d
   display: flex;
   flex-flow: row wrap;
   width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .wt-three-col.lbrb .wt-col-2 {
@@ -10610,13 +10612,20 @@ form#webform-submission-contact-node-14-add-form #edit-preferred-date-and-time-d
     flex-flow: row nowrap;
   }
   .wt-three-col.lbrb .wt-col-2 {
-    flex: 80%;
+    flex: 70%;
     padding: 1em 0.5em;
   }
   .wt-three-col.lbrb .wt-col-1,
   .wt-three-col.lbrb .wt-col-3 {
     order: 0;
-    flex: 10%;
+    flex: 15%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .wt-three-col.lbrb {
+    width: 80%;
+    margin: auto;
   }
 }
 
