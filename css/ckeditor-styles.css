@@ -138,7 +138,7 @@ li {
   .wt-three-col.lbrb .wt-col-3 {
     order: 1;
     flex: 45%; }
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: 800px) {
     .wt-three-col.lbrb {
       flex-flow: row nowrap; }
       .wt-three-col.lbrb .wt-col-2 {
