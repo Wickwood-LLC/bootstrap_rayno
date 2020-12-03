@@ -104,7 +104,7 @@
 
         var parser = UAParser();
         if ((parser.os.name == "Mac OS") && (parser.browser.name != "Safari")) {   // Add class on macOS browsers except Safari
-            $('body').addClass('mobile');
+            $('body').addClass('macos not-safari');
         }
     }
   };    

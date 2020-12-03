@@ -217,7 +217,8 @@ ul {
     width: 165%;
     height: 5px;
 
-    body.mobile & {
+    body.mobile &,
+    body.macos.not-safari & {
       bottom: -39%;
     }
   }
@@ -1120,6 +1121,9 @@ article > .content {
         @at-root body.mobile.path-frontpage #welcome-section .logo-lower-case:after {
           bottom: -26%;
         }
+        @at-root body.macos.not-safari.path-frontpage #welcome-section .logo-lower-case:after {
+          bottom: -26%;
+        }
       }
     }
 
@@ -1818,7 +1822,8 @@ article > .content {
       width: 165%;
       height: 5px;
 
-      body.mobile & {
+      body.mobile &,
+      body.macos.not-safari & {
         bottom: -26%;
       }
     }

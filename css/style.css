@@ -8133,7 +8133,8 @@ ul:last-child {
   height: 5px;
 }
 
-body.mobile .logo-lower-case:after {
+body.mobile .logo-lower-case:after,
+body.macos.not-safari .logo-lower-case:after {
   bottom: -39%;
 }
 
@@ -9076,6 +9077,10 @@ body.mobile.path-frontpage #welcome-section .logo-lower-case:after {
   bottom: -26%;
 }
 
+body.macos.not-safari.path-frontpage #welcome-section .logo-lower-case:after {
+  bottom: -26%;
+}
+
 .path-frontpage #welcome-section .layout__region--first {
   padding: 1em 4%;
   box-sizing: border-box;
@@ -9780,7 +9785,8 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   height: 5px;
 }
 
-body.mobile .join-rayno-club-promo-title .logo-lower-case:after {
+body.mobile .join-rayno-club-promo-title .logo-lower-case:after,
+body.macos.not-safari .join-rayno-club-promo-title .logo-lower-case:after {
   bottom: -26%;
 }
 
