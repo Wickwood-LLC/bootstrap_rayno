@@ -9401,7 +9401,9 @@ body.macos.not-safari.path-frontpage #welcome-section .logo-lower-case:after {
 }
 
 .field--name-field-media-image img {
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
 }
 
 /********************* LAYOUTS *********************/

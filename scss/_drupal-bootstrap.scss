@@ -1449,7 +1449,9 @@ article > .content {
 }
 
 .field--name-field-media-image img {
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
 }
 
 /********************* LAYOUTS *********************/
