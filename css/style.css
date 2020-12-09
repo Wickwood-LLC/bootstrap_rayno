@@ -9406,6 +9406,24 @@ body.macos.not-safari.path-frontpage #welcome-section .logo-lower-case:after {
   margin-bottom: 1em;
 }
 
+.path-product .block-field-blockcommerce-productoil-changebody {
+  display: inline-block;
+}
+
+.path-product .block-field-blockcommerce-product-variationoil-change-typeprice {
+  display: inline-block;
+  float: right;
+}
+
+.path-product .block-field-blockcommerce-productoil-changevariations {
+  margin-top: 2em;
+}
+
+.path-product fieldset[id*="attributes-attribute-oil-change-size--wrapper"],
+.path-product fieldset[id*="attributes-attribute-oil-change-type--wrapper"] {
+  display: inline-block;
+}
+
 /********************* LAYOUTS *********************/
 .main-container {
   width: 100%;
