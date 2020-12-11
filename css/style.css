@@ -9281,6 +9281,37 @@ body.macos.not-safari.path-frontpage #welcome-section .logo-lower-case:after {
   margin: auto;
 }
 
+.page-node-type-rayno-services .content .layout__region--first {
+  position: relative;
+}
+
+.page-node-type-rayno-services .content .layout__region--first .field.field--name-field-media-image img {
+  width: 100%;
+  height: auto;
+  margin: unset;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.page-node-type-rayno-services .content .layout__region--first .block-field-blocknoderayno-servicesfield-service-icon {
+  position: absolute;
+  left: 0;
+  width: 80px;
+  z-index: 1;
+  background-color: #021062;
+  border-radius: 50%;
+  bottom: 0;
+}
+
+.page-node-type-rayno-services .content .layout__region--first .block-field-blocknoderayno-servicestitle-html {
+  position: absolute;
+  padding-left: 80px;
+  background-color: #021062;
+  color: white;
+  bottom: 0;
+  width: 100%;
+}
+
 .page-directions-to-rayno-automotive article > .content {
   max-width: unset;
   margin: auto;
