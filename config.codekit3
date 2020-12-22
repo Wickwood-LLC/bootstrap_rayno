@@ -2839,16 +2839,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/js/bootstrap_rayno.scripts.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
-		"oA": 1,
-		"oAP": "/js/bootstrap_rayno.scripts-min.js",
-		"oF": 1,
-		"sC": 3,
-		"tS": 0
-		},
 	"/logo.png": {
 		"ft": 32768,
 		"iS": 47246,
@@ -3269,13 +3259,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/templates/page-title.html.twig",
-		"oF": 0
-		},
-	"/templates/page.html.twig": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/templates/page.html.twig",
 		"oF": 0
 		},
 	"/templates/README.md": {
