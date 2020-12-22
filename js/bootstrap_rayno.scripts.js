@@ -19,9 +19,6 @@
 
       function delaySticky() {
         setTimeout(function sticky() {
-          if ($('sticky-header')) {
-            $header.removeClass('sticky-header');
-          }
           topSpacing = ((isNaN($('.toolbar-fixed #toolbar-bar').height())) ? 0 : $('#toolbar-bar').height()) + ((isNaN($('.toolbar-tray-horizontal.is-active').height())) ? 0 : $('.toolbar-tray-horizontal.is-active').height());
           headerHeight = $header.height(); // gets the height of our header
           $(".header-container").css("height", headerHeight);
@@ -42,9 +39,8 @@
           }
 
           if (currentPosition < 0) { // if target element goes above the screen
-            $header.addClass('sticky-header');
+          	$header.not('sticky-header').addClass('sticky-header');
             $header.css("top", topSpacing);
-            $header.slideDown();
           } else {
             $header.removeClass('sticky-header');
             $header.css("top", "");
@@ -65,7 +61,7 @@
         // console.log('Current position: ' + currentPosition);
 
         if (currentPosition < 0) { // if target element goes above the screen
-          $header.addClass('sticky-header');
+          $header.not('sticky-header').addClass('sticky-header');
           $header.css("top", topSpacing);
         } else if (currentPosition >= 0) {
           $header.removeClass('sticky-header');
