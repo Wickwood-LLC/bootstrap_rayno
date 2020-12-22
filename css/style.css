@@ -9489,6 +9489,15 @@ body.macos.not-safari.path-frontpage #welcome-section .logo-lower-case:after {
   text-transform: capitalize;
 }
 
+.path-cart .view-commerce-cart-form {
+  background-color: white;
+  border-color: #021062;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 1em;
+}
+
 .path-checkout div#edit-order-summary {
   background-color: white;
   border-color: #d7d2c4;

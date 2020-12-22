@@ -1535,6 +1535,17 @@ article > .content {
   }
 }
 
+.path-cart {
+  .view-commerce-cart-form {  
+    background-color: white;  
+    border-color: #021062;  
+    border-radius: 5px;  
+    border-style: solid;  
+    border-width: 1px;  
+    padding: 1em;
+  }
+}
+
 .path-checkout {
   div#edit-order-summary {
     background-color: white;
