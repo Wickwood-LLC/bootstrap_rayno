@@ -9489,6 +9489,65 @@ body.macos.not-safari.path-frontpage #welcome-section .logo-lower-case:after {
   text-transform: capitalize;
 }
 
+.path-checkout div#edit-order-summary {
+  background-color: white;
+  border-color: #d7d2c4;
+  border-radius: 0 0 5px 5px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 1em;
+  margin-bottom: .5em;
+}
+
+.path-checkout div#edit-coupon-redemption {
+  background-color: white;
+  border-color: #d7d2c4;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 1em;
+  margin-bottom: .5em;
+}
+
+.path-checkout div#edit-coupon-redemption h3 {
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+}
+
+.path-checkout .layout-region-checkout-secondary > h3 {
+  color: #333333;
+  background-color: #f5f5f5;
+  border-color: #ddd;
+  margin: 0;
+  padding: 10px 15px;
+  font-size: 0.8rem;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid #ddd;
+  border-bottom: 0;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  line-height: 1.428571429;
+}
+
+.path-checkout .layout-region-checkout-secondary table {
+  width: 100%;
+  font-size: 0.75em;
+}
+
+.path-checkout .layout-region-checkout-secondary tr:nth-child(odd) {
+  background: #ccc;
+}
+
+.path-checkout .layout-region-checkout-secondary tr:nth-child(even) {
+  background: #eee;
+}
+
+.path-checkout .layout-region-checkout-secondary td, .path-checkout .layout-region-checkout-secondary th {
+  padding: 0.5em;
+}
+
 /********************* LAYOUTS *********************/
 .main-container {
   width: 100%;
