@@ -9449,9 +9449,32 @@ body.macos.not-safari.path-frontpage #welcome-section .logo-lower-case:after {
   margin-top: 2em;
 }
 
+.path-product .block-commerce-cart.boxed {
+  padding: 0;
+}
+
 .path-product fieldset[id*="attributes-attribute-oil-change-size--wrapper"],
 .path-product fieldset[id*="attributes-attribute-oil-change-type--wrapper"] {
   display: inline-block;
+}
+
+.path-product .cart-block--summary__icon img {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+  display: inline;
+}
+
+.path-product .field--name-quantity {
+  text-align: center;
+}
+
+.path-product [id*="edit-actions"] {
+  text-align: center;
+}
+
+.path-product [id*="edit-actions"] button {
+  font-size: 1em;
+  text-transform: capitalize;
 }
 
 /********************* LAYOUTS *********************/
