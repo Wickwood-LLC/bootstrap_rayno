@@ -23,7 +23,7 @@
           headerHeight = $header.height(); // gets the height of our header
           $(".header-container").css("height", headerHeight);
           $header.css({
-            // width: "initial",
+            position: "static",
           });
 
           stickyTop = $header.offset().top; // tells how far our target element is from the top of the page
@@ -40,7 +40,10 @@
 
           if (currentPosition < 0) { // if target element goes above the screen
           	$header.not('sticky-header').addClass('sticky-header');
-            $header.css("top", topSpacing);
+            $header.css({
+              top: topSpacing,
+              position: "",
+            });
           } else {
             $header.removeClass('sticky-header');
             $header.css("top", "");
@@ -62,7 +65,10 @@
 
         if (currentPosition < 0) { // if target element goes above the screen
           $header.not('sticky-header').addClass('sticky-header');
-          $header.css("top", topSpacing);
+          $header.css({
+            top: topSpacing,
+            position: "",
+          });
         } else if (currentPosition >= 0) {
           $header.removeClass('sticky-header');
           $header.css("top", "");
