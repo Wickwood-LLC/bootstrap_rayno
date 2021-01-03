@@ -31,3 +31,10 @@ function bootstrap_rayno_preprocess_maintenance_page(&$variables) {
   $variables['#attached']['library'][] = 'bootstrap_rayno/fontawesome';
   $variables['#attached']['library'][] = 'bootstrap_rayno/typekit';
 }
+
+// function bootstrap_rayno_form_alter(&$form, &$form_state, $form_id) {
+  // dump(form_id);
+  // if($form_id == 'YOUR_FORM_ID') {
+  //   $form['actions']['submit']['#attributes']['class'][] = 'YOUR_CLASS_NAME';
+  // }  
+// }
