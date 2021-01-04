@@ -8397,13 +8397,18 @@ p:last-child,
   padding: 0.5em;
   position: fixed;
   z-index: 501;
-  -webkit-transform: translateY(-150px);
-          transform: translateY(-150px);
+}
+
+#navbar.sticky-header.animate {
   -webkit-animation: come-in 0.8s ease forwards;
           animation: come-in 0.8s ease forwards;
 }
 
 @-webkit-keyframes come-in {
+  from {
+    -webkit-transform: translateY(-150px);
+            transform: translateY(-150px);
+  }
   to {
     -webkit-transform: translateY(0);
             transform: translateY(0);
@@ -8411,6 +8416,10 @@ p:last-child,
 }
 
 @keyframes come-in {
+  from {
+    -webkit-transform: translateY(-150px);
+            transform: translateY(-150px);
+  }
   to {
     -webkit-transform: translateY(0);
             transform: translateY(0);
