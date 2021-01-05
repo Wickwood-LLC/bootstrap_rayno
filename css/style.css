@@ -9445,6 +9445,42 @@ body.macos.not-safari.path-frontpage #welcome-section .logo-lower-case:after {
   margin-bottom: 1em;
 }
 
+.page-rayno-automotive-web-shop .view-rayno-store-services-and-products .view-content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.page-rayno-automotive-web-shop .view-rayno-store-services-and-products .view-content .views-row {
+  margin: 0.5em;
+  flex: 0 1 calc((100% / 3) - 1em);
+  min-width: 300px;
+  max-width: 480px;
+  text-align: center;
+  background-color: #f1f1f1;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px #d6d6d6;
+  padding: 1em;
+}
+
+.page-rayno-automotive-web-shop .view-rayno-store-services-and-products .view-content .views-row section[class*="service-image"] .field--name-field-media-image > img {
+  width: 100%;
+  max-width: 480px;
+}
+
+.page-rayno-automotive-web-shop .view-rayno-store-services-and-products .view-content .views-row section[class*="title-html"] {
+  background: #021062;
+  color: white;
+  position: absolute;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  width: 100%;
+  max-width: 480px;
+  margin-left: max(0px, calc(50% - 240px));
+  padding: 0.5em;
+}
+
 .path-product .block-field-blockcommerce-productoil-changebody {
   display: inline-block;
 }
@@ -9952,7 +9988,7 @@ body.macos.not-safari .join-rayno-club-promo-title .logo-lower-case:after {
   bottom: -26%;
 }
 
-#edit-actions {
+[id*="edit-actions"] {
   text-align: center;
 }
 
