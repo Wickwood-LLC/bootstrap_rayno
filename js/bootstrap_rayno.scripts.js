@@ -14,19 +14,16 @@
 
       $header = $('#navbar');
 
-      $(document).ready(delaySticky);
+      delaySticky();
       $(window).on("resize mresize", delaySticky);
 
       function delaySticky() {
         setTimeout(function sticky() {
-          if ($('sticky-header')) {
-            $header.removeClass('sticky-header');
-          }
           topSpacing = ((isNaN($('.toolbar-fixed #toolbar-bar').height())) ? 0 : $('#toolbar-bar').height()) + ((isNaN($('.toolbar-tray-horizontal.is-active').height())) ? 0 : $('.toolbar-tray-horizontal.is-active').height());
           headerHeight = $header.height(); // gets the height of our header
           $(".header-container").css("height", headerHeight);
           $header.css({
-            // width: "initial",
+            position: "static",
           });
 
           stickyTop = $header.offset().top; // tells how far our target element is from the top of the page
@@ -42,11 +39,13 @@
           }
 
           if (currentPosition < 0) { // if target element goes above the screen
-            $header.addClass('sticky-header');
-            $header.css("top", topSpacing);
-            $header.slideDown();
+          	$header.not('sticky-header').addClass('sticky-header animate');
+            $header.css({
+              top: topSpacing,
+              position: "",
+            });
           } else {
-            $header.removeClass('sticky-header');
+            $header.removeClass('sticky-header animate');
             $header.css("top", "");
           }
           // console.log("Top spacing is " + topSpacing);
@@ -65,10 +64,13 @@
         // console.log('Current position: ' + currentPosition);
 
         if (currentPosition < 0) { // if target element goes above the screen
-          $header.addClass('sticky-header');
-          $header.css("top", topSpacing);
+          $header.not('sticky-header').addClass('sticky-header animate');
+          $header.css({
+            top: topSpacing,
+            position: "",
+          });
         } else if (currentPosition >= 0) {
-          $header.removeClass('sticky-header');
+          $header.removeClass('sticky-header animate');
           $header.css("top", "");
         }
         // console.log("Top spacing is " + topSpacing);
