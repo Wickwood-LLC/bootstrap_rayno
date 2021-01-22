@@ -9519,7 +9519,7 @@ body.macos.not-safari.path-frontpage #welcome-section .logo-lower-case:after {
   margin-top: 2em;
 }
 
-.path-product .block-commerce-cart.boxed {
+.path-product .block-commerce-cart-dialog.boxed {
   padding: 0;
 }
 
@@ -9559,22 +9559,9 @@ body.macos.not-safari.path-frontpage #welcome-section .logo-lower-case:after {
   text-transform: capitalize;
 }
 
-.path-cart .view-commerce-cart-form {
-  background-color: white;
-  border-color: #021062;
-  border-radius: 5px;
-  border-style: solid;
-  border-width: 1px;
-  padding: 1em;
-}
-
-.path-cart .field--name-field-promotion-cart-description p {
-  font-size: 0.75em;
-  margin-left: 1em;
-}
-
 .path-cart [id*="edit-actions"] button {
   font-weight: bold;
+  font-size: 0.85em;
 }
 
 .path-checkout div#edit-order-summary {
@@ -10214,6 +10201,20 @@ body.macos.not-safari .join-rayno-club-promo-title .logo-lower-case:after {
   .view-what-could-it-be- .view-content .views-row {
     flex: 1 0 calc(25% - 1em);
   }
+}
+
+.view-commerce-cart-form {
+  background-color: white;
+  border-color: #021062;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 1em;
+}
+
+.view-commerce-cart-form .field--name-field-promotion-cart-description p {
+  font-size: 0.75em;
+  margin-left: 1em;
 }
 
 /********************* SLIDERS *********************/

@@ -1559,7 +1559,7 @@ article > .content {
   .block-field-blockcommerce-productoil-changevariations {
     margin-top: 2em;
   }
-  .block-commerce-cart.boxed {
+  .block-commerce-cart-dialog.boxed {
     padding: 0;
   }
   fieldset[id*="attributes-attribute-oil-change-size--wrapper"],
@@ -1599,22 +1599,9 @@ article > .content {
 }
 
 .path-cart {
-  .view-commerce-cart-form {  
-    background-color: white;  
-    border-color: #021062;  
-    border-radius: 5px;  
-    border-style: solid;  
-    border-width: 1px;  
-    padding: 1em;
-  }
-
-  .field--name-field-promotion-cart-description p {
-    font-size: 0.75em;
-    margin-left: 1em;
-  }
-
   [id*="edit-actions"] button {
     font-weight: bold;
+    font-size: 0.85em;
   }
 }
 
@@ -2246,6 +2233,20 @@ article > .content {
       }
     }
   }
+}
+
+.view-commerce-cart-form {  
+  background-color: white;  
+  border-color: #021062;  
+  border-radius: 5px;  
+  border-style: solid;  
+  border-width: 1px;  
+  padding: 1em;
+  
+  .field--name-field-promotion-cart-description p {
+    font-size: 0.75em;
+    margin-left: 1em;
+  }    
 }
 
 /********************* SLIDERS *********************/
