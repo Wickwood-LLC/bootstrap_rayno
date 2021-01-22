@@ -1614,6 +1614,14 @@ article > .content {
     border-width: 1px;
     padding: 1em;
     margin-bottom: .5em;
+
+    .field--name-title-html {
+      font-weight: bold;
+    }
+    .field--name-field-promotion-cart-description p {
+      font-size: 0.75em;
+      margin-left: 1em;
+    }
   }
   div#edit-coupon-redemption{  
     background-color: white;  
@@ -1659,6 +1667,36 @@ article > .content {
     }
     td, th {
         padding: 0.5em;
+    }
+  }
+
+  .btn {
+    text-transform: capitalize;
+  }
+  .link--previous {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    border-radius: 4px;
+    user-select: none;
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+
+    &:hover {
+      color: #fff;
+      background-color: #ec971f;
+      border-color: #d58512;
     }
   }
 }
@@ -2442,6 +2480,7 @@ form {
 
 .ui-dialog {
   background-color: #f7f7f7;
+      z-index: 2000 !important;
 
   .ui-dialog-titlebar {
     background-color: $brand-primary;

@@ -9574,6 +9574,15 @@ body.macos.not-safari.path-frontpage #welcome-section .logo-lower-case:after {
   margin-bottom: .5em;
 }
 
+.path-checkout div#edit-order-summary .field--name-title-html {
+  font-weight: bold;
+}
+
+.path-checkout div#edit-order-summary .field--name-field-promotion-cart-description p {
+  font-size: 0.75em;
+  margin-left: 1em;
+}
+
 .path-checkout div#edit-coupon-redemption {
   background-color: white;
   border-color: #d7d2c4;
@@ -9621,6 +9630,40 @@ body.macos.not-safari.path-frontpage #welcome-section .logo-lower-case:after {
 
 .path-checkout .layout-region-checkout-secondary td, .path-checkout .layout-region-checkout-secondary th {
   padding: 0.5em;
+}
+
+.path-checkout .btn {
+  text-transform: capitalize;
+}
+
+.path-checkout .link--previous {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  border-radius: 4px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  color: #fff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+
+.path-checkout .link--previous:hover {
+  color: #fff;
+  background-color: #ec971f;
+  border-color: #d58512;
 }
 
 /********************* LAYOUTS *********************/
@@ -10412,6 +10455,7 @@ form .form-checkboxes > .form-item, form .js-webform-checkboxes > .form-item, fo
 
 .ui-dialog {
   background-color: #f7f7f7;
+  z-index: 2000 !important;
 }
 
 .ui-dialog .ui-dialog-titlebar {
