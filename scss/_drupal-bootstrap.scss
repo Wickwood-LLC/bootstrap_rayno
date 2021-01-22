@@ -1607,6 +1607,15 @@ article > .content {
     border-width: 1px;  
     padding: 1em;
   }
+
+  .field--name-field-promotion-cart-description p {
+    font-size: 0.75em;
+    margin-left: 1em;
+  }
+
+  [id*="edit-actions"] button {
+    font-weight: bold;
+  }
 }
 
 .path-checkout {

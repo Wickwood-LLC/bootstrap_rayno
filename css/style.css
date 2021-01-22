@@ -9568,6 +9568,15 @@ body.macos.not-safari.path-frontpage #welcome-section .logo-lower-case:after {
   padding: 1em;
 }
 
+.path-cart .field--name-field-promotion-cart-description p {
+  font-size: 0.75em;
+  margin-left: 1em;
+}
+
+.path-cart [id*="edit-actions"] button {
+  font-weight: bold;
+}
+
 .path-checkout div#edit-order-summary {
   background-color: white;
   border-color: #d7d2c4;
