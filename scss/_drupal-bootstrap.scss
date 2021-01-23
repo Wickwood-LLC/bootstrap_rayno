@@ -120,6 +120,10 @@ ul {
   }
 }
 
+.btn {
+  font-size: 0.85em;
+  text-transform: capitalize;
+}
 
 .field--label:after {
   content: ':';
@@ -1507,6 +1511,7 @@ article > .content {
 
       @include breakpoint(980px) {
         margin-left: 0.5em;
+        margin-top: 0.5em;
         max-width: calc(33% - 0.5em);
       }
     }
@@ -1523,13 +1528,14 @@ article > .content {
       min-width: 250px;
       text-align: center;
       background-color: #f1f1f1;
-      border-radius: 30px;
       overflow: hidden;
       box-shadow: 0px 0px 10px #d6d6d6;
       padding: 1em;
 
       section[class*="service-image"] {
         .field--name-field-media-image > img {
+          border-top-left-radius: 8px;
+          border-top-right-radius: 8px;
           width: 100%;
           max-width: 480px;
         }
@@ -1558,9 +1564,6 @@ article > .content {
   }
   .block-field-blockcommerce-productoil-changevariations {
     margin-top: 2em;
-  }
-  .block-commerce-cart-dialog.boxed {
-    padding: 0;
   }
   fieldset[id*="attributes-attribute-oil-change-size--wrapper"],
   fieldset[id*="attributes-attribute-oil-change-type--wrapper"] {
@@ -1670,9 +1673,6 @@ article > .content {
     }
   }
 
-  .btn {
-    text-transform: capitalize;
-  }
   .link--previous {
     display: inline-block;
     margin-bottom: 0;
@@ -1699,6 +1699,12 @@ article > .content {
       border-color: #d58512;
     }
   }
+}
+
+.checkout-complete {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /********************* LAYOUTS *********************/
@@ -2025,6 +2031,10 @@ article > .content {
   border: 1px solid $brand-primary;
   border-radius: 8px;
   padding: 0.5em;
+}
+
+.block-commerce-cart-dialog.boxed {
+  padding: 0;
 }
 
 .centered-content {

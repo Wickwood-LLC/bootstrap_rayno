@@ -188,13 +188,16 @@
   font-size: 1.2em;
 }
 .wt-box {
-  border: 1px solid #cccccc; 
+  border: 1px solid #cccccc;
+  border-radius: 8px;
   background-color: #efefef;
   padding: 8px;
   display: block;
   overflow: hidden;
 }
 .wt-box .wt-box-title {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
   text-align: center;
   font-size: 1.2em;
   font-weight: bold;

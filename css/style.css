@@ -7199,6 +7199,10 @@ html.js .ajax-new-content:empty {
   content: ':';
 }
 
+.field--name-price .field__label:before {
+  content: 'Your ';
+}
+
 /**
  * File (and Image Widget) styles.
  */
@@ -8042,6 +8046,11 @@ ul:last-child {
 .extlink span.fa-envelope-o {
   font-size: .8em;
   margin-left: 0.2em;
+}
+
+.btn {
+  font-size: 0.85em;
+  text-transform: capitalize;
 }
 
 .field--label:after {
@@ -9467,6 +9476,7 @@ body.macos.not-safari.path-frontpage #welcome-section .logo-lower-case:after {
 @media (min-width: 980px) {
   .path-store .layout--twocol-section--67-33 .layout__region--second {
     margin-left: 0.5em;
+    margin-top: 0.5em;
     max-width: calc(33% - 0.5em);
   }
 }
@@ -9483,13 +9493,14 @@ body.macos.not-safari.path-frontpage #welcome-section .logo-lower-case:after {
   min-width: 250px;
   text-align: center;
   background-color: #f1f1f1;
-  border-radius: 30px;
   overflow: hidden;
   box-shadow: 0px 0px 10px #d6d6d6;
   padding: 1em;
 }
 
 .path-store .view-rayno-store-services-and-products .view-content .views-row section[class*="service-image"] .field--name-field-media-image > img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
   width: 100%;
   max-width: 480px;
 }
@@ -9517,10 +9528,6 @@ body.macos.not-safari.path-frontpage #welcome-section .logo-lower-case:after {
 
 .path-product .block-field-blockcommerce-productoil-changevariations {
   margin-top: 2em;
-}
-
-.path-product .block-commerce-cart-dialog.boxed {
-  padding: 0;
 }
 
 .path-product fieldset[id*="attributes-attribute-oil-change-size--wrapper"],
@@ -9632,10 +9639,6 @@ body.macos.not-safari.path-frontpage #welcome-section .logo-lower-case:after {
   padding: 0.5em;
 }
 
-.path-checkout .btn {
-  text-transform: capitalize;
-}
-
 .path-checkout .link--previous {
   display: inline-block;
   margin-bottom: 0;
@@ -9664,6 +9667,12 @@ body.macos.not-safari.path-frontpage #welcome-section .logo-lower-case:after {
   color: #fff;
   background-color: #ec971f;
   border-color: #d58512;
+}
+
+.checkout-complete {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /********************* LAYOUTS *********************/
@@ -10006,6 +10015,10 @@ body.toolbar-horizontal.toolbar-tray-open #block-bootstrap-rayno-socialsharingbl
   border: 1px solid #021062;
   border-radius: 8px;
   padding: 0.5em;
+}
+
+.block-commerce-cart-dialog.boxed {
+  padding: 0;
 }
 
 .centered-content .block-content {
@@ -10966,6 +10979,7 @@ form#webform-submission-contact-node-14-add-form #edit-preferred-date-and-time-d
 
 .wt-box {
   border: 1px solid #cccccc;
+  border-radius: 8px;
   background-color: #efefef;
   padding: 8px;
   display: block;
@@ -10973,6 +10987,8 @@ form#webform-submission-contact-node-14-add-form #edit-preferred-date-and-time-d
 }
 
 .wt-box .wt-box-title {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
   text-align: center;
   font-size: 1.2em;
   font-weight: bold;

@@ -47,3 +47,7 @@
     content: ':';
   }
 }
+
+.field--name-price .field__label:before {
+  content: 'Your ';
+}
