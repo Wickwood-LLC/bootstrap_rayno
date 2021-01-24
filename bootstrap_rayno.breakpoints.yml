@@ -41,7 +41,7 @@ bootstrap_wwm_base.content_image_slidehow.desktop:
 
 # Bootstrap Breakpoints
 bootstrap_rayno.small_screen:
-  label: Small Screen
+  label: Small Screen max-width: 884px
   mediaQuery: '(max-width: 884px)'
   weight: 0
   multipliers: 
@@ -49,15 +49,15 @@ bootstrap_rayno.small_screen:
   group: bootstrap_rayno.breakpoints
 
 bootstrap_rayno.medium_screen:
-    label: Large Screen
-    mediaQuery: '(min-width: 885px, max-width: 979px)'
+    label: Medium Screen (min-width: 885px) and (max-width: 979px)
+    mediaQuery: '(min-width: 885px) and (max-width: 979px)'
     weight: 1
     multipliers: 
       - 1x
     group: bootstrap_rayno.breakpoints
 
 bootstrap_rayno.large_screen:
-  label: Large Screen
+  label: Large Screen (min-width: 980px)
   mediaQuery: '(min-width: 980px)'
   weight: 1
   multipliers: 
