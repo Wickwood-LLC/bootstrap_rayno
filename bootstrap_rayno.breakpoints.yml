@@ -48,11 +48,18 @@ bootstrap_rayno.small_screen:
     - 1x
   group: bootstrap_rayno.breakpoints
 
-bootstrap_rayno.large_screen:
+bootstrap_rayno.medium_screen:
     label: Large Screen
-    mediaQuery: '(min-width: 885px)'
+    mediaQuery: '(min-width: 885px, max-width: 979px)'
     weight: 1
     multipliers: 
       - 1x
     group: bootstrap_rayno.breakpoints
-  
+
+  bootstrap_rayno.large_screen:
+    label: Large Screen
+    mediaQuery: '(min-width: 980px)'
+    weight: 1
+    multipliers: 
+      - 1x
+    group: bootstrap_rayno.breakpoints
