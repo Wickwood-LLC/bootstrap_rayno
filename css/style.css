@@ -10153,6 +10153,10 @@ body.macos.not-safari .join-rayno-club-promo-title .logo-lower-case:after {
   max-width: 100%;
 }
 
+.view-promotions-and-testimonials img {
+  border-radius: 15px;
+}
+
 .view-rayno-services .view-content {
   display: flex;
   flex-flow: row wrap;
