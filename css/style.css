@@ -9471,10 +9471,12 @@ body.macos.not-safari.path-frontpage #welcome-section .logo-lower-case:after {
   flex: 1 1 33%;
   margin-left: 0;
   max-width: 100%;
+  display: none;
 }
 
 @media (min-width: 980px) {
   .path-store .layout--twocol-section--67-33 .layout__region--second {
+    display: block;
     margin-left: 0.5em;
     margin-top: 0.5em;
     max-width: calc(33% - 0.5em);

@@ -1508,8 +1508,10 @@ article > .content {
       flex: 1 1 33%;
       margin-left: 0;
       max-width: 100%;
+      display: none;
 
       @include breakpoint(980px) {
+        display: block;
         margin-left: 0.5em;
         margin-top: 0.5em;
         max-width: calc(33% - 0.5em);
