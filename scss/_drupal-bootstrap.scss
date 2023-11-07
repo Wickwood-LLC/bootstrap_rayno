@@ -22,15 +22,21 @@ body {
   background-color: $body-bg;
   font-family: 'Roboto', sans-serif;
 }
+
 body {
   z-index: -1;
 
-  @include breakpoint(0px 767px){
+  @include breakpoint(0px 767px) {
     margin-top: 15px;
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Playfair Display', serif;
   margin: 0.5em 0;
 
@@ -168,6 +174,7 @@ ul {
 #block-fakelogowithrealtext {
   float: none;
 }
+
 .logo-line1 {
   display: flex;
   font-family: 'Verdana-BoldItalic';
@@ -186,6 +193,7 @@ ul {
     border-top: 15px double #041068;
     border-right: 4px solid transparent;
   }
+
   &:after {
     content: '';
     align-self: center;
@@ -247,14 +255,16 @@ ul {
   color: #ececec;
   text-align: center;
 }
+
 .menu--footer {
-  > li {
+  >li {
     display: inline-block;
-    
-    > a {
+
+    >a {
       color: #ececec;
 
-      &:hover, &:focus {
+      &:hover,
+      &:focus {
         background-color: transparent;
         text-decoration: underline;
       }
@@ -315,7 +325,7 @@ p:last-child,
       right: 0;
       z-index: 11;
       overflow: visible;
-      
+
       &.collapse {
         display: none !important;
 
@@ -323,7 +333,7 @@ p:last-child,
           display: block !important;
         }
       }
-      
+
       body.adminimal-admin-toolbar & {
         top: 130px;
       }
@@ -347,6 +357,7 @@ p:last-child,
       color: $brand-primary;
     }
   }
+
   .navbar-text {
     color: #021062;
     float: none;
@@ -366,13 +377,14 @@ p:last-child,
       display: inline-block;
       height: 1em;
       width: 10%;
-      min-width: 60px ;
+      min-width: 60px;
       max-width: 4em;
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
       transition: transform 0.2s;
     }
+
     &:before {
       margin-right: 0.5em;
       transform: rotate(-90deg) translateY(2em) scale(0.5);
@@ -381,8 +393,9 @@ p:last-child,
         transform: rotate(0deg);
       }
     }
+
     &:after {
-      margin-left: 0.5em; 
+      margin-left: 0.5em;
       transform: rotate(270deg) translateY(-2em) scale(0.5);
 
       @include breakpoint(400px) {
@@ -416,9 +429,11 @@ p:last-child,
         grid-column: 2 / 3;
         grid-row: 1 / 2;
       }
+
       #block-addressandphone {
         grid-column: 1 / span 2;
       }
+
       #navbar-collapse {
         grid-column: 1 / span 2;
       }
@@ -428,15 +443,18 @@ p:last-child,
       .text-logo-and-slogan {
         grid-row: 1 / span 2;
       }
+
       #block-headerbuttons {
         grid-column: 2 / 3;
         grid-row: 1 / 2;
       }
+
       #block-addressandphone {
         grid-column: 2 / 3;
         grid-row: 2 / 3;
         font-size: 1em;
       }
+
       #navbar-collapse {
         margin-top: 0.5em;
       }
@@ -450,10 +468,12 @@ p:last-child,
         grid-row: 1 / 2;
         text-align: right;
       }
+
       #block-headerbuttons {
         grid-column: 3 / 4;
         grid-row: 1 / 2;
       }
+
       #navbar-collapse {
         grid-column: 2 / 4;
         grid-row: 2 / 3;
@@ -483,10 +503,15 @@ p:last-child,
 
   &.animate {
     animation: come-in 0.8s ease forwards;
-    
+
     @keyframes come-in {
-      from { transform: translateY(-150px); }
-      to { transform: translateY(0); }
+      from {
+        transform: translateY(-150px);
+      }
+
+      to {
+        transform: translateY(0);
+      }
     }
   }
 
@@ -501,13 +526,14 @@ p:last-child,
       display: flex;
     }
   }
+
   @include breakpoint(830px) {
     #block-addressandphone {
       display: block;
-      
+
       .field--name-body {
         display: block;
-        
+
         .header-address,
         .header-phone {
           margin: 0 0.5em;
@@ -515,18 +541,20 @@ p:last-child,
       }
     }
   }
+
   @include breakpoint(1051px) {}
 }
 
 #block-addressandphone {
   text-align: center;
-  
+
   .header-address,
   .header-phone {
     display: inline-block;
     font-size: 0.8rem;
     margin: 0.5em 0.5em 0;
   }
+
   .header-phone {
     margin: 0 0.5em 0.5em;
   }
@@ -534,7 +562,7 @@ p:last-child,
 
 #navbar-collapse {
   padding: 0;
-  
+
   .navbar-nav {
     li.dropdown:hover {
       >ul.dropdown-menu {
@@ -599,7 +627,7 @@ p:last-child,
   a {
     color: #CAB07B;
     text-decoration: none;
-    
+
     &:hover {
       color: #CAB07B;
       text-decoration: underline;
@@ -817,27 +845,28 @@ nav.tabs {
 .menu--header-buttons,
 #block-bootstrap-rayno-mainmenu-2 .menu--main {
   text-align: center;
-  
-  > li {
+
+  >li {
     display: inline-block;
     float: none;
 
-    > a {
+    >a {
       font-size: 0.8em;
-      
+
       &:hover {
         background-color: transparent;
       }
     }
   }
 }
+
 #block-bootstrap-rayno-mainmenu-2 .menu--main {
   font-weight: bold;
   text-transform: uppercase;
   float: none;
   margin-top: 0;
 
-  > li {
+  >li {
     border-bottom: 0;
 
     @include breakpoint(547px) {
@@ -850,11 +879,11 @@ nav.tabs {
       }
     }
 
-    > a {
+    >a {
       color: #020202;
       padding: 0.5em;
       white-space: nowrap;
-      
+
       &:hover,
       &:focus,
       &.is-active {
@@ -870,14 +899,15 @@ nav.tabs {
     align-items: center;
   }
 }
+
 .menu--header-buttons {
-  > li {
+  >li {
     a {
-      border-radius: 19.5px;      
+      border-radius: 19.5px;
       line-height: 1;
       padding: 0.7em;
       margin: 2px;
-      
+
       &:hover,
       &:focus,
       &.is-active {
@@ -916,13 +946,13 @@ nav.tabs {
   }
 }
 
-article > .content {
+article>.content {
   margin: auto;
 }
 
 /********************* FRONT PAGE *********************/
 .path-frontpage {
-  article > .content {
+  article>.content {
     max-width: unset;
     margin: auto;
   }
@@ -931,19 +961,21 @@ article > .content {
     max-width: unset;
     padding: 0;
 
-    > .row {
+    >.row {
       margin: 0;
 
-      > section {
+      >section {
         padding: 0;
       }
     }
   }
+
   .highlighted {
     max-width: 1400px;
     margin: auto;
     padding: 0 15px;
   }
+
   nav.tabs {
     display: block;
     max-width: 1400px;
@@ -974,6 +1006,7 @@ article > .content {
         max-width: 50%;
       }
     }
+
     .layout__region--second {
       padding: 1em;
       box-sizing: border-box;
@@ -1012,6 +1045,7 @@ article > .content {
       @include breakpoint(500px) {
         left: 4rem;
       }
+
       @include breakpoint(769px) {
         left: 2rem;
       }
@@ -1031,7 +1065,7 @@ article > .content {
     position: relative;
 
     .what-could-it-be-content,
-    > .layout__region--content {
+    >.layout__region--content {
       max-width: 1400px;
       padding: 0 7%;
 
@@ -1044,9 +1078,10 @@ article > .content {
       .topics-container {
         overflow-x: auto;
       }
+
       .wt-four-col {
         flex-flow: row wrap;
-        
+
         .wt-col {
           justify-content: flex-start;
           background-color: #e9e9e9;
@@ -1064,6 +1099,7 @@ article > .content {
             right: -1em;
             margin-bottom: -2em;
           }
+
           p:nth-of-type(2) {
             flex: 1;
             font-size: .85em;
@@ -1072,6 +1108,7 @@ article > .content {
           @include breakpoint(481px) {
             flex: 1 0 calc(50% - 1em);
           }
+
           @include breakpoint(931px) {
             flex: 1 0 calc(25% - 1em);
           }
@@ -1094,13 +1131,15 @@ article > .content {
 
     .field--name-title-html {
       text-align: center;
-  
+
       @include breakpoint(885px) {
         text-align: left;
       }
     }
+
     .logo-line1 {
       color: $brand-primary;
+
       &:before,
       &:after {
         width: unset;
@@ -1108,13 +1147,15 @@ article > .content {
         max-width: 150px;
       }
     }
+
     .logo-upper-case {
       font-size: 1.8em;
     }
+
     .logo-lower-case {
       font-size: 2.3em;
       line-height: 0.65;
-      
+
       &:after {
         background: none;
         border-left: 3px solid transparent;
@@ -1127,6 +1168,7 @@ article > .content {
         @at-root body.mobile.path-frontpage #welcome-section .logo-lower-case:after {
           bottom: -26%;
         }
+
         @at-root body.macos.not-safari.path-frontpage #welcome-section .logo-lower-case:after {
           bottom: -26%;
         }
@@ -1144,6 +1186,7 @@ article > .content {
         width: 100%;
       }
     }
+
     .layout__region--second {
       align-self: stretch;
       flex: 1 1 100%;
@@ -1171,7 +1214,7 @@ article > .content {
   #services-section {
     position: relative;
     margin-bottom: 0;
-    
+
     .layout__region--content {
       max-width: 1400px;
       padding: 1em;
@@ -1241,11 +1284,12 @@ article > .content {
         }
       }
     }
+
     .layout__region--second {
       padding: 1em 4%;
       box-sizing: border-box;
       flex: 1 1 36%;
-      min-width: 280px;      
+      min-width: 280px;
     }
   }
 
@@ -1271,7 +1315,7 @@ article > .content {
         box-shadow: 0px 0px 10px #d6d6d6;
         padding: 1em;
 
-        > div {
+        >div {
           flex: 1 1 250px;
           text-align: center;
           margin: 0.5em;
@@ -1297,14 +1341,15 @@ article > .content {
     position: relative;
     display: flex;
     max-width: 700px;
-    
+
     .field--name-field-background-image {
       width: 100%;
-      
+
       img {
         width: 100%;
       }
     }
+
     .field--name-body {
       position: absolute;
       width: 100%;
@@ -1318,7 +1363,7 @@ article > .content {
 }
 
 .path-what-could-it-be {
-  article > .content {
+  article>.content {
     max-width: unset;
     margin: auto;
   }
@@ -1328,8 +1373,9 @@ article > .content {
     z-index: 1;
   }
 }
+
 .path-services {
-  article > .content {
+  article>.content {
     max-width: unset;
     margin: auto;
   }
@@ -1355,6 +1401,7 @@ article > .content {
       border-radius: 50%;
       bottom: 0;
     }
+
     .block-field-blocknoderayno-servicestitle-html {
       position: absolute;
       padding-left: 80px;
@@ -1367,10 +1414,11 @@ article > .content {
 }
 
 .page-directions-to-rayno-automotive {
-  article > .content {
+  article>.content {
     max-width: unset;
     margin: auto;
   }
+
   .block-field-blocknodepagebody {
     max-width: 1000px;
     margin: auto;
@@ -1383,7 +1431,7 @@ article > .content {
     align-items: center;
     margin: 0.5em;
 
-    > * {
+    >* {
       margin: 0.25em;
       text-align: center;
     }
@@ -1401,6 +1449,7 @@ article > .content {
       margin-left: calc(-7.5px - (50vw - 700px));
     }
   }
+
   .extra-below {
     width: 90%;
     max-width: 800px;
@@ -1411,6 +1460,7 @@ article > .content {
     box-shadow: 0px 0px 10px #d6d6d6;
     padding: 1em;
   }
+
   .adp-directions {
     width: 100%;
   }
@@ -1423,6 +1473,7 @@ article > .content {
       position: relative;
       z-index: 1;
     }
+
     .section-watermark {
       top: -0.4em;
     }
@@ -1452,7 +1503,7 @@ article > .content {
       }
     }
   }
-  
+
   .block-field-blocknodewhat-could-it-betitle-html,
   .block-field-blocknodewhat-could-it-bebody {
     position: relative;
@@ -1477,7 +1528,7 @@ article > .content {
       box-shadow: 0px 0px 10px #d6d6d6;
       padding: 1em;
 
-      > div {
+      >div {
         flex: 1 1 250px;
         text-align: center;
         margin: 0.5em;
@@ -1505,6 +1556,7 @@ article > .content {
         max-width: calc(67% - 0.5em);
       }
     }
+
     .layout__region--second {
       flex: 1 1 0%;
       margin-left: 0;
@@ -1537,13 +1589,14 @@ article > .content {
       padding: 1em;
 
       section[class*="service-image"] {
-        .field--name-field-media-image > img {
+        .field--name-field-media-image>img {
           border-top-left-radius: 8px;
           border-top-right-radius: 8px;
           width: 100%;
           max-width: 480px;
         }
       }
+
       section[class*="title-html"] {
         background: $brand-primary;
         color: white;
@@ -1562,13 +1615,16 @@ article > .content {
   .block-field-blockcommerce-productoil-changebody {
     display: inline-block;
   }
+
   .block-field-blockcommerce-product-variationoil-change-typeprice {
     display: inline-block;
     float: right;
   }
+
   .block-field-blockcommerce-productoil-changevariations {
     margin-top: 2em;
   }
+
   fieldset[id*="attributes-attribute-oil-change-size--wrapper"],
   fieldset[id*="attributes-attribute-oil-change-type--wrapper"] {
     display: inline-block;
@@ -1608,18 +1664,20 @@ article > .content {
     .field--name-title-html {
       font-weight: bold;
     }
+
     .field--name-field-promotion-cart-description p {
       font-size: 0.75em;
       margin-left: 1em;
     }
   }
-  div#edit-coupon-redemption{  
-    background-color: white;  
-    border-color: #d7d2c4;  
-    border-radius: 5px;  
-    border-style: solid;  
-    border-width: 1px;  
-    padding: 1em;  
+
+  div#edit-coupon-redemption {
+    background-color: white;
+    border-color: #d7d2c4;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 1em;
     margin-bottom: .5em;
 
     h3 {
@@ -1628,8 +1686,9 @@ article > .content {
       font-family: 'Roboto', sans-serif;
     }
   }
+
   .layout-region-checkout-secondary {
-    > h3 {      
+    >h3 {
       color: #333333;
       background-color: #f5f5f5;
       border-color: #ddd;
@@ -1649,14 +1708,18 @@ article > .content {
       width: 100%;
       font-size: 0.75em;
     }
+
     tr:nth-child(odd) {
-        background: #ccc;
+      background: #ccc;
     }
+
     tr:nth-child(even) {
-        background: #eee;
+      background: #eee;
     }
-    td, th {
-        padding: 0.5em;
+
+    td,
+    th {
+      padding: 0.5em;
     }
   }
 
@@ -1785,6 +1848,7 @@ article > .content {
   }
 
   &.layout--threecol-section--25-50-25 {
+
     >.layout__region--first,
     >.layout__region--third {
       @include breakpoint(40em) {
@@ -1889,11 +1953,12 @@ article > .content {
   background-color: white;
   width: 294px;
   transition: 0.5s;
-  z-index: 501;  
+  z-index: 501;
 
   body.adminimal-admin-toolbar & {
     top: 95px;
   }
+
   body.toolbar-horizontal.toolbar-tray-open & {
     top: 140px;
   }
@@ -1942,7 +2007,7 @@ article > .content {
 
   ul {
     margin-bottom: 0;
-    
+
     li:last-child {
       margin-right: 0;
     }
@@ -1951,13 +2016,13 @@ article > .content {
 
 .section-watermark {
   text-align: center;
-  color: #d9d9d9;      
+  color: #d9d9d9;
   position: absolute;
   z-index: -1;
   left: 0;
   top: -0.4em;
   width: 100%;
-  
+
   .path-frontpage & {
     top: 0.6em;
   }
@@ -2027,7 +2092,8 @@ article > .content {
       display: inline;
     }
   }
-  .cart-block--contents__expanded {    
+
+  .cart-block--contents__expanded {
     position: fixed;
     left: unquote("max(10%, calc(50% - 480px))");
     top: 20%;
@@ -2038,7 +2104,7 @@ article > .content {
     box-shadow: 0px 0px 30px -6px black;
     border-radius: 10px;
   }
-  
+
   &.boxed {
     padding: 0;
   }
@@ -2160,7 +2226,7 @@ article > .content {
 .view-promotions-and-testimonials {
   max-width: 700px;
   margin: auto;
-  
+
   .views-field-field-background-image {
     width: 100%;
     height: 100%;
@@ -2170,7 +2236,7 @@ article > .content {
     .field-content {
       height: 100%;
       width: 100%;
-      
+
       img {
         display: block;
         width: 100%;
@@ -2196,17 +2262,19 @@ article > .content {
     align-items: center;
     justify-content: center;
   }
+
   .views-row {
     margin: 0.5em;
     flex: 1 1 clamp(250px, 30%, 30%);
     position: relative;
     overflow: hidden;
-    
+
     .views-field-field-feature-media img {
       object-fit: cover;
       width: 100%;
       height: 100%;
     }
+
     .views-field-title-html {
       position: absolute;
       bottom: 0;
@@ -2244,7 +2312,7 @@ article > .content {
   .view-content {
     display: flex;
     flex-flow: row wrap;
-    
+
     .views-row {
       display: flex;
       flex-direction: column;
@@ -2269,9 +2337,10 @@ article > .content {
           width: 60%;
         }
       }
+
       .views-field-body {
         flex: 1;
-        
+
         .field-content {
           display: flex;
           flex-direction: column;
@@ -2287,6 +2356,7 @@ article > .content {
       @include breakpoint(481px) {
         flex: 1 0 calc(50% - 1em);
       }
+
       @include breakpoint(931px) {
         flex: 1 0 calc(25% - 1em);
       }
@@ -2294,23 +2364,23 @@ article > .content {
   }
 }
 
-.view-commerce-cart-form {  
-  background-color: white;  
-  border-color: #021062;  
-  border-radius: 5px;  
-  border-style: solid;  
-  border-width: 1px;  
+.view-commerce-cart-form {
+  background-color: white;
+  border-color: #021062;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
   padding: 1em;
-  
+
   .field--name-field-promotion-cart-description p {
     font-size: 0.75em;
     margin-left: 1em;
-  }    
+  }
 }
 
 /********************* SLIDERS *********************/
 #flexslider-1 {
-  .slides > li {
+  .slides>li {
     margin: 15px;
   }
 }
@@ -2319,6 +2389,7 @@ article > .content {
   &:before {
     color: #333;
   }
+
   &:hover::before {
     color: transparentize($brand-primary, 0.29);
   }
@@ -2363,6 +2434,7 @@ article > .content {
       justify-content: center;
       align-items: center;
     }
+
     .slick-dots {
       position: relative;
       bottom: unset;
@@ -2425,18 +2497,20 @@ article > .content {
       margin-bottom: 1em;
       padding: 0;
       text-align: center;
-      
+
       img {
         max-width: 100%;
         width: 500px;
       }
     }
   }
+
   .navbar-header {
     flex: 1 100%;
     text-align: center;
-    margin-bottom : 1em;
+    margin-bottom: 1em;
   }
+
   .header-address {
     display: inline-block;
     margin-left: 1em;
@@ -2469,31 +2543,40 @@ form {
   fieldset {
     display: contents;
   }
+
   .webform-flexbox {
     margin: 0;
   }
+
   .webform-checkboxes-other {
     margin: 0.5em;
     display: block;
   }
+
   .form-group {
     margin: 0;
   }
+
   .form-item {
     margin: 0.25em;
   }
+
   .webform-flex--container {
     margin: 0;
 
-    > .form-item {
+    >.form-item {
       @extend .form-item;
     }
   }
-  .form-checkboxes, .js-webform-checkboxes, .form-radios, .js-webform-radios {
+
+  .form-checkboxes,
+  .js-webform-checkboxes,
+  .form-radios,
+  .js-webform-radios {
     column-count: auto;
     column-width: 200px;
 
-    > .form-item {
+    >.form-item {
       display: block;
       margin: 0 0.5em 0 0;
     }
@@ -2502,13 +2585,13 @@ form {
 
 .ui-dialog {
   background-color: #f7f7f7;
-      z-index: 2000 !important;
+  z-index: 2000 !important;
 
   .ui-dialog-titlebar {
     background-color: $brand-primary;
     border-color: $btn-primary-border;
     text-align: center;
-    
+
     .ui-dialog-title {
       display: contents;
       color: #ececec;
@@ -2725,6 +2808,7 @@ form#webform-submission-contact-node-14-add-form {
       display: block;
     }
   }
+
   #edit-vehicle-details .panel-body {
     display: flex;
     flex-flow: row wrap;
@@ -2733,7 +2817,7 @@ form#webform-submission-contact-node-14-add-form {
       flex: 100%;
     }
 
-    > .form-item {
+    >.form-item {
       display: block;
       flex: 1 1 250px;
     }
@@ -2749,11 +2833,12 @@ form#webform-submission-contact-node-14-add-form {
     #edit-manufacture-other {
       max-width: calc(100% - 0.25em);
     }
-    
+
     .control-label {
       display: block;
       margin-bottom: 0;
-    }      
+    }
+
     .form-type-select {
       margin: 0;
     }
@@ -2777,5 +2862,12 @@ form#webform-submission-contact-node-14-add-form {
 
   .block-field-blockparagraphphonefield-phone-type {
     margin-right: 0.3em;
+  }
+}
+
+.geolocation-google-maps-directions-controls {
+  .form-control {
+    box-sizing: border-box;
+    max-width: 100%;
   }
 }
